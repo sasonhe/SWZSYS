@@ -119,6 +119,13 @@
       }else{
         this.showHeader = false;
       }
+
+    },
+    mounted(){
+      let id = this.$route.query.id;
+      if(id){
+        this.jump(id);
+      }
     },
     methods: {
       hideMore(){

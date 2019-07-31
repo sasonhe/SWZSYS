@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <Heard/>
     <TopImg />
     <div class="bgColorB" :class="{ pBgColor: IsPC() }">
