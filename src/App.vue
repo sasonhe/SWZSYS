@@ -27,6 +27,9 @@ export default {
 </script>
 
 <style>
+body{
+  background: #0a408a;
+}
 .container{
   max-width: 1140px;
   margin:0 auto;

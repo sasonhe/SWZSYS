@@ -33,6 +33,7 @@
   border-radius: 1rem;;
   position: relative;
   margin:0 auto;
+  cursor: pointer;
 }
 .name{
   line-height: 1.6rem;

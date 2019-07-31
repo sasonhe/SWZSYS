@@ -27,7 +27,10 @@
       <Register/>
     </div>
     <!-- 参会指引 -->
-    <Go/>
+    <div style="background: #ffffff;">
+      <Go/>
+    </div>
+
     <div class="d_jump" style="background: #ffffff;">
       <Media/>
     </div>

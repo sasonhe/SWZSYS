@@ -7,7 +7,7 @@
       <!-- <div class="title">参会指引</div> -->
       <van-row>
         <van-col span="8">
-          <div class="box" @click="toGuide(1)">
+          <div class="box pointer" @click="toGuide(1)">
             <div class="icon"><van-icon name="calender-o" /></div>
             <div class="name">大会议程</div>
             <div class="enText">Ageda</div>
@@ -23,7 +23,7 @@
           </div>
         </van-col>
         <van-col span="8">
-          <div class="box" @click="toGuide(3)">
+          <div class="box pointer" @click="toGuide(3)">
             <div class="icon"><van-icon name="contact" /></div>
             <div class="name">嘉宾介绍</div>
             <div class="enText">Guest Introduction</div>
@@ -33,21 +33,21 @@
 
       <van-row>
         <van-col span="8">
-          <div class="box" @click="toGuide(4)">
+          <div class="box pointer" @click="toGuide(4)">
             <div class="icon"><van-icon name="shop-o" /></div>
             <div class="name">就餐指引</div>
             <div class="enText">Dining Guidelines</div>
           </div>
         </van-col>
         <van-col span="8">
-          <div class="box" @click="toGuide(5)">
+          <div class="box pointer" @click="toGuide(5)">
             <div class="icon"><van-icon name="hotel-o" /></div>
             <div class="name">酒店指引</div>
             <div class="enText">Hotel Guidelines</div>
           </div>
         </van-col>
         <van-col span="8">
-          <div class="box" @click="toGuide(6)">
+          <div class="box pointer" @click="toGuide(6)">
             <div class="icon"><van-icon name="aim" /></div>
             <div class="name">交通指引</div>
             <div class="enText">Traffic Guideline</div>
@@ -178,5 +178,7 @@
   border: 1px solid #0089e2;
   border-radius: .24rem;
 }
-
+.pointer{
+  cursor: pointer;
+}
 </style>
