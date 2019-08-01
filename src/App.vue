@@ -27,6 +27,14 @@ export default {
 </script>
 
 <style>
+.nameMap{
+  min-width: 5.6rem;
+  font-size: .36rem;
+  color: #000;
+}
+.nameMap .el-vue-amap-container{
+  min-height:600px;
+}
 body{
   background: #0a408a;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="organiza container" :style="{backgroundImage:'url('+bg+')'}">
+  <div class="organiza container" :class="classObj" :style="{backgroundImage:'url('+bg+')'}">
     <!-- <van-divider :style="{ borderColor: '#263e64'}" class="bTitle bt">组织架构</van-divider> -->
     <div class="wrapper clearfix">
       <van-row>
@@ -52,6 +52,10 @@ export default {
     spanFlex () {
       let isWhat = this.IsPC()
       return isWhat ? 12 : 24
+    },
+    classObj () {
+      let isWhat = this.IsPC()
+      return isWhat ? "isPc" : "isMobile"
     }
   }
 }
@@ -82,12 +86,16 @@ export default {
 .van-hairline--surround::after{
   border-color: #000;
 }
- .container{
-background-repeat:no-repeat;
-background-size:30%;
-background-position: right bottom;
+ .isPc{
+  background-repeat:no-repeat;
+  background-size:30%;
+  background-position: right bottom;
 }
-
+.isMobile{
+ background-repeat:no-repeat;
+ background-size:50%;
+ background-position: right bottom;
+}
 </style>
 
 <style scoped>

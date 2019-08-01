@@ -32,21 +32,21 @@
       </van-row>
 
       <van-row>
-        <van-col span="8">
+        <!-- <van-col span="8">
           <div class="box pointer" @click="toGuide(4)">
             <div class="icon"><van-icon name="shop-o" /></div>
-            <div class="name">就餐指引</div>
-            <div class="enText">Dining Guidelines</div>
+            <div class="name">联系我们</div>
+            <div class="enText">Contact Us</div>
           </div>
-        </van-col>
-        <van-col span="8">
+        </van-col> -->
+        <van-col span="12">
           <div class="box pointer" @click="toGuide(5)">
             <div class="icon"><van-icon name="hotel-o" /></div>
             <div class="name">酒店指引</div>
             <div class="enText">Hotel Guidelines</div>
           </div>
         </van-col>
-        <van-col span="8">
+        <van-col span="12">
           <div class="box pointer" @click="toGuide(6)">
             <div class="icon"><van-icon name="aim" /></div>
             <div class="name">交通指引</div>
@@ -87,6 +87,21 @@
             query:{
               id:2
             }
+          });
+        }else if (id === 4) {
+          this.$router.push({
+            path: '/',
+            query:{
+              id:7
+            }
+          });
+        }else if (id === 5) {
+          this.$router.push({
+            path: '/Hotel',
+          });
+        }else if (id === 6) {
+          this.$router.push({
+            path: '/Traffic',
           });
         }
       },

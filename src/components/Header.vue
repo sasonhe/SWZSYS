@@ -2,7 +2,7 @@
   <div class="header">
     <div class="mHeader" v-if="!showHeader">
       <!-- title="2019深圳国际生物医药产业创新发展峰会" -->
-      <van-nav-bar fixed :z-index="11" @click-left="menuBar">
+      <van-nav-bar fixed :z-index="11" @click-left="menuBar" :border="false">
         <van-icon class="haver" name="wap-nav" slot="left" />
         <div class="topLogo" slot="left">
           <van-image class="img" :src="minLogo"/>
