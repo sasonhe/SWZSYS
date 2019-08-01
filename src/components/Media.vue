@@ -1,8 +1,8 @@
 <template>
 <div class="container">
-  <van-divider :style="{ borderColor: '#263e64',color:'#263e64'}" class="bTitle">合作媒体</van-divider>
+  <van-divider :style="{ borderColor: '#fff',color:'#fff'}" class="bTitle">合作媒体</van-divider>
   <!-- 263e64 -->
-  <div>
+  <div style="background:#fff;padding:.2rem 0;">
     <van-row>
       <van-col class="imgwrapper" :span="span" v-for="item in 36" :key="item">
         <div :class="classObject">
@@ -89,7 +89,7 @@ export default {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    border-color: #263e64;
+    border-color: #fff;
     /* color:#263e64; */
     /* border-style: inherit; */
     border-width:4px 0 0;

@@ -1,6 +1,6 @@
   <template>
   <div class="footer container" style="min-height: 6rem;">
-    <van-divider :style="{ borderColor: '#263e64'}" class="bTitle fTitle">联系我们</van-divider>
+    <van-divider :style="{ borderColor: '#fff'}" class="bTitle fTitle">联系我们</van-divider>
     <van-row>
       <van-col :span="spanFlex">
         <div class="margin-bootm">
@@ -65,7 +65,7 @@
   line-height: .5rem;
   padding: 0;
   /* color:#ffffff; */
-  color: #233E53;
+  color: #fff;
   text-align: center;
 }
 .margin-bootm{
@@ -74,7 +74,7 @@
 }
 .fTitle{
   /* color: #ffffff; */
-  color:#233E53;
+  color:#fff;
 text-align: center;
 }
 .bTitle::after, .bTitle::before {
@@ -85,7 +85,7 @@ text-align: center;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    border-color: #233E53;
+    border-color: #fff;
     /* color:#263e64; */
     /* border-style: inherit; */
     border-width:4px 0 0;

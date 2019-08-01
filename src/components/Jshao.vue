@@ -32,7 +32,7 @@
 }
 .desc{
   font-size: .28rem;
-  color: #263e64;
+  color: #fff;
   line-height: .7rem;
 }
 .desc p{

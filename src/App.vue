@@ -70,7 +70,7 @@ body{
 }
 .bTitle{
   font-size: .52rem;
-  color: #263e64;
+  color: #fff;
   font-weight: bold;
   letter-spacing: 3px;
   text-align: center;
@@ -96,7 +96,8 @@ body{
   background: #fff;
 }
 .pBgColor{
-  background: linear-gradient(to bottom,#6b7fbe,#ffffff);
+  /* background: linear-gradient(to bottom,#6b7fbe,#ffffff); */
+  background: #0a408a;
 }
 .goTop {
   position: fixed;

@@ -2,42 +2,40 @@
   <div>
     <Heard/>
     <TopImg />
-    <div class="bgColorB" :class="{ pBgColor: IsPC() }">
+    <div :class="{ pBgColor: IsPC() }">
       <Jshao  class="d_jump"/>
     </div>
-    <div class="bgColorC d_jump">
+    <div class="d_jump">
         <div class="container">
-          <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#233e53;">{{this.$t('structure.title')}}</van-divider>
+          <van-divider :style="{ borderColor: '#fff'}" class="bTitle bTitle1" style="color:#fff;">{{this.$t('structure.title')}}</van-divider>
         </div>
         <Organiza/>
     </div>
-    <div class="d_jump" style="background:#BBDBF3;">
+    <div class="d_jump">
       <Gust/>
     </div>
-    <div class="d_jump bgColorD">
+    <div class="d_jump">
       <fen-date/>
     </div>
-    <div class="d_jump" style="background:#d0deeb;">
+    <div class="d_jump">
       <div class="container">
-        <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#233e53;">往届嘉宾</van-divider>
+        <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#fff;">往届嘉宾</van-divider>
       </div>
       <historyTabs/>
     </div>
-    <div class="bgColorB d_jump">
+    <div class="d_jump">
       <Register/>
     </div>
     <!-- 参会指引 -->
-    <div style="background: #ffffff;">
-      <Go/>
-    </div>
+    <Go/>
 
-    <div class="d_jump" style="background: #ffffff;">
+    <div class="d_jump">
       <Media/>
     </div>
-    <div class="bgColorB d_jump">
+    <div class="d_jump">
       <Maps />
     </div>
-    <div class="bgColorA d_jump">
+    <div class="d_jump">
       <Footer/>
     </div>
     <transition name="fade">

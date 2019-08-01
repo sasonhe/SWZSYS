@@ -29,7 +29,7 @@
     <div class="container" style="padding:0;">
       <van-row>
         <van-col span="10">
-          <h1 class="Ptitle">2019深圳国际生物医药产业创新发展峰会</h1>
+          <h1 class="Ptitle">{{this.$t('bigTitle')}}</h1>
         </van-col>
         <van-col span="14">
           <div class="item-header">
@@ -39,7 +39,7 @@
               </li>
             </ul>
             <div class="more" @mouseover="showMore()">
-              <span class="more-text" @mouseout="hideMore()">更多
+              <span class="more-text" @mouseout="hideMore()">{{this.$t('more')}}
                 <van-icon class="absolute" name="arrow-down" /></span>
               <div class="list-bar" v-show="pcMore" @mouseout="hideMore()">
                 <ul class="bar-list">
@@ -72,56 +72,8 @@ export default {
       show: false,
       showHeader: true,
       minLogo: require('@/assets/logo/minLogo.png'),
-      topBar: [{
-          id: 0,
-          name: '大会简介'
-        },
-        {
-          id: 1,
-          name: '组织架构'
-        },
-        {
-          id: 2,
-          name: '峰会嘉宾'
-        },
-        {
-          id: 3,
-          name: '峰会议程'
-        }
-      ],
-      json: [{
-          id: 0,
-          name: '大会简介'
-        },
-        {
-          id: 1,
-          name: '组织架构'
-        },
-        {
-          id: 2,
-          name: '峰会嘉宾'
-        },
-        {
-          id: 3,
-          name: '峰会议程'
-        },
-        {
-          id: 4,
-          name: '往届嘉宾'
-        },
-        {
-          id: 5,
-          name: '报名参会'
-        },
-        {
-          id: 6,
-          name: '合作媒体'
-        },
-        {
-          id: 7,
-          name: '联系我们'
-        }
-      ]
+      topBar: this.$t('topBar'),
+      json: this.$t('topBarJson')
     }
   },
   created() {
@@ -154,7 +106,7 @@ export default {
         window.localStorage.setItem('language','en')
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = "Times"
-        location.reload() 
+        location.reload()
       }
     },
     hideMore() {
@@ -407,9 +359,10 @@ export default {
 
 .absolute {
   position: absolute;
-  top: 20px;
-  right: -15px;
+  top: 24px;
+  right: -10px;
   color: #d6aeaa;
+  font-size: .5rem;
 }
 
 .more .list-bar {

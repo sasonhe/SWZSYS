@@ -70,12 +70,12 @@ export default {
 }
 .topTitle{
   font-size: .46rem;
-  color: #000;
+  color: #fff;
   margin-bottom: .2rem;
 }
 .msTitle{
   font-size: .36rem;
-  color: #000;
+  color: #fff;
   font-weight: 600;
   line-height: .56rem;
   margin-bottom: .2rem;

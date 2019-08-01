@@ -1,6 +1,6 @@
 <template>
 <div class="hisBar container">
-  <van-tabs class="tab backgroundColor" v-model="active" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#04183b" title-active-color="#0054a3" line-width="50%">
+  <van-tabs class="tab backgroundColor" v-model="active" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="50%">
     <van-tab  title="2018年">
       <div>
         <History2018/>
@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style>
+.van-tab.van-tab--active{
+  font-size: .38rem;
+}
 .van-tabs--line .van-tabs__wrap{
   height: 1.2rem
 }
@@ -114,7 +117,7 @@ export default {
     flex: 1;
     box-sizing: border-box;
     height: 1px;
-    border-color: #233e53;
+    border-color: #fff;
     border-style: inherit;
     border-width: 3px 0 0;
 }
@@ -128,7 +131,7 @@ export default {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    border-color: #263e64;
+    border-color: #fff;
     /* color:#263e64; */
     /* border-style: inherit; */
     border-width:4px 0 0;

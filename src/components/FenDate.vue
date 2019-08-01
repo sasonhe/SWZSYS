@@ -1,7 +1,7 @@
 <template>
 <div class="container maxH" style="padding:0;">
   <van-divider :style="{ borderColor: '#263e64'}" class="bTitle">峰会议程</van-divider>
-  <van-tabs class="tab" v-model="active" animated swipeable :offset-top="76" :border="false" background="#00A2E9" color="#fff" title-inactive-color="#BBDBF3" title-active-color="#fff" line-width="0">
+  <van-tabs class="tab" v-model="active" animated swipeable :offset-top="76" :border="false" background="#007cc2" color="#fff" title-inactive-color="#BBDBF3" title-active-color="#fff" line-width="0">
     <van-tab  v-for="(name,n) in fenData" :key="n" :title="name.name">
       <div style="padding:.4rem;" class="scrollH">
         <div class="flex fenTitle" v-for="(title,nd) in name.title" :key="nd">
@@ -297,6 +297,9 @@ export default {
   border: 1px solid #fff;
   border-left: none;
 }
+.maxH .tab .van-tab:first-child{
+  border-left: 1px solid #fff;
+}
 .flex-wrapper{
   display: flex;
 }
@@ -312,7 +315,7 @@ export default {
 }
 .scrollH{
   height: 15rem;
-    overflow-y:scroll;
+  overflow-y:scroll;
 }
 .van-step__circle{
   background-color: #0788c6;
@@ -332,7 +335,7 @@ export default {
   line-height: .88rem;
 }
 .maxH .van-tabs__content{
-  background: #044F9F;
+  background: #0a408a;
 }
 .fenTitle .timeTitle{
   font-size: .4rem;

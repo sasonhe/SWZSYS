@@ -1,6 +1,6 @@
 <template>
   <div class="organiza container" >
-    <van-divider :style="{ borderColor: '#263e64'}" class="bTitle bt">{{this.$t('gustTitle')}}</van-divider>
+    <van-divider :style="{ borderColor: '#fff'}" class="bTitle bt">{{this.$t('gustTitle')}}</van-divider>
     <div class="guList" v-for="(item,index) in selectJson" :key="index">
       <div class="guwrap">
         <van-row type="flex" justify="space-around" style="margin-bottom:.4rem;">
@@ -39,7 +39,8 @@
         isChoose:'',
         // json:require('../../static/gust-A.json'),
         json:this.$t('gustA'),
-        jsonPC:require('../../static/gust-B.json'),
+        jsonPC:this.$t('gustB'),
+        // jsonPC:require('../../static/gust-B.json'),
         selectJson:[],
         text:{}
       }
@@ -71,9 +72,7 @@
       // 判断PC
       IsPC() {
         var userAgentInfo = navigator.userAgent;
-        var Agents = ["Android", "iPhone",
-                    "SymbianOS", "Windows Phone",
-                    "iPad", "iPod"];
+        var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone","iPad", "iPod"];
         var flag = true;
         for (var v = 0; v < Agents.length; v++) {
             if (userAgentInfo.indexOf(Agents[v]) > 0) {
@@ -82,10 +81,11 @@
             }
         }
         return flag;
-      }
+      },
+
     },
     updated(){
-      console.log('66')
+
     }
   }
 </script>
@@ -93,7 +93,7 @@
 <style scoped>
 
 .bTitle{
-  color:#233E53;
+  color:#fff;
 }
 .organiza{
   padding: .6rem 5px;
@@ -213,21 +213,5 @@
     border-color: #ffffff;
     border-style: inherit;
     border-width: 3px 0 0;
-}
-</style>
-<style scoped>
-.bTitle::after, .bTitle::before {
-    display: block;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 10px;
-    border-color: #233E53;
-    /* color:#263e64; */
-    /* border-style: inherit; */
-    border-width:4px 0 0;
-    /* border: none; */
 }
 </style>

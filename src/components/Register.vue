@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <van-divider :style="{ borderColor: '#263e64'}" class="bTitle">报名参会</van-divider>
+  <van-divider :style="{ borderColor: '#fff'}" class="bTitle">报名参会</van-divider>
   <div @click="clickRegister()" v-show="pcShow">
     <van-image width="100%" :src="regs" />
   </div>
@@ -176,7 +176,7 @@ export default {
   font-size: .44rem;
   margin-bottom: 6px;
   display: inline-block;
-  color: #464646;
+  color: #fff;
 }
 .register{
   overflow-y: auto;
@@ -203,16 +203,8 @@ export default {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 10px;
-    border-color: #263e64;
+    border-color: #fff;
     border-width:4px 0 0;
 
 }
-/* .slide-down-enter-active,
-.slide-down-leave-active {
-  transition: all 0.5s;
-}
-.slide-down-enter,
-.slide-down-leave-to {
-  height: 0;
-} */
 </style>

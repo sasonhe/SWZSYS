@@ -1,6 +1,6 @@
 <template>
   <div class="histy">
-    <van-tabs v-model="active" swipeable animated :border="false"  background="none" color="#0054A3" title-inactive-color="#253E54" title-active-color="#0054A3" line-width="0">
+    <van-tabs v-model="active" swipeable animated :border="false"  background="none" color="#0054A3" title-inactive-color="#c0c0c0" title-active-color="#fff" line-width="0">
       <van-tab v-for="(item,index) in jsonData" :title="item.name" :key="index">
         <div class="guList" v-for="(items,i) in item.drr" :key="i">
           <div class="guwrap">
