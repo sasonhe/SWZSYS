@@ -294,11 +294,11 @@ export default {
 
 <style>
 .maxH .tab .van-tab{
-  border: 1px solid #fff;
-  border-left: none;
+  border-left: 1px solid #fff;
+  /* border-left: none; */
 }
 .maxH .tab .van-tab:first-child{
-  border-left: 1px solid #fff;
+  border-left: none;
 }
 .flex-wrapper{
   display: flex;

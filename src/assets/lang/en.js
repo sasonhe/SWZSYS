@@ -169,7 +169,7 @@ module.exports = {
         {
           "id": 11,
           "active": false,
-          "name": "Yao Yi,",
+          "name": "Yao Yi",
           "title": " Former Senior FDA Clinical Assessment Officer",
           "desc": "<p>Dr. Yao Yi, M.D., former senior FDA clinical assessment officer. He is currently a senior medical officer and registered doctor of U.S. Federal Government.</p>"
         },

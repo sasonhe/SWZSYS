@@ -150,7 +150,7 @@ body{
   left: 50%;
   margin-left:-0.2rem;
   border: 0.2rem solid;
-  border-color: #0054a3 transparent transparent transparent;
+  border-color: #fff transparent transparent transparent;
 }
 
 
