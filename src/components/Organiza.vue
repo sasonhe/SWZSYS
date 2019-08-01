@@ -1,22 +1,21 @@
 <template>
   <div class="organiza container" :class="classObj" :style="{backgroundImage:'url('+bg+')'}">
-    <!-- <van-divider :style="{ borderColor: '#263e64'}" class="bTitle bt">组织架构</van-divider> -->
     <div class="wrapper clearfix">
       <van-row>
         <van-col :span="spanFlex">
           <div class="item-list" style="margin-bottom:.3rem;">
-            <h2 class="topTitle">主办单位：</h2>
-            <p class="msTitle">深圳市坪山区人民政府</p>
-            <p class="msTitle">中国国际贸易促进委员会深圳市委员会</p>
+            <h2 class="topTitle">{{this.$t('structure.mTitle1')}}</h2>
+            <p class="msTitle">{{this.$t('structure.mText1.desc1')}}</p>
+            <p class="msTitle">{{this.$t('structure.mText1.desc2')}}</p>
           </div>
         </van-col>
         <van-col :span="spanFlex">
           <div class="item-list">
-            <h2 class="topTitle">承办单位：</h2>
-            <p class="msTitle">深圳市坪山区投资推广服务署</p>
-            <p class="msTitle">深圳市坪山区工业和信息化局</p>
-            <p class="msTitle">深圳市坪山区科技创新局</p>
-            <p class="msTitle">深圳国际商会</p>
+            <h2 class="topTitle">{{this.$t('structure.mTitle2')}}</h2>
+            <p class="msTitle">{{this.$t('structure.mText2.desc1')}}</p>
+            <p class="msTitle">{{this.$t('structure.mText2.desc2')}}</p>
+            <p class="msTitle">{{this.$t('structure.mText2.desc3')}}</p>
+            <p class="msTitle">{{this.$t('structure.mText2.desc4')}}</p>
           </div>
         </van-col>
       </van-row>
@@ -79,6 +78,7 @@ export default {
   color: #000;
   font-weight: 600;
   line-height: .56rem;
+  margin-bottom: .2rem;
 }
 .item-list{
   padding: 0 .2rem;

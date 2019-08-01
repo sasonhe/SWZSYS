@@ -1,14 +1,14 @@
 <template>
 <div class="hisBar container">
   <van-tabs class="tab backgroundColor" v-model="active" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#04183b" title-active-color="#0054a3" line-width="50%">
-    <van-tab  title="2017年">
-      <div>
-        <History2017/>
-      </div>
-    </van-tab>
     <van-tab  title="2018年">
       <div>
         <History2018/>
+      </div>
+    </van-tab>
+    <van-tab  title="2017年">
+      <div>
+        <History2017/>
       </div>
     </van-tab>
   </van-tabs>

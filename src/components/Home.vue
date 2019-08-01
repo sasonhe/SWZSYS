@@ -7,7 +7,7 @@
     </div>
     <div class="bgColorC d_jump">
         <div class="container">
-          <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#233e53;">组织架构</van-divider>
+          <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#233e53;">{{this.$t('structure.title')}}</van-divider>
         </div>
         <Organiza/>
     </div>

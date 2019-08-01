@@ -1,6 +1,6 @@
 <template>
   <div class="organiza container" >
-    <van-divider :style="{ borderColor: '#263e64'}" class="bTitle bt">峰会嘉宾</van-divider>
+    <van-divider :style="{ borderColor: '#263e64'}" class="bTitle bt">{{this.$t('gustTitle')}}</van-divider>
     <div class="guList" v-for="(item,index) in selectJson" :key="index">
       <div class="guwrap">
         <van-row type="flex" justify="space-around" style="margin-bottom:.4rem;">
@@ -37,7 +37,8 @@
         span:8,
         textShow:false,
         isChoose:'',
-        json:require('../../static/gust-A.json'),
+        // json:require('../../static/gust-A.json'),
+        json:this.$t('gustA'),
         jsonPC:require('../../static/gust-B.json'),
         selectJson:[],
         text:{}
@@ -82,6 +83,9 @@
         }
         return flag;
       }
+    },
+    updated(){
+      console.log('66')
     }
   }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :style="isEnStyle">
     <router-view></router-view>
   </div>
 </template>
@@ -10,19 +10,18 @@ export default {
   name: 'App',
   data(){
     return {
-
+      isEn:window.localStorage.getItem('language')=='en'?true:false,
     }
   },
-  components: {
-
+  created(){
+    document.title= this.$t('bigTitle');
   },
-  mounted: function () {
+  computed:{
+    isEnStyle(){
+      return this.isEn ? "font-family: 'Times'":""
+    }
+  }
 
-  },
-  methods: {
-
-
-  },
 }
 </script>
 
