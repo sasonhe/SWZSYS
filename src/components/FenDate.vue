@@ -4,7 +4,7 @@
   <van-tabs class="tab" v-model="activeDate" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="25%">
     <van-tab  title="9月11日">
       <div class="eat" style="padding-top:.3rem;">
-        <p class="timeTitle" style="font-size:.46rem;padding-left:.3rem;font-weight: 600;">粤港澳大湾区国际生物医药产业闭门会议</p>
+        <div class="custText">粤港澳大湾区国际生物医药产业闭门会议</div>
         <van-steps  direction="vertical" :active="null">
           <van-step>
             <div class="flex-wrapper">
@@ -237,7 +237,7 @@ export default {
             },
             {
               time:"13:40-14:10",
-              dev:["中国工程院院士 蒋庄德 教授"]
+              dev:["蒋庄德 中国工程院院士"]
             },
             {
               time:"14:10-14:15",
@@ -332,6 +332,17 @@ export default {
 </script>
 
 <style>
+.custText{
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: .42rem;
+  background: #007cc2;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  padding-left: .4rem;
+  margin-bottom: .3rem;
+}
 .eat {
   padding: .4rem .2rem;
 }

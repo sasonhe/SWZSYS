@@ -38,7 +38,8 @@
         span:4,
         textShow:false,
         isChoose:'',
-        jsonData:require('../../static/history/2018-A.json'),
+        // jsonData:require('../../static/history/2018-A.json'),
+        jsonData:this.$t('historyB'),
         selectJson:[],
         text:{},
       }

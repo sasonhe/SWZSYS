@@ -5,6 +5,8 @@ import Home from '@/components/Home';
 import GoMap from '@/components/GoMap';
 import Hotel from '@/components/Hotel';
 import Traffic from '@/components/Traffic';
+import Images from '@/components/Images';
+import MyPosit from '@/components/MyPosit';
 Vue.use(Router)
 export default new Router({
   routes: [
@@ -32,6 +34,16 @@ export default new Router({
       path: '/Traffic',
       name: 'Traffic',
       component: Traffic
+    },
+    {
+      path: '/Images',
+      name: 'Images',
+      component: Images
+    },
+    {
+      path: '/MyPosit',
+      name: 'MyPosit',
+      component: MyPosit
     }
   ]
 })

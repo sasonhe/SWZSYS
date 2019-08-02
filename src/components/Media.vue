@@ -2,7 +2,7 @@
 <div class="container">
   <van-divider :style="{ borderColor: '#fff',color:'#fff'}" class="bTitle">合作媒体</van-divider>
   <!-- 263e64 -->
-  <div style="background:#fff;padding:.2rem 0;">
+  <div style="background:#0154a4;padding:.2rem 0;">
     <van-row>
       <van-col class="imgwrapper" :span="span" v-for="item in 36" :key="item">
         <div :class="classObject">

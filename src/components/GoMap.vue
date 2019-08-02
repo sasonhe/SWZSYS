@@ -33,7 +33,7 @@
 
       <van-row>
         <van-col span="8">
-          <div class="box pointer" @click="toGuide(null)">
+          <div class="box pointer" @click="toGuide('eat')">
             <div class="icon"><van-icon name="shop-o" /></div>
             <div class="name">就餐指引</div>
             <div class="enText">Dining Guidelines</div>
@@ -47,27 +47,29 @@
           </div>
         </van-col>
         <van-col span="8">
-          <div class="box pointer" @click="toGuide(null)">
+          <div class="box pointer" @click="toGuide('posit')">
             <div class="icon"><van-icon name="hotel-o" /></div>
             <div class="name">我的座位</div>
-            <div class="enText">ABCDE</div>
+            <div class="enText">Seat</div>
           </div>
         </van-col>
       </van-row>
-
+<!-- href="https://v.youku.com/v_show/id_XNDI3MjM1NDI4MA==.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900" -->
       <van-row>
         <van-col span="12">
-          <div class="box pointer" @click="toGuide(null)">
-            <div class="icon"><van-icon name="aim" /></div>
-            <div class="name">走进坪山</div>
-            <div class="enText">ABCDE</div>
-          </div>
+          <a href="https://v.youku.com/v_show/id_XNDI3MjM1NDI4MA==.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900">
+            <div class="box pointer" >
+              <div class="icon"><van-icon name="fire-o" /></div>
+              <div class="name">走进坪山</div>
+              <div class="enText">Approach Pingshan</div>
+            </div>
+          </a>
         </van-col>
         <van-col span="12">
-          <div class="box pointer" @click="toGuide(null)">
-            <div class="icon"><van-icon name="hotel-o" /></div>
+          <div class="box pointer" @click="toGuide('img')">
+            <div class="icon"><van-icon name="gift-card-o" /></div>
             <div class="name">配套政策</div>
-            <div class="enText">ABCDE</div>
+            <div class="enText">Sopporting policies</div>
           </div>
         </van-col>
       </van-row>
@@ -75,6 +77,11 @@
     <div class="bottm">
       <van-image width="100%" :src="btmLogo" />
     </div>
+    <van-image-preview
+        v-model="show"
+        :images="view"
+      >
+      </van-image-preview>
   </div>
 </template>
 
@@ -82,9 +89,11 @@
   export default {
     data() {
       return {
+        show:false,
         topLogo: require('@/assets/go/1.jpg'),
         btmLogo: require('@/assets/go/2.jpg'),
-        minLogo: require('@/assets/logo/minLogo.png')
+        minLogo: require('@/assets/logo/minLogo.png'),
+        view:[require('@/assets/images/eat.jpg')]
       }
     },
     created() {
@@ -120,8 +129,16 @@
           this.$router.push({
             path: '/Traffic',
           });
-        }else{
-          alert('正在开发...')
+        }else if(id == 'img'){
+          this.$router.push({
+            path: '/Images',
+          });
+        }else if (id == 'posit') {
+          this.$router.push({
+            path: '/MyPosit',
+          });
+        }else if (id == 'eat') {
+          this.show = true;
         }
       },
 

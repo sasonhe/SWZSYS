@@ -44,7 +44,7 @@ export default {
   line-height: 1.4rem;
 }
 .histy .van-tabs__content{
-  background: #fff;
+  background: #0154a4;
   padding: .6rem 0;
   border-radius: 10px;
 }
