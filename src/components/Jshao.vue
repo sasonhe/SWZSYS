@@ -28,7 +28,7 @@
 <style scoped>
 .content1{
   /* background: red; */
-  padding: 0 .8rem;
+  padding: 0 .4rem;
 }
 .desc{
   font-size: .28rem;

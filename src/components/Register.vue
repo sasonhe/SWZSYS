@@ -4,6 +4,7 @@
   <div @click="clickRegister()" v-show="pcShow">
     <van-image width="100%" :src="regs" />
   </div>
+
   <transition name="van-fade">
     <div class="main" v-show="visible">
       <form ref="myform" method="post">
@@ -45,6 +46,9 @@
       </div>
     </div>
   </transition>
+  <div @click="goToPage()">
+    <van-image width="100%" :src="goImg" />
+  </div>
 </div>
 </template>
 
@@ -60,7 +64,8 @@ export default {
         uiCompanyTitle: '', //职位
         uiExpoId: '10537'//项目ID
       },
-      regs: require('@/assets/images/reg.jpg'),
+      regs: require('@/assets/images/reg.png'),
+      goImg: require('@/assets/images/goImg.png'),
       visible:false,
       pcShow:false
     }
@@ -75,6 +80,11 @@ export default {
     }
   },
   methods: {
+    goToPage(){
+      this.$router.push({
+        path: '/GoMap'
+      });
+    },
     IsPC() {
       var userAgentInfo = navigator.userAgent;
       var Agents = ["Android", "iPhone",

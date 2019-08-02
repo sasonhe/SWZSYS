@@ -26,9 +26,6 @@
     <div class="d_jump">
       <Register/>
     </div>
-    <!-- 参会指引 -->
-    <Go/>
-
     <div class="d_jump">
       <Media/>
     </div>
