@@ -35,7 +35,7 @@ export default {
   min-height:600px;
 }
 body{
-  background: #0a408a;
+  background: #0154a4;
 }
 .container{
   max-width: 1140px;
@@ -150,7 +150,7 @@ body{
   left: 50%;
   margin-left:-0.2rem;
   border: 0.2rem solid;
-  border-color: #0054a3 transparent transparent transparent;
+  border-color: #fff transparent transparent transparent;
 }
 
 
