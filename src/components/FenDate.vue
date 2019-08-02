@@ -1,15 +1,45 @@
 <template>
 <div class="container maxH" style="padding:0;">
   <van-divider :style="{ borderColor: '#263e64',margin:'0 .2rem'}" class="bTitle">峰会议程</van-divider>
-  <van-tabs class="tab" v-model="activeDate" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="40%">
-    <van-tab  title="9月11">
+  <van-tabs class="tab" v-model="activeDate" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="25%">
+    <van-tab  title="9月11日">
       <div class="eat" style="padding-top:.3rem;">
-        <p>下午 3:30-6:00 闭门会</p>
-        <p>粤港澳大湾区国际生物医药产业专家、政府领导闭门会议</p>
-        <p>下午 6:00-7:30 欢迎晚宴</p>
+        <p class="timeTitle" style="font-size:.46rem;padding-left:.3rem;font-weight: 600;">粤港澳大湾区国际生物医药产业闭门会议</p>
+        <van-steps  direction="vertical" :active="null">
+          <van-step>
+            <div class="flex-wrapper">
+              <div class="flex-left">
+                <h3 class="zTitle">15:20-15:30</h3>
+              </div>
+              <div class="flex-right">
+                <p class="nameTitle color-B">签到、入场</p>
+              </div>
+            </div>
+          </van-step>
+          <van-step>
+            <div class="flex-wrapper">
+              <div class="flex-left">
+                <h3 class="zTitle">15:30-15:40</h3>
+              </div>
+              <div class="flex-right">
+                <p class="nameTitle color-B">主办方致欢迎辞</p>
+              </div>
+            </div>
+          </van-step>
+          <van-step>
+            <div class="flex-wrapper">
+              <div class="flex-left">
+                <h3 class="zTitle">15:40-18:00</h3>
+              </div>
+              <div class="flex-right">
+                <p class="nameTitle color-B">贵宾研讨交流</p>
+              </div>
+            </div>
+          </van-step>
+        </van-steps>
       </div>
     </van-tab>
-    <van-tab  title="9月12">
+    <van-tab  title="9月12日">
       <div style="padding-top:.3rem;">
         <van-tabs class="tab child" v-model="active" animated swipeable :offset-top="76" :border="false" background="#007cc2" color="#fff" title-inactive-color="#BBDBF3" title-active-color="#fff" line-width="0">
           <van-tab  v-for="(name,n) in fenData" :key="n" :title="name.name">
@@ -49,10 +79,6 @@
       </div>
     </van-tab>
   </van-tabs>
-
-
-
-
 </div>
 </template>
 
@@ -310,7 +336,6 @@ export default {
   padding: .4rem .2rem;
 }
 .eat p{
-  font-size: .46rem;
     color: #fff;
     padding-bottom: .3rem;
 }

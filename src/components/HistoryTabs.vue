@@ -1,6 +1,6 @@
 <template>
 <div class="hisBar container">
-  <van-tabs class="tab backgroundColor" v-model="active" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="40%">
+  <van-tabs class="tab backgroundColor" v-model="active" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="25%">
     <van-tab  title="2018年">
       <div>
         <History2018/>

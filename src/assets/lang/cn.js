@@ -46,10 +46,14 @@ module.exports = {
     },
     {
       id: 6,
-      name: '合作媒体'
+      name: '参会指引'
     },
     {
       id: 7,
+      name: '合作媒体'
+    },
+    {
+      id: 8,
       name: '联系我们'
     }
   ],

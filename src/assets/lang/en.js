@@ -247,9 +247,9 @@ module.exports = {
         {
           "id": 21,
           "active": false,
-          "name": "罗飞",
-          "title": "H50轮值主席，松禾资本董事长",
-          "desc": "<p>罗飞，松禾资本创始合伙人、董事长兼总经理，兼任深港产学研创业投资有限公司董事总经理、深圳市第五届人大代表。</p><p>2014年位列年度中国最佳创业投资人第30名。</p><p>代表项目：游族网络、华大医学、第七大道科技、华力特电气、北科生物、彩虹精化、齐心文具、A8音乐、中航健身时尚、融创天下</p>"
+          "name": "Mr. Luo Fei",
+          "title": "H50 Rotating Chairman, and Chairman of Green Pine Capital Partners",
+          "desc": "<p>Mr. Luo Fei is Founding Partner, Chairman and General Manager of Green Pine Capital Partners. He also holds the post of Managing Director of Shenzhen-Hong Kong Production and Research Investment Co., Ltd., and is a delegate at the fifth People’s Congress of Shenzhen.</p><p>In 2014, he was ranked 30th among the best venture investors in China.</p><p>Major projects: Youzu.com, BGI Dx, 7Road.com, Farad Electric, Beike Biology, Rainbow Fine Chemical, Comix Group, A8 Music, CATIC Wellness Group, and Shenzhen Temobi.</p>"
         },
         {
           "id": 22,

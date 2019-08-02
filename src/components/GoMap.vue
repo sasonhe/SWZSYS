@@ -33,17 +33,10 @@
 
       <van-row>
         <van-col span="8">
-          <div class="box pointer" @click="toGuide(4)">
+          <div class="box pointer" @click="toGuide(null)">
             <div class="icon"><van-icon name="shop-o" /></div>
             <div class="name">就餐指引</div>
             <div class="enText">Dining Guidelines</div>
-          </div>
-        </van-col>
-        <van-col span="8">
-          <div class="box pointer" @click="toGuide(5)">
-            <div class="icon"><van-icon name="hotel-o" /></div>
-            <div class="name">酒店指引</div>
-            <div class="enText">Hotel Guidelines</div>
           </div>
         </van-col>
         <van-col span="8">
@@ -51,6 +44,30 @@
             <div class="icon"><van-icon name="aim" /></div>
             <div class="name">交通指引</div>
             <div class="enText">Traffic Guideline</div>
+          </div>
+        </van-col>
+        <van-col span="8">
+          <div class="box pointer" @click="toGuide(null)">
+            <div class="icon"><van-icon name="hotel-o" /></div>
+            <div class="name">我的座位</div>
+            <div class="enText">ABCDE</div>
+          </div>
+        </van-col>
+      </van-row>
+
+      <van-row>
+        <van-col span="12">
+          <div class="box pointer" @click="toGuide(null)">
+            <div class="icon"><van-icon name="aim" /></div>
+            <div class="name">走进坪山</div>
+            <div class="enText">ABCDE</div>
+          </div>
+        </van-col>
+        <van-col span="12">
+          <div class="box pointer" @click="toGuide(null)">
+            <div class="icon"><van-icon name="hotel-o" /></div>
+            <div class="name">配套政策</div>
+            <div class="enText">ABCDE</div>
           </div>
         </van-col>
       </van-row>
@@ -103,6 +120,8 @@
           this.$router.push({
             path: '/Traffic',
           });
+        }else{
+          alert('正在开发...')
         }
       },
 
@@ -132,20 +151,20 @@
 <style scoped>
 .map-page{
   width: 750px;
-  background: #0a408a;
+  background: #044fa0;
   margin: 0 auto;
 }
 .isMobile{
   width: auto;
   height: 100vh;
-  background: #0a408a;
+  background: #044fa0;
 }
 .van-image {
   display: block;
 }
 
 .center{
-  background: #0a408a;
+  background: #044fa0;
 }
 
 .title{

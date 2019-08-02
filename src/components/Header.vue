@@ -203,7 +203,7 @@ export default {
   font-size: .32rem;
   font-weight: bold;
   font-family: Times;
-  border: 0.05rem solid #FDD100;
+  border: 0.05rem solid #fff;
   border-radius: 0.2rem;
   position: absolute;
   top: 50%;
@@ -213,7 +213,7 @@ export default {
 .rightBtn .en span {
   display: inline-block;
   width: 0.6rem;
-  color: #FDD100;
+  color: #fff;
 }
 
 .line {
@@ -221,7 +221,7 @@ export default {
   width: 0.8rem;
   height: 100%;
   border-radius: .1rem;
-  background: #FDD100;
+  background: #fff;
   position: absolute;
   top: 0;
 }
@@ -323,11 +323,11 @@ export default {
 
 .van-icon {
   font-size: .68rem;
-  color: #FDD100;
+  color: #fff;
 }
 
 .van-nav-bar {
-  background: #332C2B;
+  background: #2c5b88;
   height: 1.2rem;
   line-height: 1.2rem;
 }

@@ -46,7 +46,7 @@
       </div>
     </div>
   </transition>
-  <div @click="goToPage()">
+  <div @click="goToPage()" class="d_jump">
     <van-image width="100%" :src="goImg" />
   </div>
 </div>
