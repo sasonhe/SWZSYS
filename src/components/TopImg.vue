@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .body {
-  padding-top: 1.2rem;
+  /* padding-top: 1.2rem; */
 }
 
 .van-image {

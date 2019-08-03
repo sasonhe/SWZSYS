@@ -2,7 +2,7 @@
 <div class="header">
   <div class="mHeader" v-if="!showHeader">
     <!-- title="2019深圳国际生物医药产业创新发展峰会" -->
-    <van-nav-bar fixed :z-index="11" @click-left="menuBar" :border="false">
+    <van-nav-bar fixed :z-index="11" @click-left="menuBar" :border="false" :style="style">
       <van-icon class="haver" name="wap-nav" slot="left" />
       <div class="topLogo" slot="left">
         <van-image class="img" :src="minLogo" />
@@ -64,9 +64,12 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
+      style: {},
+      opacity: 0,
       isEn:window.localStorage.getItem('language')=='en'?true:false,
       pcMore: false,
       show: false,
@@ -77,6 +80,11 @@ export default {
     }
   },
   created() {
+    window.onscroll = ()=> {
+      var opacity = window.pageYOffset / 400;
+
+      this.style = {background: `rgba(44,91,136,${opacity})`}
+    }
     let isWhat = this.IsPC();
     if (isWhat) {
       this.showHeader = true;
@@ -327,7 +335,8 @@ export default {
 }
 
 .van-nav-bar {
-  background: #2c5b88;
+  /* background: #2c5b88; */
+  background: rgba(0,0,0,0);
   height: 1.2rem;
   line-height: 1.2rem;
 }
