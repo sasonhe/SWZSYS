@@ -13,7 +13,7 @@ module.exports = {
     proxyTable: {
       '/': {
         // target: 'http://192.168.1.100/SAAS2', //设置调用接口域名和端口号别忘了加http
-        target: 'http://saas.dataexpo.com.cn/SWZ', //设置调用接口域名和端口号别忘了加http
+        target: 'http://saas.dataexpo.com.cn/demo', //设置调用接口域名和端口号别忘了加http
         changeOrigin: true,
         pathRewrite: {
           '^': '/' //这里理解成用‘/api’代替target里面的地址，组件中我们调接口时直接用/api代替
