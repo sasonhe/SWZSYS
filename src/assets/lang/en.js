@@ -1096,5 +1096,17 @@ module.exports = {
       top:'Contact Person ( Media and Cooperation)',
       num1:'Chen Chunyan: 18823370778'
     }
+  },
+  register:{
+    submit:'Submit',
+    name:'Name',
+    nPlace:'Please enter your name',
+    company:'Company',
+    cPlace:'Please enter the name of the company',
+    companyTitle:'Position',
+    ctPlace:'Please enter the position',
+    phone:'Mobile',
+    pPlace:'Please enter your cell phone/mailbox'
   }
+
 }

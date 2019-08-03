@@ -1090,5 +1090,16 @@ module.exports = {
       top:'合作与媒体联系人',
       num1:'陈春艳 18823370778'
     }
+  },
+  register:{
+    submit:'提交',
+    name:'姓名',
+    nPlace:'请输入姓名',
+    company:'公司',
+    cPlace:'请输入公司名称',
+    companyTitle:'职位',
+    ctPlace:'请输入职位',
+    phone:'手机',
+    pPlace:'请输入手机或邮箱'
   }
 }
