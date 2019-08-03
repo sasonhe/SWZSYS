@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       id: 4,
-      name: 'Previous guest'
+      name: 'Previous Speakers'
     },
     {
       id: 5,
@@ -74,9 +74,9 @@ module.exports = {
     mTitle2:'Organized by:',
     mText2:{
       desc1:'Investment Promotion Bureau of Pingshan, Shenzhen',
-      desc2:'Pingshan District Science and Technology Innovation Bureau, Shenzhen',
-      desc3:'Pingshan District Industry and Information Technology Bureau, Shenzhen',
-      desc4:'China Chamber of International Commerce Shenzhen Branch'
+      desc2:'Pingshan District Industry and Information Technology Bureau, Shenzhen',
+      desc3:'China Chamber of International Commerce Shenzhen Branch',
+      desc4:'Pingshan District Science and Technology Innovation Bureau, Shenzhen',
     }
   },
   gustTitle:"Invited Speakers",
@@ -197,31 +197,25 @@ module.exports = {
           "desc": "<p>Chairman of HK Bio-Med Innotech Association</p><p>“Father of Biotech in Hong Kong”</p><p>Chairman of Advisory Council on Food and Environmental Hygiene of the Food and Health Bureau of the HKSAR</p><p>Honorary Chairman of Hong Kong Biotechnology Organization </p><p>General Committee Member of The Chinese Manufacturers’ Association of Hong Kong</p><p>Chairman of the Innovation and Technology Committee of the CMA</p><p>Consultant of the Chinese Centre for Disease Control and Prevention </p><p>Member of the Advisory Committee of the Vocational Training Council </p><p>Adjunct Professor of CUHK, Fellow of HKUST, Fellow of The Hong Kong University of Science and Technology and an Honorary Professor of several universities in China</p><p>Independent director of Sinovac Biotech Limited (listed on NASDAQ)</p><p>Independent non-executive director of Luye Pharma Group Ltd. (HKSE:2186) and CSPC Pharmaceutical Group Limited (HKSE:1093)</p><p>President of Saitai Biotech Research Institute, Vice-Chairman of Santai Eco Fishery Ltd</p><p>Former Chairman of Asia Pacific, Perkin EImer</p><p>B.Sc. (The University of Waterloo), Honorary Ph.D. (York University, U.S.)</p>"
         },
         {
-          "id": 15,
-          "active": false,
-          "name": "Li Xiaojia",
-          "title": "Chief Executive of HKEX Group",
-          "desc": "<p>Li Xiaojia is a prestigious banker, with almost 20 years’ experience in the legal and financial industry on Wall Street, and finance and consultation for Chinese companies. In 2009, he was appointed as Chief Executive of the HKEX group. After taking office, he has pushed through bold reforms for HKEX, including RMB IPO and the “Single Tranche, Single Counter” Model.</p>"
-        },
-        {
           "id": 16,
           "active": false,
           "name": "Lu Xianping",
           "title": "Director, President and Chief Scientific Officer of CHIPSCREEN BIOSCIENCES",
           "desc": "<p>One of main initiators and founders of CHIPSCREEN BIOSCIENCES. “A fighter of new drug research and development” called by insiders.</p><p>Currently, he is a member of Guangdong Provincial Expert Committee of Science and Technology, member of Shenzhen Municipal Expert Committee of Science and Technology, the head of the Biology, Medicine, Medical Devices and Environmental Protection Group, and an expert for the “863” program sponsored by the Ministry of Science and Technology.</p><p>Having considerable expertise in molecular medicine, oncology, neuroendocrinology, immunology, metabolism and skin diseases, Dr. Lu has made many important contributions in the research of nuclear hormone receptors, especially in the chemical structure design, biological and pharmaceutical activities and innovative drug development with respect to nuclear hormone receptors and ligands.</p>"
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "main": [
+        },
         {
           "id": 17,
           "active": false,
           "name": "Tian Yuan",
           "title": "Chairman of YuanMing Capital",
           "desc": "<p>Founding PartnerCo-founder of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the co-foundera founding partner of YuanMing Capital, and chairman of the Mevion Medical Systems IncCo., Ltd. As the a founder and the chairman of Yabuli China Entrepreneurs Forum and of China-US Business Leaders Roundtable Conference, Tian is the a core organizer of various a variety of high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China's economics.</p>"
-        },
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "main": [
+
         {
           "id": 18,
           "active": false,
@@ -235,19 +229,20 @@ module.exports = {
           "name": "Liu Liang",
           "title": "President of Macau University of Science and Technology",
           "desc": "<p>Liu Liang is the president of Macao University of Science and Technology, director of the State Key Laboratory of Quality Research in Chinese Medicine, consultant of WHO’s Traditional Medicine Team, convener of the ISO/TC249/WG on Standardization of Traditional Chinese Medicine, and expert for project review specially invited by the National Natural Science Foundation.</p><p> Versed in Chinse and western medical science, Professor Liu is a well-known expert in the fields of anti-inflammatory and immune pharmacology of Chinese medicine, research and development of new drugs of Chinese medicine, rheumatism and arthritis research. He has published more than 300 papers in academic journals and conferences at home and abroad, including Nature. He also serves as editor of various English academic journals, including Journal of Chinese Evidence-based Medicine, Journal of Chinese Medicine, Chinese J of Immunology, and Journal of Materia Medica. In May 2017, he won a national innovation pioneer prize. </p>"
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "main": [
+        },
         {
           "id": 20,
           "active": false,
           "name": "Yuan Qing",
           "title": "General Manager of Shenzhen Main Luck Pharmaceuticals Inc.",
           "desc": "<p>Yuan Qing is a senior visiting scholar of Académie des sciences, a research assistant and doctoral candidate of LMU München. He earned his doctorate in biology from McMaster University. He is listed in Shenzhen Overseas High-Level Talents (Peacock Plan), and the first High-Level Talents of Pingshan District, and has won an Award of Science and Technology of Pingshan District for technological leaders. With many papers published in PNAS, JBC, IAI and other internationally famous journals, he has also taken charge of several research projects supported by the National Health and Family Planning Commission of the People’s Republic of China, Guangdong Province and Shenzhen City. Now, He serves as Vice Chairman of Shenzhen Anti-cancer Association, and the General Manager of Shenzhen Main Luck Pharmaceuticals Inc.</p>"
-        },
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "main": [
+
         {
           "id": 21,
           "active": false,
@@ -261,19 +256,19 @@ module.exports = {
           "name": "Li Jing",
           "title": "Chairman of Pharmacodia Holding Ltd.Yaodu",
           "desc": "<p>National Chair Professor of the “1000-Plan”, Li Jing is one of the most successful entrepreneurs who returned from studying overseas. From 2006 until now, he has participated in the establishment of the following companies: Shenogen Pharma Group, Beijing Orbiepharm Co., Ltd., Pharmacodia (Beijing) Co., Ltd., and 3E Bioventures; he has published more than 30 papers, and applied for more than 50 patents. Li has also participated in and taken charge of many national projects, such as the Major Scientific and Technological Special Project for Significant New Drugs Development during the “Eleventh Five-year Plan Period”, the National Key Technology R&D Program, and Scientific Special Project of Beijing (Haidian) Municipal Science and Technology Commission, Beijing.</p>"
-        }
-      ]
-    },
-    {
-      "index": 8,
-      "main": [
+        },
         {
           "id": 25,
           "active": false,
           "name": "Cao Erbao",
           "title": "Research Director of the Liaison Office of the Central People’s Government in the Hong Kong Special Administrative Region, and Special Researcher of the Counsellors’ Office of the State Council.",
           "desc": "<p>Mr. Cao Erbao is a senior expert on the research of Hong Kong and Macao issues. Since his stay in Hong Kong in 1986, he has participated in the historical process of Hong Kong’s return and the practice of “One Country, Two Systems” after the return. He is familiar with the central government’s policies with respect to Hong Kong, Hong Kong’s political, business and academic circles, and other relevant people. He often gives lectures to the central and mainland departments in connection with Hong Kong, visiting delegations, Chinese enterprises, patriotic organizations, etc., and makes public speeches, publishes articles, and holds talks with the opposition in Hong Kong, all giving a great and positive impact.</p>"
-        },
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "main": [
         {
           "id": 27,
           "active": false,
@@ -299,8 +294,8 @@ module.exports = {
           "id": 1,
           "active": false,
           "name": "Aaron Ciechanover",
-          "title": "Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen.",
-          "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Hong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen.</p>"
+          "title": "Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen",
+          "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Hong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen</p>"
         },
         {
           "id": 2,
@@ -397,24 +392,12 @@ module.exports = {
           "desc": "<p>Chairman of HK Bio-Med Innotech Association</p><p>“Father of Biotech in Hong Kong”</p><p>Chairman of Advisory Council on Food and Environmental Hygiene of the Food and Health Bureau of the HKSAR</p><p>Honorary Chairman of Hong Kong Biotechnology Organization </p><p>General Committee Member of The Chinese Manufacturers’ Association of Hong Kong</p><p>Chairman of the Innovation and Technology Committee of the CMA</p><p>Consultant of the Chinese Centre for Disease Control and Prevention </p><p>Member of the Advisory Committee of the Vocational Training Council </p><p>Adjunct Professor of CUHK, Fellow of HKUST, Fellow of The Hong Kong University of Science and Technology and an Honorary Professor of several universities in China</p><p>Independent director of Sinovac Biotech Limited (listed on NASDAQ)</p><p>Independent non-executive director of Luye Pharma Group Ltd. (HKSE:2186) and CSPC Pharmaceutical Group Limited (HKSE:1093)</p><p>President of Saitai Biotech Research Institute, Vice-Chairman of Santai Eco Fishery Ltd</p><p>Former Chairman of Asia Pacific, Perkin EImer</p><p>B.Sc. (The University of Waterloo), Honorary Ph.D. (York University, U.S.)</p>"
         },
         {
-          "id": 15,
-          "active": false,
-          "name": "Li Xiaojia",
-          "title": "Chief Executive of HKEX Group",
-          "desc": "<p>Li Xiaojia is a prestigious banker, with almost 20 years’ experience in the legal and financial industry on Wall Street, and finance and consultation for Chinese companies. In 2009, he was appointed as Chief Executive of the HKEX group. After taking office, he has pushed through bold reforms for HKEX, including RMB IPO and the “Single Tranche, Single Counter” Model.</p>"
-        },
-        {
           "id": 16,
           "active": false,
           "name": "Lu Xianping",
           "title": "Director, President and Chief Scientific Officer of CHIPSCREEN BIOSCIENCES",
           "desc": "<p>One of main initiators and founders of CHIPSCREEN BIOSCIENCES. “A fighter of new drug research and development” called by insiders.</p><p>Currently, he is a member of Guangdong Provincial Expert Committee of Science and Technology, member of Shenzhen Municipal Expert Committee of Science and Technology, the head of the Biology, Medicine, Medical Devices and Environmental Protection Group, and an expert for the “863” program sponsored by the Ministry of Science and Technology.</p><p>Having considerable expertise in molecular medicine, oncology, neuroendocrinology, immunology, metabolism and skin diseases, Dr. Lu has made many important contributions in the research of nuclear hormone receptors, especially in the chemical structure design, biological and pharmaceutical activities and innovative drug development with respect to nuclear hormone receptors and ligands.</p>"
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "main": [
+        },
         {
           "id": 17,
           "active": false,
@@ -422,6 +405,12 @@ module.exports = {
           "title": "Chairman of YuanMing Capital",
           "desc": "<p>Founding PartnerCo-founder of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the co-foundera founding partner of YuanMing Capital, and chairman of the Mevion Medical Systems IncCo., Ltd. As the a founder and the chairman of Yabuli China Entrepreneurs Forum and of China-US Business Leaders Roundtable Conference, Tian is the a core organizer of various a variety of high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China's economics.</p>"
         },
+      ]
+    },
+    {
+      "index": 4,
+      "main": [
+
         {
           "id": 18,
           "active": false,
@@ -449,19 +438,20 @@ module.exports = {
           "name": "罗飞",
           "title": "H50轮值主席，松禾资本董事长",
           "desc": "<p>罗飞，松禾资本创始合伙人、董事长兼总经理，兼任深港产学研创业投资有限公司董事总经理、深圳市第五届人大代表。</p><p>2014年位列年度中国最佳创业投资人第30名。</p><p>代表项目：游族网络、华大医学、第七大道科技、华力特电气、北科生物、彩虹精化、齐心文具、A8音乐、中航健身时尚、融创天下</p>"
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "main": [
+        },
         {
           "id": 22,
           "active": false,
           "name": "Li Jing",
           "title": "Chairman of Pharmacodia Holding Ltd.Yaodu",
           "desc": "<p>National Chair Professor of the “1000-Plan”, Li Jing is one of the most successful entrepreneurs who returned from studying overseas. From 2006 until now, he has participated in the establishment of the following companies: Shenogen Pharma Group, Beijing Orbiepharm Co., Ltd., Pharmacodia (Beijing) Co., Ltd., and 3E Bioventures; he has published more than 30 papers, and applied for more than 50 patents. Li has also participated in and taken charge of many national projects, such as the Major Scientific and Technological Special Project for Significant New Drugs Development during the “Eleventh Five-year Plan Period”, the National Key Technology R&D Program, and Scientific Special Project of Beijing (Haidian) Municipal Science and Technology Commission, Beijing.</p>"
-        },
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "main": [
+
         {
           "id": 25,
           "active": false,
@@ -571,14 +561,14 @@ module.exports = {
           "id": 10,
           "active": false,
           "name": "Dr. Lin Huangquan",
-          "title": "香港中文大学深圳研究院副院长",
+          "title": "Lin Huangquan, Vice President, Shenzhen Institute of the Chinese University of Hong Kong",
           "desc": "<p>Dr. Lin Huangquan, vice president of Shenzhen Institute of Chinese University of Hong Kong. Dr. Lin has ever served as an assistant professor for the Institutes of Biomedical and associate researcher of Traditional Chinese Medicine Research at Hong Kong University. He won a financial support from Cqihui Research Scholar Fund to visit and study at Johns Hopkins University in 2013 and graduated from the Institute of Biomedical at Chinese University of Hong Kong in 2009 and received a doctor’s degree there. Then he won a financial support from Hong Kong Research Grants Council, Innovation and Technology Commission, Trade and Industry Department to develop products for neurodegenerative disease, natural active ingredients and comprehensive health. He has also published more than 50 papers, applied for 6 patents and served as a honorary advisor for  China Charitable Funds of Hong Kong Chinese Medicine Chamber and gifted courses of Chinese University of Hong Kong, guest professor of Medical Laboratory Animal Center of Guangdong Province as well.</p>"
         },
         {
           "id": 12,
           "active": false,
           "name": "Hou Yong",
-          "title": "深圳华大基因研究院副院长",
+          "title": "Hou Yong, Vice President, Shenzhen Huada Gene Research Institute",
           "desc": "<p>r. Hou was a Bioinformatics Ph. D. of the University of Copenhagen, Denmark with a researcher title, now he’s the vice president of BGI-Huada Genomics Institute in Shenzhen and mainly engaged in single-celled group analysis and relative visualization research. In recent years, he has published 30 scientific papers on some international well-known scientific journals which has a total quotation over one thousand times. He also made applications for 30 related patents of genomics and bioinformatics and won one global authorized patent for single-cell analysis. Furthermore, he has ever participated in the 863 Projects of the Ministry of Science and Technology and two of the 13th Five-Year Programs of Precision Medicine, and was responsible for one subtask of a key project of Guangdong-NSF and two projects of technological tacking key and application demonstration as well. In 2014, he won the second prize of Chinese Medical Science and Technology. Now he serves as a guest editor of the Clinical Bioinformatics Session of the Clinical and Translational Medicine, and a magazine reviewer of BMC bioinformatics, Oncotarget and Cell biology and toxicology as well. </p>"
         }
       ]
@@ -618,7 +608,7 @@ module.exports = {
         {
           "id": 20,
           "active": false,
-          "name": "盛司潼",
+          "name": "Sheng Siton",
           "title": " Chairman of Shenzhen HYK Gene Technology Co., Ltd.",
           "desc": "<p> Chairman of Shenzhen HYK Gene Technology Co., Ltd.Member of the overseas high-level talents introducing schemes 'a thousand people plan', and  'Peacock team' in Shenzhen, PH.D. of Molecular Physiology and Biological Physics School of Medicine at the University of Virginia, post PH.D. of the School of Medicine at the Johns Hopkins University in the US, leader of the R & D team for high-throughput gene sequencing system, the main research direction of which is the new generation of high-throughput gene sequencing technology, including micro-nano processing, micro-volume solution control, high-efficient molecular chemical reactions, large scale, high-throughput imaging of genetic information and other latest technology in the field of modern genetic biology .</p>"
         }
@@ -834,6 +824,277 @@ module.exports = {
         }
       ]
     }
-  ]
+  ],
+  hisYear:{
+    yearA:"2018",
+    yearB:"2017"
+  },
+  hisTitle:'Previous Speakers',
+  summiTbtitle:'Summit Agenda',
+  summit:{
+    mtitle:{
+      mtitle1:"11 September",
+      mtitle2:"12 September"
+    },
+    dataA:{
+      title:'Guangdong-Hong Kong-Macao Greater Bay Area International Biomedical Industry Private Session',
+      jsonData:[
+        {
+          time:"15:20-15:30",
+          name:'Registration'
+        },
+        {
+          time:"15:30-15:40",
+          name:'Welcome Speech'
+        },
+        {
+          time:"15:40-18:00",
+          name:'VIP Seminar'
+        },
+      ]
+    },
+    dataB:{
+      fenData:[
+        {
+          id:0,
+          type:666,
+          name:"Keynote Forum ",
+          title:[],
+          main:[
+            {
+              id:1,
+              time:'09:00-09:30',
+              content:["Guest check in"],
+              gust:[]
+            },
+            {
+              id:2,
+              time:'09:30-09:55',
+              content:['Speech by government official'],
+              gust:[]
+            },
+            {
+              id:3,
+              time:'09:55-10:10',
+              content:["Project concentration signing ceremony"],
+              gust:[]
+            },
+            {
+              id:4,
+              time:'10:10-10:25',
+              content:["Keynote Speech (I) Statues and Trends of Global Biotechnology Development"],
+              gust:[]
+            },
+            {
+              id:5,
+              time:'10:25-10:35',
+              content:["Keynote Speech (II)"],
+              gust:[]
+            },
+            {
+              id:6,
+              time:'10:35-10:45',
+              content:["Keynote Speech (III)","The linkage opportunity between Shenzhen and Hong Kong under the establishment of the Guangdong-Hong Kong-Macau Greater Bay Area"],
+              gust:[]
+            },
+            {
+              id:7,
+              time:'10:45-11:35',
+              content:["University President Forum:","China’s Life Science and Innovative Technology Development"],
+              gust:[]
+            },
+            {
+              id:8,
+              time:'11:35-12:35',
+              content:["Keynote Discussion (I)","How does innovation drive the development of policy, talent, clinical and standard in Guangdong-Hong Kong-Macao Biomedicine Industry Park"],
+              gust:[]
+            },
+            {
+              id:9,
+              time:'12:35-14:30',
+              content:["Lunch & Free Discussion"],
+              gust:[]
+            },
+            {
+              id:10,
+              time:'14:30-16:00',
+              content:["Keynote Discussion (II)"," Globalization of Chinese Biotech Companies","Guangdong-Hong Kong-Macao Greater Bay Area and Innovation-driven Achievement Transformation"],
+              gust:[]
+            },
+            {
+              id:11,
+              time:'16:00-17:30',
+              content:["Keynote Discussion (III)","Science innovation and medical advancement: new IT drives biotech industry to move forward"],
+              gust:[]
+            }
+          ]
+        },
+        {
+          id:3,
+          name:"Sub-forum 1",
+          title:["Theme：Biopharmaceutical Industry R&D and Transformation Seminar 2019","Field：Biomedicine","Organized by：Shenzhen Biological Medicine Promotion Association、Guangdong Medical Valley、Pingshan Biomedicine R&D and Transformation  Center ","Attendees：100"],
+          main:[
+            {
+              time:"14:00-14:10",
+              dev:["Welcome Speech"]
+            },
+            {
+              time:"14:10-14:40",
+              dev:["Speech by government officials"]
+            },
+            {
+              time:"14:40-14:55",
+              dev:["Keynote Speeches","Dr. Han Zhongchao, Foreign Member of the Académie Nationale de Médecine"]
+            },
+            {
+              time:"14:55-15:10",
+              dev:["Keynote Speeches","Dr. Li Zhicheng, Professor of Hong Kong Baptist University; Vice Dean of HKBU Institute for Research and Continuing Education"]
+            },
+            {
+              time:"15:10-15:25",
+              dev:["Keynote Speeches","Dr. Sun Fei, Professor of Hong Kong University of Science and Technology"]
+            },
+            {
+              time:"15:25-15:40",
+              dev:["Keynote Speeches","Dr. Li Xiaoyu, Professor of The University of Hong Kong"]
+            },
+            {
+              time:"15:40-15:55",
+              dev:["Tea Break"]
+            },
+            {
+              time:"15:55-16:10",
+              dev:["Keynote Speeches","Dr. Xia Jiang, Professor of the School of Life Sciences, The Chinese University of Hong Kong"]
+            },
+            {
+              time:"16:10-16:25",
+              dev:["Keynote Speeches","Dr. Zheng Ying, Professor of State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Science (ICMS), University of Macau"]
+            },
+            {
+              time:"16:25-16:40",
+              dev:["Keynote Speeches","Dr. Li Zigang, Research Group Head and Principle Investigator of the School of Chemical Biology and Biotechnology,Peking University Shenzhen Gradute School;"]
+            },
+            {
+              time:"16:40-16:55",
+              dev:["Keynote Speeches","Dr. Fan Jianbing, Special-appointed Expert of Thousand Talents Program; Founder and CEO of AnchorDx"]
+            },
+            {
+              time:"16:55-17:10",
+              dev:["Keynote Speeches","r. Wang Guoxin, Deputy Director of Plasma Nanotechnology Bio-Chip Center, Research Institute of Tsinghua University Inin Shenzhen; General Manager of WWHS Biotech, Inc."]
+            },
+            {
+              time:"17:10-17:40",
+              dev:["Q&A Session"]
+            },
+            {
+              time:"17:40-18:00",
+              dev:["Free talk & project matching"]
+            }
+          ]
+        },
+        {
+          id:2,
+          name:"Sub-forum 2",
+          title:["Theme：Maternal & Infant Health Forum","Field：medical imaging, IVD, and health management","Organized by：Bioching Capital","Attendees：200"],
+          main:[
+            {
+              time:"13:30-13:40",
+              dev:["Welcome speech"]
+            },
+            {
+              time:"13:40-14:10",
+              dev:["Dr. Jiang Zhuangde, Academician of Chinese Academy of Engineering"]
+            },
+            {
+              time:"14:10-14:15",
+              dev:["Ciming Group"]
+            },
+            {
+              time:"14:15-14:35",
+              dev:["Director of National Institute for Food and Drug Control"]
+            },
+            {
+              time:"14:35-15:15",
+              dev:["maternity and reproduction experts"]
+            },
+            {
+              time:"15:15-15:35",
+              dev:["Tianlong  technology"]
+            },
+            {
+              time:"15:35-15:55",
+              dev:["Edan Intelligence Healthcare Development Co., Ltd"]
+            },
+            {
+              time:"15:55-16:15",
+              dev:["Tea Break & Free Talk"]
+            },
+            {
+              time:"16:15-17:15",
+              dev:["Roadshows","Celula China"]
+            },
+            {
+              time:"17:15-17:35",
+              dev:["Comments"]
+            },
+            {
+              time:"17:35-17:45",
+              dev:["Conclusion & End"]
+            }
 
+          ]
+        },
+        {
+          id:1,
+          name:"Sub-forum 3",
+          title:["Theme：“Biomedicine/Medical”Device Project Roadshows","Field：Smart healthcare, precision healthcare, and biopharmaceutical","Organized by：Touwho.com, E99 Alliance","Attendees：100"],
+          main:[
+            {
+              time:"14:00-14:10",
+              dev:["Welcome Speech"]
+            },
+            {
+              time:"14:10-14:30",
+              dev:["Theme","China’s biopharmaceutical industry"," and the technological innovation in the world","Mr. Liu Mulong, President of Sangel CapitalMr. Zhu Jingqiao, Founder of Efung Capital Mr. Zhang Haoteng, Business Partner of Rongyu Capital"]
+            },
+            {
+              time:"14:30-15:30",
+              dev:["Roadshows","Biopharmaceutical & smart healthcare roadshows"," Guests to be invited:","Tianchen Medical、Enduoke Medical、Shenzhen Beimei Pharmaceutics、Bluesky Bio"]
+            },
+            {
+              time:"15:30-15:40",
+              dev:["Comments to the Roadshow Projects"]
+            },
+            {
+              time:"15:40-16:00",
+              dev:["Theme"," Precision healthcare and biological innovation","Guests to be invited:","Mr. Xiao Weimin、Co-founder of Lucky Source Funds"]
+            },
+            {
+              time:"16:00-17:00",
+              dev:["Roadshow Projects:","Precision healthcare","Guests to be invited","LTK Rehab，RHB-Tech，Shenlun Bio， Geneo Medicine"]
+            },
+            {
+              time:"17:00-17:10",
+              dev:["Comments to the Roadshow Projects","Guests to be invited","Co-founder of Lucky Source Funds、Partner of Lime Capital、Business Partner of Rongyu Capital、Co-founder of Breakthrough Capital、Investment Director of Cash Capital、Investment Director of Sangel Capital、General Manager of Efung Capital、Investment Director of ASB Ventures"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  media:'Cooperative Media',
+  footer:{
+    title:'Contact Us',
+    address:'Address：Grand Skylight Hotel，No.36 Ruijing Road, Pingshan District',
+    time:'Time：11-12 September 2019',
+    tellA:{
+      top:'Contact Person (Summit)：',
+      num1:'Wang Yan: 13662255195',
+      num2:'Wang Cong: 13554997679'
+    },
+    tellB:{
+      top:'Contact Person ( Media and Cooperation)',
+      num1:'Chen Chunyan: 18823370778'
+    }
+  }
 }

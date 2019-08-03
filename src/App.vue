@@ -143,7 +143,7 @@ body{
 .histy .van-ellipsis {
     font-size: .32rem;
 }
-.histy .van-tabs__line::after{
+/* .histy .van-tabs__line::after{
   content: '';
   position: absolute;
   top: -0.3rem;
@@ -151,7 +151,7 @@ body{
   margin-left:-0.2rem;
   border: 0.2rem solid;
   border-color: #fff transparent transparent transparent;
-}
+} */
 
 
 </style>

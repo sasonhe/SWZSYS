@@ -1,6 +1,8 @@
 <template>
   <div class="histy">
-    <van-tabs v-model="active" swipeable animated :border="false"  background="none" color="#0054A3" title-inactive-color="#c0c0c0" title-active-color="#fff" line-width="0">
+    <!-- 无意义code 只为监听 -->
+    <input type="hidden" :value="$t('hisYear.yearB')">
+    <van-tabs v-model="active" swipeable animated :border="false"  background="#007cc2" color="#0054A3" title-inactive-color="#c0c0c0" title-active-color="#fff" line-width="0"  :ellipsis="false">
       <van-tab v-for="(item,index) in jsonData" :title="item.name" :key="index">
         <div class="guList" v-for="(items,i) in item.drr" :key="i">
           <div class="guwrap">
@@ -31,15 +33,12 @@
   </div>
 </template>
 <script>
-  import Vue from 'vue';
   export default {
     data() {
       return {
         active:0,
         span:4,
         textShow:false,
-        isChoose:'',
-        // jsonData:require('../../static/history/2017-A.json'),
         jsonData:this.$t('historyA'),
         selectJson:[],
         text:{},
@@ -98,6 +97,15 @@
           }
           item.drr = result
         })
+      }
+    },
+    updated(){
+      this.jsonData = this.historyA
+      this.forData();
+    },
+    computed:{
+      historyA(){
+        return this.$t('historyA')
       }
     }
   }

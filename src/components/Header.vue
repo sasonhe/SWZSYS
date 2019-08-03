@@ -99,14 +99,14 @@ export default {
         window.localStorage.setItem('language','zh')
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = ""
-        location.reload()
+        // location.reload()
       }else if(num === 1){//EN
         this.isEn = true;
         this.$i18n.locale = 'en'
         window.localStorage.setItem('language','en')
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = "Times"
-        location.reload()
+        // location.reload()
       }
     },
     hideMore() {
@@ -282,13 +282,13 @@ export default {
 }
 
 .bar-item {
-  padding: .1rem 0;
+  padding: .2rem 0;
 }
 
 .bar-item a {
   display: block;
-  height: .8rem;
-  line-height: .8rem;
+  /* height: .8rem; */
+  line-height: .58rem;
   font-size: .34rem;
   color: #fff;
   text-align: center;

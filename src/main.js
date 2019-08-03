@@ -2,10 +2,10 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import { NavBar,Icon,Cell, CellGroup,Image,Row, Col,Divider,Step, Steps,Tab, Tabs,Button,Field,Toast,ImagePreview } from 'vant';
+import { NavBar,Icon,Cell, CellGroup,Image,Row, Col,Divider,Step, Steps,Tab, Tabs,Button,Field,Toast,ImagePreview,Lazyload  } from 'vant';
 import axios from 'axios'
 import router from './route'
-Vue.use(Cell).use(CellGroup).use(Image).use(Icon).use(NavBar).use(Row).use(Col).use(Divider).use(Step).use(Steps).use(Tab).use(Tabs).use(Button).use(Field).use(Toast).use(ImagePreview);
+Vue.use(Cell).use(CellGroup).use(Image).use(Icon).use(NavBar).use(Row).use(Col).use(Divider).use(Step).use(Steps).use(Tab).use(Tabs).use(Button).use(Field).use(Toast).use(ImagePreview).use(Lazyload);
 import 'lib-flexible'
 import '@/assets/css/public.css'
 import AMap from 'vue-amap';
