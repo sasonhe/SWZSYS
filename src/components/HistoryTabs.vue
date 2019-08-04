@@ -1,13 +1,13 @@
 <template>
 <div class="hisBar container">
   <van-tabs class="tab backgroundColor" v-model="active" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="25%">
-    <van-tab  title="2018年">
-      <div>
+    <van-tab  :title="$t('hisYear.yearA')">
+      <div style="padding-top:.3rem;">
         <History2018/>
       </div>
     </van-tab>
-    <van-tab  title="2017年">
-      <div>
+    <van-tab  :title="$t('hisYear.yearB')">
+      <div style="padding-top:.3rem;">
         <History2017/>
       </div>
     </van-tab>
@@ -24,6 +24,20 @@ export default {
     return {
       active:0
     }
+  },
+  methods:{
+    IsPC() {
+      var userAgentInfo = navigator.userAgent;
+      var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone","iPad", "iPod"];
+      var flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+          if (userAgentInfo.indexOf(Agents[v]) > 0) {
+              flag = false;
+              break;
+          }
+      }
+      return flag;
+    },
   },
   components:{
     History2017,History2018
@@ -48,12 +62,7 @@ export default {
   padding: .6rem 0;
   border-radius: 10px;
 }
-/* .backgroundColor .van-tabs__content{
-  margin-top: .4rem;
-  border-radius: 10px;
-  background:none;
-  background: #d2e2f2;
-} */
+
 .fenTitle .timeTitle{
   font-size: .4rem;
   font-weight: 600;
@@ -120,6 +129,13 @@ export default {
     border-color: #fff;
     border-style: inherit;
     border-width: 3px 0 0;
+}
+.histy .van-tab{
+  border: 1px solid #fff;
+  border-left: none;
+}
+.histy .van-tab:first-child{
+  border-left: 1px solid #fff;
 }
 </style>
 <style scoped>

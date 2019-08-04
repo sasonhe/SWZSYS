@@ -3,7 +3,7 @@
     <van-divider :style="{ borderColor: '#fff'}" class="bTitle bt">{{this.$t('gustTitle')}}</van-divider>
     <div class="guList" v-for="(item,index) in selectJson" :key="index">
       <div class="guwrap">
-        <van-row type="flex" justify="space-around" style="margin-bottom:.4rem;">
+        <van-row type="flex"  style="margin-bottom:.4rem;">
           <van-col :span="span" v-for="(items,i) in item.main" :key="items.id">
             <div class="item" @click="toggleText(items,items.id,item.index)" :class="{ active: items.active }">
               <div class="top" >
@@ -30,7 +30,6 @@
 </template>
 
 <script>
-  import Vue from 'vue';
   export default {
     data() {
       return {
@@ -38,24 +37,27 @@
         textShow:false,
         isChoose:'',
         // json:require('../../static/gust-A.json'),
-        json:this.$t('gustA'),
-        jsonPC:this.$t('gustB'),
+        json:[],
+        jsonPC:[],
         // jsonPC:require('../../static/gust-B.json'),
         selectJson:[],
         text:{}
       }
     },
     created() {
-      let isWhat = this.IsPC()
-      if(isWhat){//PC 5条一行
-        this.selectJson = this.jsonPC
-        // this.span = 4
-      }else{//Moblie 3条一行
-        this.selectJson = this.json
-        // this.span = 8
-      }
+      this.getDataType()
     },
     methods: {
+      getDataType(){
+        let isWhat = this.IsPC()
+        if(isWhat){//PC 5条一行
+          this.selectJson = this.gustB
+          // this.span = 4
+        }else{//Moblie 3条一行
+          this.selectJson = this.gustA
+          // this.span = 8
+        }
+      },
       toggleText(item,id,index){
         this.selectJson.map((arr) => {
           arr.main.filter((items) => {
@@ -85,7 +87,15 @@
 
     },
     updated(){
-
+      this.getDataType()
+    },
+    computed:{
+      gustA(){
+        return this.$t('gustA')
+      },
+      gustB(){
+        return this.$t('gustB')
+      }
     }
   }
 </script>

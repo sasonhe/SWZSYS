@@ -5,21 +5,85 @@
 </template>
 
 <script>
-
+import wx from 'weixin-js-sdk'
+const debug = process.env.NODE_ENV !== 'production';
 export default {
   name: 'App',
   data(){
     return {
       isEn:window.localStorage.getItem('language')=='en'?true:false,
+      descText:this.$t('footer.time'),
+      bigTitles:this.$t('bigTitle')
     }
   },
   created(){
     document.title= this.$t('bigTitle');
+    this.getWx();
+  },
+  updated(){
+    this.descText = this.$t('footer.time')
+    this.bigTitles = this.$t('bigTitle')
+  },
+  methods:{
+    getWx(){
+      const url = debug ? '/register/ajaxData.html' : 'http://saas.dataexpo.com.cn/demo/register/ajaxData.html';
+      this.$http.get(url,{
+        params:{
+          // url:location.href.split('#')[0]
+          url:'http://saas.dataexpo.com.cn/SWZSYS/'
+        }
+      }).then((res) => {
+        var getMsg = res.data;
+        wx.config({
+          debug: false, // 开启调试模式,
+          appId: 'wx25f49bf3a004c326',
+          timestamp: getMsg.timestamp,
+          nonceStr: getMsg.nonceStr,
+          signature: getMsg.signature,
+          jsApiList: [
+            'updateAppMessageShareData', //分享给朋友
+            'updateTimelineShareData', //分享到朋友圈
+            //'onMenuShareQQ'   //分享到QQ
+          ]
+        });
+      }).catch((err)=>{
+
+      })
+    }
   },
   computed:{
     isEnStyle(){
       return this.isEn ? "font-family: 'Times'":""
     }
+  },
+  mounted(){
+    let _this = this
+    wx.ready(function() {
+      //分享给朋友
+      wx.updateAppMessageShareData({
+        title: _this.bigTitles,
+        desc: _this.descText,
+        link: 'http://saas.dataexpo.com.cn/SWZSYS/#/',
+        imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg",
+        success: function () {
+          // alert('分享成功')
+        }
+      })
+      // 朋友圈
+      wx.updateTimelineShareData({
+        title: _this.bigTitles,
+        desc: _this.descText,
+        link: 'http://saas.dataexpo.com.cn/SWZSYS/#/',
+        imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg",
+        success: function () {
+          // 设置成功
+        }
+      })
+
+    });
+    wx.error(function(res){
+      // alert(JSON.stringify(res))
+    });
   }
 
 }
@@ -143,7 +207,7 @@ body{
 .histy .van-ellipsis {
     font-size: .32rem;
 }
-.histy .van-tabs__line::after{
+/* .histy .van-tabs__line::after{
   content: '';
   position: absolute;
   top: -0.3rem;
@@ -151,7 +215,7 @@ body{
   margin-left:-0.2rem;
   border: 0.2rem solid;
   border-color: #fff transparent transparent transparent;
-}
+} */
 
 
 </style>

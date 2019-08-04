@@ -2,7 +2,7 @@
   <div>
     <Heard/>
     <TopImg />
-    <div :class="{ pBgColor: IsPC() }">
+    <div>
       <Jshao  class="d_jump"/>
     </div>
     <div class="d_jump">
@@ -19,7 +19,7 @@
     </div>
     <div class="d_jump">
       <div class="container">
-        <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#fff;">往届嘉宾</van-divider>
+        <van-divider :style="{ borderColor: '#233e53'}" class="bTitle bTitle1" style="color:#fff;">{{$t('hisTitle')}}</van-divider>
       </div>
       <historyTabs/>
     </div>

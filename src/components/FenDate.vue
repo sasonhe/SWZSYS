@@ -1,48 +1,28 @@
 <template>
 <div class="container maxH" style="padding:0;">
-  <van-divider :style="{ borderColor: '#263e64',margin:'0 .2rem'}" class="bTitle">峰会议程</van-divider>
+  <van-divider :style="{ borderColor: '#263e64',margin:'0 .2rem'}" class="bTitle">{{$t('summiTbtitle')}}</van-divider>
   <van-tabs class="tab" v-model="activeDate" animated swipeable :border="false"  background="none" color="#fff" title-inactive-color="#c0c0c0" title-active-color="#efefef" line-width="25%">
-    <van-tab  title="9月11日">
+    <van-tab  :title="$t('summit.mtitle.mtitle1')">
       <div class="eat" style="padding-top:.3rem;">
-        <div class="custText">粤港澳大湾区国际生物医药产业闭门会议</div>
+        <div class="custText">{{$t('summit.dataA.title')}}</div>
         <van-steps  direction="vertical" :active="null">
-          <van-step>
+          <van-step v-for="(item,index) in $t('summit.dataA.jsonData')" :key="item+index">
             <div class="flex-wrapper">
               <div class="flex-left">
-                <h3 class="zTitle">15:20-15:30</h3>
+                <h3 class="zTitle">{{item.time}}</h3>
               </div>
               <div class="flex-right">
-                <p class="nameTitle color-B">签到、入场</p>
-              </div>
-            </div>
-          </van-step>
-          <van-step>
-            <div class="flex-wrapper">
-              <div class="flex-left">
-                <h3 class="zTitle">15:30-15:40</h3>
-              </div>
-              <div class="flex-right">
-                <p class="nameTitle color-B">主办方致欢迎辞</p>
-              </div>
-            </div>
-          </van-step>
-          <van-step>
-            <div class="flex-wrapper">
-              <div class="flex-left">
-                <h3 class="zTitle">15:40-18:00</h3>
-              </div>
-              <div class="flex-right">
-                <p class="nameTitle color-B">贵宾研讨交流</p>
+                <p class="nameTitle color-B">{{item.name}} </p>
               </div>
             </div>
           </van-step>
         </van-steps>
       </div>
     </van-tab>
-    <van-tab  title="9月12日">
+    <van-tab  :title="$t('summit.mtitle.mtitle2')">
       <div style="padding-top:.3rem;">
-        <van-tabs class="tab child" v-model="active" animated swipeable :offset-top="76" :border="false" background="#007cc2" color="#fff" title-inactive-color="#BBDBF3" title-active-color="#fff" line-width="0">
-          <van-tab  v-for="(name,n) in fenData" :key="n" :title="name.name">
+        <van-tabs class="tab child" v-model="active" animated swipeable :offset-top="76" :border="false" background="#007cc2" color="#fff" title-inactive-color="#BBDBF3" title-active-color="#fff" line-width="0" :ellipsis="false">
+          <van-tab  v-for="(name,n) in $t('summit.dataB.fenData')" :key="n" :title="name.name">
             <div style="padding:0.2rem;" class="scrollH">
               <div class="flex fenTitle" v-for="(title,nd) in name.title" :key="nd">
                 <div class="item-flex-left timeTitle">{{title | left(title)}}</div>
@@ -333,8 +313,7 @@ export default {
 
 <style>
 .custText{
-  height: 1.4rem;
-  line-height: 1.4rem;
+  line-height: .48rem;
   font-size: .42rem;
   background: #007cc2;
   font-weight: 600;
@@ -342,6 +321,8 @@ export default {
   border: 1px solid #fff;
   padding-left: .4rem;
   margin-bottom: .3rem;
+  padding-top: .36rem;
+  padding-bottom: .36rem;
 }
 .eat {
   padding: .4rem .2rem;

@@ -9,40 +9,40 @@
     <div class="main" v-show="visible">
       <form ref="myform" method="post">
         <div class="form-group">
-          <label class="control-label">姓名<span style="color:red;">*</span></label>
+          <label class="control-label">{{$t('register.name')}}<span style="color:red;">*</span></label>
           <div class="border">
             <van-cell-group :border="false">
-              <van-field placeholder="请输入姓名" ref="uiName" v-model.trim="data.uiName" />
+              <van-field :placeholder="$t('register.nPlace')" ref="uiName" v-model.trim="data.uiName" />
             </van-cell-group>
           </div>
         </div>
         <div class="form-group">
-          <label class="control-label">公司<span style="color:red;">*</span></label>
+          <label class="control-label">{{$t('register.company')}}<span style="color:red;">*</span></label>
           <div class="border">
             <van-cell-group :border="false">
-              <van-field placeholder="请输入公司名称" ref="uiCompany" v-model.trim="data.uiCompany" />
+              <van-field :placeholder="$t('register.cPlace')" ref="uiCompany" v-model.trim="data.uiCompany" />
             </van-cell-group>
           </div>
         </div>
         <div class="form-group">
-          <label class="control-label">职位<span style="color:red;"></span></label>
+          <label class="control-label">{{$t('register.companyTitle')}}<span style="color:red;"></span></label>
           <div class="border">
             <van-cell-group :border="false">
-              <van-field placeholder="请输入职位" v-model.trim="data.uiCompanyTitle" />
+              <van-field :placeholder="$t('register.ctPlace')" v-model.trim="data.uiCompanyTitle" />
             </van-cell-group>
           </div>
         </div>
         <div class="form-group">
-          <label class="control-label">手机<span style="color:red;">*</span></label>
+          <label class="control-label">{{$t('register.phone')}}<span style="color:red;">*</span></label>
           <div class="border">
             <van-cell-group :border="false">
-              <van-field placeholder="请输入手机号码" ref="uiPhone" v-model.trim="data.uiPhone1" />
+              <van-field :placeholder="$t('register.pPlace')" ref="uiPhone" v-model.trim="data.uiPhone1" />
             </van-cell-group>
           </div>
         </div>
       </form>
       <div class="form-group">
-        <van-button size="large" type="primary" @click="addInfo">提交</van-button>
+        <van-button size="large" type="primary" @click="addInfo">{{$t('register.submit')}}</van-button>
       </div>
     </div>
   </transition>

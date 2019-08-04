@@ -1,24 +1,24 @@
   <template>
   <div class="footer container" style="min-height: 6rem;">
-    <van-divider :style="{ borderColor: '#fff'}" class="bTitle fTitle">联系我们</van-divider>
+    <van-divider :style="{ borderColor: '#fff'}" class="bTitle fTitle">{{$t('footer.title')}}</van-divider>
     <van-row>
       <van-col :span="spanFlex">
         <div class="margin-bootm">
-          <h3 class="address">地址：坪山区瑞景路36号格兰云天国际酒店</h3>
-          <h3 class="address">时间：2019年9月11日-12日</h3>
+          <h3 class="address">{{$t('footer.address')}}</h3>
+          <h3 class="address">{{$t('footer.time')}}</h3>
         </div>
       </van-col>
       <van-col :span="spanFlex">
         <div class="margin-bootm">
-          <h3 class="address">参会咨询联系人</h3>
-          <h3 class="address">王嫣 13662255195</h3>
-          <h3 class="address">王聪 13554997679</h3>
+          <h3 class="address">{{$t('footer.tellA.top')}}</h3>
+          <h3 class="address">{{$t('footer.tellA.num1')}}</h3>
+          <h3 class="address">{{$t('footer.tellA.num2')}}</h3>
         </div>
       </van-col>
       <van-col :span="spanFlex">
         <div class="margin-bootm">
-          <h3 class="address">合作与媒体联系人</h3>
-          <h3 class="address">陈春艳 18823370778</h3>
+          <h3 class="address">{{$t('footer.tellB.top')}}</h3>
+          <h3 class="address">{{$t('footer.tellB.num1')}}</h3>
         </div>
       </van-col>
     </van-row>

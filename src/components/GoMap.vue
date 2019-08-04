@@ -1,7 +1,7 @@
 <template>
   <div :class="classObj">
     <div class="top">
-      <van-image width="100%" :src="topLogo" />
+      <van-image width="100%" :src="topLogo" v-lazy="topLogo"/>
     </div>
     <div class="center">
       <!-- <div class="title">参会指引</div> -->
@@ -75,7 +75,7 @@
       </van-row>
     </div>
     <div class="bottm">
-      <van-image width="100%" :src="btmLogo" />
+      <van-image width="100%" :src="btmLogo" v-lazy="btmLogo"/>
     </div>
     <van-image-preview
         v-model="show"
