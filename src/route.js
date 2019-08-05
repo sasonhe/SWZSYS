@@ -7,6 +7,7 @@ import Hotel from '@/components/Hotel';
 import Traffic from '@/components/Traffic';
 import Images from '@/components/Images';
 import MyPosit from '@/components/MyPosit';
+import Video from '@/components/Video';
 Vue.use(Router)
 export default new Router({
   routes: [
@@ -44,6 +45,11 @@ export default new Router({
       path: '/MyPosit',
       name: 'MyPosit',
       component: MyPosit
+    },
+    {
+      path: '/Video',
+      name: 'Video',
+      component: Video
     }
   ]
 })

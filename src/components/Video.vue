@@ -1,6 +1,6 @@
 <template>
   <div class="video">
-    <iframe class="play" src='http://player.youku.com/embed/XNDI3MjM1NDI4MA==' frameborder="0" allowfullscreen='allowfullscreen'></iframe>
+    <video class="play" controls autoplay><source src="http://sasonhe.com/video/ea0ef3be135ad281daa91eb79cfaf59e.mp4" type="video/mp4"></video>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   data(){
     return{
-      // src:require('../../static/video/1.mp4')
+
     }
   }
 }
@@ -16,8 +16,7 @@ export default {
 
 <style scoped>
 .video{
-  width: 100%;
-  height: 6rem;
+  max-width: 20rem;
 }
 .play{
   width: 100%;

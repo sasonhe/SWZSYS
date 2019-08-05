@@ -46,8 +46,8 @@
       </div>
     </div>
   </transition>
-  <div @click="goToPage()" class="d_jump" style="text-align:center;">
-    <van-image style="cursor:pointer" :style="widAuto" width="100%" :src="goImg" />
+  <div class="d_jump" style="text-align:center;">
+    <van-image @click="goToPage()" style="cursor:pointer" :style="widAuto" width="100%" :src="goImg" />
   </div>
 </div>
 </template>
