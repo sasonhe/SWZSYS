@@ -29,8 +29,8 @@ export default {
       const url = debug ? '/register/ajaxData.html' : 'http://saas.dataexpo.com.cn/demo/register/ajaxData.html';
       this.$http.get(url,{
         params:{
-          // url:location.href.split('#')[0]
-          url:'http://saas.dataexpo.com.cn/SWZSYS/'
+          url:location.href.split('#')[0]
+          // url:'http://saas.dataexpo.com.cn/SWZSYS/'
         }
       }).then((res) => {
         var getMsg = res.data;
