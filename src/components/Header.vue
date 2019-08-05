@@ -28,10 +28,10 @@
   <div class="pHeader" v-if="showHeader">
     <div class="container" style="padding:0;">
       <van-row>
-        <van-col span="10">
-          <h1 class="Ptitle">{{this.$t('bigTitle')}}</h1>
+        <van-col span="8">
+          <h1 class="Ptitle" :title="$t('bigTitle')">{{this.$t('bigTitle')}}</h1>
         </van-col>
-        <van-col span="14">
+        <van-col span="16">
           <div class="item-header">
             <ul class="bar-list-p">
               <li class="bar-item-p" v-for="(item,index) in topBar" :key="index">
@@ -82,7 +82,6 @@ export default {
   created() {
     window.onscroll = ()=> {
       var opacity = window.pageYOffset / 400;
-
       this.style = {background: `rgba(44,91,136,${opacity})`}
     }
     let isWhat = this.IsPC();
@@ -91,7 +90,6 @@ export default {
     } else {
       this.showHeader = false;
     }
-
   },
   mounted() {
     let id = this.$route.query.id;
@@ -107,14 +105,18 @@ export default {
         window.localStorage.setItem('language','zh')
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = ""
-        // location.reload()
+        this.$router.push({
+          path: '/'
+        });
       }else if(num === 1){//EN
         this.isEn = true;
         this.$i18n.locale = 'en'
         window.localStorage.setItem('language','en')
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = "Times"
-        // location.reload()
+        this.$router.push({
+          path: '/'
+        });
       }
     },
     hideMore() {
@@ -189,10 +191,17 @@ export default {
     },
     isLeft(){
       return this.isEn ? "right:0":"left:0"
+    },
+    topBarData(){
+      return this.$t('topBar')
+    },
+    jsonData(){
+      return this.$t('topBarJson')
     }
   },
   updated(){
-
+    this.topBar = this.topBarData
+    this.json = this.jsonData
   }
 }
 </script>
@@ -265,9 +274,15 @@ export default {
 }
 
 .Ptitle {
+  max-height: 1.4rem;
   font-size: .34rem;
   font-weight: 400;
   color: #d6aeaa;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .haver {

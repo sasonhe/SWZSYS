@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      topLogo: require('@/assets/logo/newLogo_01.jpg'),
+      topLogo: require('@/assets/logo/pLogo.jpg'),
       mLogo: require('@/assets/logo/mLogo.jpg')
     }
   },
