@@ -110,13 +110,6 @@ module.exports = {
       "title": "Memberof National Academy of Engineering",
       "desc": "<p>Dr. Sun Yongkui was born in 1962. He graduated from Xiamen University in 1977 with a bachelor’s degree in electrochemistry. In 1982, under the guidance of Dr. Tian Zhaowu, he joined Graduate School of Xiamen University. In 1983, he went to study at California Institute of Technology and then graduated with a Ph. D. degree. He received the Institute of Chemical Engineers' AstraZeneca Award for Excellence in Green Chemistry and Engineering in 2005, USEPA’s Presidential Green Chemistry Challenge Award in 2005 and 2006, and Thomas AlvaEdison Patent Award in 2009 (New jersey R&DCouncil).In 2006, Dr. Sun received the Presidential Fellows Award in Merck Research Laboratories in recognition of his scientific contributions and leadership.</p><p>Dr. Sun was once the Council President of Xiamen University American Alumni Association. He is currently a board member of Xiamen University American Alumni Association. On February 8, 2016, he was elected as the Member of National Academy of Engineering.</p>"
     },
-    {
-      "id": 51,
-      "active": false,
-      "name": "Han Zhongchao",
-      "title": "Dr. Han is General Manager of Beijing Health-Biotech Group.",
-      "desc": "<p>He was born in Shangrao, Jiangxi Province in 1953. He is the professor of School of Medicine of Nankai University and doctoral advisor. He is also the head of Hematonosis Hospital affiliated to the Hematonosis Institute of Peking Union Medical College, the standing member of the 12th Central Committee of Jiusan Society and the standing member of the 11th National Committee of CPPCC. In 2006, he was elected a member of CNRS. His major research involves the research and development of blood, blood vessel Cell & Molecular Biology and bio-technologies. His is an international leader in the research of dry cell, megakaryocyte and blood platelet, blood vessel regeneration and control, chemotactic factor, etc.</p>"
-    },
     // {
     //   "id": 4,
     //   "active": false,
