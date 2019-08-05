@@ -46,8 +46,8 @@
       </div>
     </div>
   </transition>
-  <div @click="goToPage()" class="d_jump">
-    <van-image width="100%" :src="goImg" />
+  <div @click="goToPage()" class="d_jump" style="text-align:center;">
+    <van-image style="cursor:pointer" :style="widAuto" width="100%" :src="goImg" />
   </div>
 </div>
 </template>
@@ -58,6 +58,7 @@ export default {
   data() {
     return {
       data: {
+        wid:"100%",
         uiName: '', //用户
         uiCompany: '', //公司
         uiPhone1: '', //手机
@@ -158,9 +159,9 @@ export default {
     }
   },
   computed:{
-    // heiAuto(){
-    //   return this.visible ? 'auto' : 'auto'
-    // }
+    widAuto(){
+      return this.IsPC() ? 'width:10rem' : 'width:100%'
+    }
   }
 }
 </script>

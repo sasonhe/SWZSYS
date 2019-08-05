@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       id: 4,
-      name: 'Previous Speakers'
+      name: 'Previous Review'
     },
     {
       id: 5,
@@ -87,12 +87,12 @@ module.exports = {
       "active": false,
       "name": "Aaron Ciechanover",
       "title": "Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen",
-      "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Hong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen</p>"
+      "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Kong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen</p>"
     },
     {
       "id": 2,
       "active": false,
-      "name": "Mr. Li Qing",
+      "name": "Li Qing",
       "title": "Mr. Li Qing, Director of Development Center for Medical Science & Technology, National Health Commission of the People’s Republic of China",
       "desc": "<p>He is currently in charge of the preparation of the 12th Five-Year Plan for Medical Technology Development, and assists the organization and implementation work of two state key technological projects “Key New Medicine Development” and “Research in Major Infectious Diseases”. He launched public health industry scientific research projects in 2010 and 2011, and organized the promotion work for public health technologies. He is also in charge of the management and coordination of continuous tele-education in the healthcare industry andrelevant workin Office for Healthcare Teaching Material Management, as well as providing intermediary service for the medical industry.</p>"
     },
@@ -101,7 +101,21 @@ module.exports = {
       "active": false,
       "name": "Tan Tieniu",
       "title": "Dr. Tan Tieniu, Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering.",
-      "desc": "<p>PhD. of Image Processing, Electricity and Electronic Engineering, Imperial College London, Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering, Fellow of the World Academy of Sciences and Brazilian Academy of Sciences.</p><p>Currently takes the position as Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Researcher and Doctoral Supervisor of Institute of Automation of Chinese Academy of Sciences, Director of the Center for Research on Intelligent Perception and Computing.</p><p>Research Field: His main researches are image processing, computer vision, pattern recognition and other related fields. His current researches involve biometrics, image & video understanding and information safety. His research fields are computer visual monitoring on dynamic scenario, people recognition and authentication based on human behavior and biometric, watermarking of digital multimedia data, etc.</p>"
+      "desc": "<p>PhD. of Image Processing, Electricity and Electronic Engineering, Imperial College London, Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering, Fellow of the World Academy of Sciences and Brazilian Academy of Sciences.</p><p>Currently takes the position as Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Researcher and Doctoral Supervisor of Institute of Automation of Chinese Academy of Sciences, Director of the Center for Research on Intelligent Perception and Computing.</p><p>Research Fields: His main researches are image processing, computer vision, pattern recognition and other related fields. His current researches involve biometrics, image & video understanding and information safety. His research fields are computer visual monitoring on dynamic scenario, people recognition and authentication based on human behavior and biometric, watermarking of digital multimedia data, etc.</p>"
+    },
+    {
+      "id": 50,
+      "active": false,
+      "name": "Sun Yongkui",
+      "title": "Memberof National Academy of Engineering",
+      "desc": "<p>Dr. Sun Yongkui was born in 1962. He graduated from Xiamen University in 1977 with a bachelor’s degree in electrochemistry. In 1982, under the guidance of Dr. Tian Zhaowu, he joined Graduate School of Xiamen University. In 1983, he went to study at California Institute of Technology and then graduated with a Ph. D. degree. He received the Institute of Chemical Engineers' AstraZeneca Award for Excellence in Green Chemistry and Engineering in 2005, USEPA’s Presidential Green Chemistry Challenge Award in 2005 and 2006, and Thomas AlvaEdison Patent Award in 2009 (New jersey R&DCouncil).In 2006, Dr. Sun received the Presidential Fellows Award in Merck Research Laboratories in recognition of his scientific contributions and leadership.</p><p>Dr. Sun was once the Council President of Xiamen University American Alumni Association. He is currently a board member of Xiamen University American Alumni Association. On February 8, 2016, he was elected as the Member of National Academy of Engineering.</p>"
+    },
+    {
+      "id": 51,
+      "active": false,
+      "name": "Han Zhongchao",
+      "title": "Dr. Han is General Manager of Beijing Health-Biotech Group.",
+      "desc": "<p>He was born in Shangrao, Jiangxi Province in 1953. He is the professor of School of Medicine of Nankai University and doctoral advisor. He is also the head of Hematonosis Hospital affiliated to the Hematonosis Institute of Peking Union Medical College, the standing member of the 12th Central Committee of Jiusan Society and the standing member of the 11th National Committee of CPPCC. In 2006, he was elected a member of CNRS. His major research involves the research and development of blood, blood vessel Cell & Molecular Biology and bio-technologies. His is an international leader in the research of dry cell, megakaryocyte and blood platelet, blood vessel regeneration and control, chemotactic factor, etc.</p>"
     },
     // {
     //   "id": 4,
@@ -122,7 +136,7 @@ module.exports = {
       "active": false,
       "name": "Zhan Qimin",
       "title": "Academician of Chinese Academy of Sciences, and Chancellor of Peking University Shenzhen Graduate School.",
-      "desc": "<p>Dr. Zhan Qimin is a professor and doctoral supervisor. He was selected to be an academician of Chinese Academy of Engineering in 2011. Currently, he is taking the position of standing member of Peking University Party Committee, vice president of Peking University, president of Peking University Health Science Center, and chancellor of Peking University Shenzhen Graduate School.</p><p>Academic Posts：Chairman of Chinese Society of Microcirculation, vice chairman of China Anti-Cancer Association, and chairman of Overseas Doctor Branch of Western Returned Scholars Association. He once worked as the head of biology & medicine expert team and biopharmaceutical team in National High-Tech R&D Program (863 Program), the head of biomedicine expert team of National Major Project for New Drug Development, director of Scientific Technology Project Committee of National Health Commission of P.R.C, the head of National Biopharmceutical Technology Strategy Planning Expert Team, and the head of National Health Security Technology Expert Team.</p><p>Research Fields:He has long been committed to research in molecular oncology and translational oncology, and discovered some systematic function and mechanism of key proteins at cell cycle checkpoints. He has also illuminated the role of multiple key cell cycle regulatory proteins in cell carcinogenesis and tumor diagnosis and individualized treatment.</p>"
+      "desc": "<p>Dr. Zhan Qimin is a professor and doctoral supervisor. He was selected to be an academician of Chinese Academy of Engineering in 2011. Currently, he is taking the position of standing member of Peking University Party Committee, vice president of Peking University, president of Peking University Health Science Center, and chancellor of Peking University Shenzhen Graduate School.</p><p>Academic Posts：Chairman of Chinese Society of Microcirculation, vice chairman of China Anti-Cancer Association, and chairman of Overseas Doctor Branch of Western Returned Scholars Association. He once worked as the head of biology & medicine expert team and biopharmaceutical team in National High-Tech R&D Program (863 Program), the head of biomedicine expert team of National Major Project for New Drug Development, director of Scientific Technology Project Committee of National Health Commission of P.R.C, the head of National Biopharmceutical Technology Strategy Planning Expert Team, and the head of National Health Security Technology Expert Team.</p><p>Research Fields:For long time，he has been committed to research in molecular oncology and translational oncology, and discovered some systematic function and mechanism of key proteins at cell cycle checkpoints. He has also illuminated the role of multiple key cell cycle regulatory proteins in cell carcinogenesis and tumor diagnosis and individualized treatment.</p>"
     },
     // {
     //   "id": 6,
@@ -155,15 +169,15 @@ module.exports = {
     {
       "id": 11,
       "active": false,
-      "name": "Yao Yi,",
-      "title": " Former Senior FDA Clinical Assessment Officer",
+      "name": "Yao Yi",
+      "title": "Former Senior FDA Clinical Assessment Officer",
       "desc": "<p>Dr. Yao Yi, M.D., former senior FDA clinical assessment officer. He is currently a senior medical officer and registered doctor of U.S. Federal Government.</p>"
     },
     {
       "id": 13,
       "active": false,
       "name": "Song Ruilin",
-      "title": "President of China Pharmaceutical Innovation and Research Development Association",
+      "title": "Executive Director of China Pharmaceutical Innovation Promotion Association, Executive Deputy Director of National Drug Policy and Industrial Development Research Center of China Pharmaceutical University",
       "desc": "<p>Mr. Song Ruilin received his L.L.B. from China University of Political Science and Law, and EMBA from China Europe International Business School. He is the Executive President of China Pharmaceutical Innovation and Research Development Association (PhIRDA) and Executive Deputy Director of the Research Center of National Drug Policy & Ecosystem, China Pharmaceutical University. Mr. Song was former Deputy Director-General of the Department of Education, Science, Culture and Public Health in Legislative Affairs Office at State Council of China. He has long engaged in the research of health and drug policy and law, especially in optimizing the reform of China’s drug review and approval system and medical insurance and reimbursement system and policies for pharmaceutical innovation in China. </p><p>Currently, Mr. Song also undertakes several social positions, such as Arbitrator of China International Economic and Trade Arbitration Commission (CIETAC), Standing Director of China Chamber of International Commerce (CCOIC) and Director of Chinese Pharmaceutical Association (CPA).</p>"
     },
     {
@@ -185,15 +199,15 @@ module.exports = {
       "active": false,
       "name": "Tian Yuan",
       "title": "Chairman of YuanMing Capital",
-      "desc": "<p>Founding PartnerCo-founder of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the co-foundera founding partner of YuanMing Capital, and chairman of the Mevion Medical Systems IncCo., Ltd. As the a founder and the chairman of Yabuli China Entrepreneurs Forum and of China-US Business Leaders Roundtable Conference, Tian is the a core organizer of various a variety of high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China's economics.</p>"
+      "desc": "<p>Founding Partner of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the founding partner of YuanMing Capital and chairman of the Mevion Medical Systems IncCo., Ltd. As the founder and the chairman of Yabuli China Entrepreneurs Forum and China-US Business Leaders Roundtable Conference, Tian is the core organizer of various high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China economics.</p>"
     },
-    {
-      "id": 18,
-      "active": false,
-      "name": "Nisa Leung",
-      "title": "Managing Partner of Qiming Venture Partners",
-      "desc": "<p>Nisa earned her MBA from Stanford Graduate School of Business and a BS from Cornell University. She currently sits on the board of Gan & Lee Pharmaceutical, Zai Laboratories, Novast Laboratories (China) Ltd., Nurotron Biotechnology, Kunming Jiahe Science & Technology Co., Ltd., and OriGene Technologies. She also serves on the Board of Trustees of HKUST Business School, and that of the Hotchkiss School.</p><p>Nisa Leung is a managing partner of Qiming Venture Partners, leading its health care investments. Qiming Venture Partners is a leading investment firm in China which currently manages five US dollar funds and three RMB funds, with US$2.5 billion assets under management and investment in over 160 companies.</p>"
-    },
+    // {
+    //   "id": 18,
+    //   "active": false,
+    //   "name": "Nisa Leung",
+    //   "title": "Managing Partner of Qiming Venture Partners",
+    //   "desc": "<p>Nisa earned her MBA from Stanford Graduate School of Business and a BS from Cornell University. She currently sits on the board of Gan & Lee Pharmaceutical, Zai Laboratories, Novast Laboratories (China) Ltd., Nurotron Biotechnology, Kunming Jiahe Science & Technology Co., Ltd., and OriGene Technologies. She also serves on the Board of Trustees of HKUST Business School, and that of the Hotchkiss School.</p><p>Nisa Leung is a managing partner of Qiming Venture Partners, leading its health care investments. Qiming Venture Partners is a leading investment firm in China which currently manages five US dollar funds and three RMB funds, with US$2.5 billion assets under management and investment in over 160 companies.</p>"
+    // },
     // {
     //   "id": 19,
     //   "active": false,
@@ -232,7 +246,7 @@ module.exports = {
     {
       "id": 27,
       "active": false,
-      "name": "Ir Professor Ping-kong Alexander Wai",
+      "name": "Ping-kong Alexander Wai",
       "title": "Fellow of IEEE, Fellow of Optical Society of America, Fellow of the Hong Kong Academy of Engineering Science",
       "desc": "<p>Ir Professor Ping-kong Alexander Wai ( Fellow of IEEE, Fellow of Optical Society of America, Fellow of the Hong Kong Academy of Engineering Science) is Vice President (Research Development) of The Hong Kong Polytechnic University (PolyU). Professor Wai has been selected for the 'National Science and Technology Programmes Expert Database' since February 2012. Professor Wai has over 160 refereed international journal publications. He has participated in the organization of many international conferences in photonics and optical communications such as the Conference of Laser and Electro-Optics and the Optical Fiber Communication Conference. Professor Wai is currently an Associate Editor of IEEE Journal of Lightwave Technology.</p><p>ResearchFields:Nonlinear Optics, Fiber Lasers, Fiber Optic Communications, and Network Theory</p>"
     },
@@ -247,7 +261,7 @@ module.exports = {
   historyA:[
     {
       "index": 1,
-      "name":"Previous academicians",
+      "name":"Academicians",
       "main": [
         {
           "id": 5,
@@ -295,7 +309,7 @@ module.exports = {
     },
     {
       "index": 2,
-      "name":"Past academic guests",
+      "name":"Academic guests",
       "main": [
         {
           "id": 15,
@@ -343,7 +357,7 @@ module.exports = {
     },
     {
       "index": 3,
-      "name":" Previous industry",
+      "name":"Professionals",
       "main": [
         {
           "id": 7,
@@ -376,17 +390,15 @@ module.exports = {
         {
           "id": 20,
           "active": false,
-          "name": "Sheng Siton",
+          "name": "Sheng Sitong",
           "title": " Chairman of Shenzhen HYK Gene Technology Co., Ltd.",
           "desc": "<p> Chairman of Shenzhen HYK Gene Technology Co., Ltd.Member of the overseas high-level talents introducing schemes 'a thousand people plan', and  'Peacock team' in Shenzhen, PH.D. of Molecular Physiology and Biological Physics School of Medicine at the University of Virginia, post PH.D. of the School of Medicine at the Johns Hopkins University in the US, leader of the R & D team for high-throughput gene sequencing system, the main research direction of which is the new generation of high-throughput gene sequencing technology, including micro-nano processing, micro-volume solution control, high-efficient molecular chemical reactions, large scale, high-throughput imaging of genetic information and other latest technology in the field of modern genetic biology .</p>"
         }
       ]
     },
-
-
     {
       "index": 4,
-      "name":"Previous investors",
+      "name":"Investors",
       "main": [
         {
           "id": 13,
@@ -408,7 +420,7 @@ module.exports = {
   historyB:[
     {
       "index": 1,
-      "name":"Previous academicians",
+      "name":"Academicians",
       "main": [
         {
           "id":15,
@@ -429,20 +441,20 @@ module.exports = {
           "active": false,
           "name": "Wayne Hendrickson",
           "title": "Wayne Hendrickson ,Member of the national academy of sciences, member of the American academy of arts and sciences, Professor of Columbia University.",
-          "desc": "<p> He is also Chief Life Scientist in the Photon Sciences Directorate at Brookhaven National Laboratory and Scientific Director of the New York Structural Biology Center. Hendrickson received a Ph.D. in biophysics at Johns Hopkins University with Warner Love, and postdoctoral research experience with Jerome Karle at the Naval Research Laboratory (NRL). Dr. Hendrickson is best known for innovating the use of multi-wavelength anomalous dispersion as an analytical tool for protein crystallography.</p>"
+          "desc": "<p>Hendrickson received a Ph.D. in biophysics at Johns Hopkins University. He is also Chief Scientist in the Photon Sciences Directorate at Brookhaven National Laboratory and Scientific Director of the New York Structural Biology Center. Dr. Hendrickson is best known for innovating the use of multi-wavelength anomalous dispersion as an analytical tool for protein crystallography.</p>"
         },
         {
           "id": 18,
           "active": false,
           "name": "Zhang Lihe",
-          "title": "Member of Chinese Academy of Science, Professor of Medicinal Chemistry, Peking University，President of State Key Laboratory of Natural and Biomimetic Drugs。",
+          "title": "Member of Chinese Academy of Science, Professor of Medicinal Chemistry, Peking University，President of State Key Laboratory of Natural and Biomimetic Drugs",
           "desc": "<p>Fellow of Royal Society of Chemistry. Member of Chinese Chemical Society. Prof. Zhang is a nation-famed pharmaceutical chemist, who has been engaged in the field of nucleic acid chemistry and the development of anti-tumor & anti-virus pharmaceuticals. He has published two books and more than 150 papers on world leading journals, including Scientia Sinica, PNAS, J. Am. Chem. Soc., Nucleic Acids Research, Bioconjugate Chemistry, J. Med. Chem, etc.</p>"
         }
       ]
     },
     {
       "index": 2,
-      "name":"Past academic guests",
+      "name":"Academic guests",
       "main": [
         {
           "id": 13,
@@ -456,7 +468,7 @@ module.exports = {
           "active": false,
           "name": "Ma Lan",
           "title": "Vice President of shenzhen research institute of tsinghua university",
-          "desc": "<p>Dr. Lan Ma is a full professor and Vice Dean of the Graduate School at Shenzhen, Tsinghua University (GSST), P. R. China. She is the director of Shenzhen innovative nano-diagnostic reagents key laboratory in China.</p><p>She received her BSc. in genetics at Wuhan University in 1987, Msc in cell biology at Peking University in 1993, and Ph.D in stem cell biology at Kunming Institute of Zoology, Chinese Academy of Sciences in 2003. Up to now, Prof. Ma had published more than 70 scientific papers, and 27 China patents, She has been honored with the China Standard Innovation Award from Standardization Administration of China, China Federation of Trade Unions Award for National innovation expert, China Women's Federation Award for 2003 'China Economic Women of the Year and National 'three eight' red banner pacesetter.</p><p>Professor Ma’s research interests right now are focused on stem cell biology, vaccine & antibody bio-engineering, and nano-biomedicine. As for nano-biomedicine research, Prof. Ma’s research team has created the novel lateral flow assay platform and developed many kinds of products including ovulation test reagents, then, the LH test reagents and the HCG early pregnancy test reagents were approved by China Food and Drug Administration (CFDA) and were marketed which the infertility test reagent ranked first in market share in the country's major assisted reproduction centers and also 1 National Standards had been issued.</p>"
+          "desc": "<p>Dr. Lan Ma is a full professor and Vice Dean of the Graduate School at Shenzhen, Tsinghua University (GSST), P. R. China. She is the director of Shenzhen innovative nano-diagnostic reagents key laboratory in China.</p><p>She received her BSc. in genetics at Wuhan University in 1987, Msc in cell biology at Peking University in 1993, and Ph.D in stem cell biology at Kunming Institute of Zoology, Chinese Academy of Sciences in 2003. Up to now, Prof. Ma had published more than 70 scientific papers, and 27 China patents, She has been honored with the China Standard Innovation Award from Standardization Administration of China, China Federation of Trade Unions Award for National innovation expert, China Women's Federation Award for 2003 'China Economic Women of the Year and National '3·8' red banner pacesetter.</p><p>Professor Ma’s research interests right now are focused on stem cell biology, vaccine & antibody bio-engineering, and nano-biomedicine. As for nano-biomedicine research, Prof. Ma’s research team has created the novel lateral flow assay platform and developed many kinds of products including ovulation test reagents, then, the LH test reagents and the HCG early pregnancy test reagents were approved by China Food and Drug Administration (CFDA) and were marketed which the infertility test reagent ranked first in market share in the country's major assisted reproduction centers and also 1 National Standards had been issued.</p>"
         },
         {
           "id": 19,
@@ -469,7 +481,7 @@ module.exports = {
     },
     {
       "index": 3,
-      "name":" Previous industry",
+      "name":"Professionals",
       "main": [
         {
           "id":7,
@@ -531,7 +543,7 @@ module.exports = {
         {
           "id": 22,
           "active": false,
-          "name": "Chairman",
+          "name": "Sheng Sitong",
           "title": "Chairman of Shenzhen HYK Gene Technology Co., Ltd.",
           "desc": "<p>Member of the overseas high-level talents introducing schemes 'a thousand people plan”, and  “Peacock team' in Shenzhen, PH.D. of Molecular Physiology and Biological Physics School of Medicine at the University of Virginia, post PH.D. of the School of Medicine at the Johns Hopkins University in the US, leader of the R & D team for high-throughput gene sequencing system, the main research direction of which is the new generation of high-throughput gene sequencing technology, including micro-nano processing, micro-volume solution control, high-efficient molecular chemical reactions, large scale, high-throughput imaging of genetic information and other latest technology in the field of modern genetic biology .</p>"
         }
@@ -539,7 +551,7 @@ module.exports = {
     },
     {
       "index": 4,
-      "name":"Previous investors",
+      "name":"Investors",
       "main": [
         {
           "id": 1,
@@ -553,14 +565,14 @@ module.exports = {
           "active": false,
           "name": "Tian Yuan",
           "title": "Chairman of the China Association for the Promotion of Drugs, Chairman of the Investment Committee, Founding Partner of Yuanming Capital",
-          "desc": "<p>Tian Yuan，Co-founder of Yuanming Capital, Chairman of Mevion Medical Systems Co., Ltd., Chairman of Yabuli China Entrepreneur Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association（PhIRDA）</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the co-founder of Yuanming Capital, chairman of the Mevion Medical Systems Co., Ltd. As the founder and chairman of Yabuli China Entrepreneur Forum and China-US Business Leaders Roundtable Conference, Tian is the core organizer of various high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded Yuanming Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Shenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China's economics.</p>"
+          "desc": "<p>Founding Partner of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the founding partner of YuanMing Capital and chairman of the Mevion Medical Systems IncCo., Ltd. As the founder and the chairman of Yabuli China Entrepreneurs Forum and China-US Business Leaders Roundtable Conference, Tian is the core organizer of various high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China economics.</p>"
         },
         {
           "id": 3,
           "active": false,
           "name": "Cai Dajian",
           "title": "Founder of Gao Tejia Investment.",
-          "desc": "<p>Ph.D. in Finance, EMBA of China Europe International Business School (CEIBS), Outstanding Alumni of CEIBS 15th Anniversary, Chinese Entrepreneur of the “Gang of ‘92’”, Founder and Chairman of GTJA Investment Group.</p><p>Before the founding of GTJA, Mr. Cai has worked in the state-owned organization for scientific research and design for ten years. Determined, and encouraged by Deng Xiaoping’s Southern Tour Speech, he resigned and went to Shenzhen. Cai was among the few who first embarked on the venture capital journey in China. After that, he worked in famous investment banks in China (Junan Securities, Guotai Junan Securities) and created the most renowned listing case in his day. Cai has participated in the investment cases such as Boya Bio-pharmaceutial (SZ300294), Mindray Medical, Shandong Mining Machinery (SZ002526), Zhengzhou Coal Mining Machinery (ZMJ) (SH601717). He has been awarded CVINFO Top 10 Best Investors of Healthcare Industry 2017 in China, Zero2IPO Research Center TOP100 Investors 2017, and investorscn.com Best Investor of Healthcare Industry 2016-2017 in China.</p><p>Led by Mr. Cai, GTJA is noted for its innovations in models and concepts. Cai blazed the trail of the industry by proposing a “sector-based” investment model. GTJA is also one of the few institutions with all-stage investment in the healthcare industry in China.</p>"
+          "desc": "<p>Ph.D. in Finance, EMBA of China Europe International Business School (CEIBS), Outstanding Alumni of CEIBS 15th Anniversary, Chinese Entrepreneur of the “ ‘92’school ”,  Founder and Chairman of GTJA Investment Group.</p><p>Before the founding of GTJA, Mr. Cai has worked in the state-owned organization for scientific research and design for ten years. Determined, and encouraged by Deng Xiaoping’s Southern Tour Speech, he resigned and went to Shenzhen. Cai was among the few who first embarked on the venture capital journey in China. After that, he worked in famous investment banks in China (Junan Securities, Guotai Junan Securities) and created the most renowned listing case in his day. Cai has participated in the investment cases such as Boya Bio-pharmaceutial (SZ300294), Mindray Medical, Shandong Mining Machinery (SZ002526), Zhengzhou Coal Mining Machinery (ZMJ) (SH601717). He has been awarded CVINFO Top 10 Best Investors of Healthcare Industry 2017 in China, Zero2IPO Research Center TOP100 Investors 2017, and investorscn.com Best Investor of Healthcare Industry 2016-2017 in China.</p><p>Led by Mr. Cai, GTJA is noted for its innovations in models and concepts. Cai blazed the trail of the industry by proposing a “sector-based” investment model. GTJA is also one of the few institutions with all-stage investment in the healthcare industry in China.</p>"
         },
         {
           "id": 4,
@@ -597,12 +609,12 @@ module.exports = {
     yearA:"2018",
     yearB:"2017"
   },
-  hisTitle:'Previous Speakers',
+  hisTitle:'Previous Review',
   summiTbtitle:'Summit Agenda',
   summit:{
     mtitle:{
-      mtitle1:"11 September",
-      mtitle2:"12 September"
+      mtitle1:"11th",
+      mtitle2:"12th"
     },
     dataA:{
       title:'Guangdong-Hong Kong-Macao Greater Bay Area International Biomedical Industry Private Session',
@@ -626,31 +638,31 @@ module.exports = {
         {
           id:0,
           type:666,
-          name:"Keynote Forum ",
+          name:"Main Forum",
           title:[],
           main:[
             {
               id:1,
               time:'09:00-09:30',
-              content:["Guest check in"],
+              content:["Guest Check In"],
               gust:[]
             },
             {
               id:2,
               time:'09:30-09:55',
-              content:['Speech by government official'],
+              content:['Speech by Government Official'],
               gust:[]
             },
             {
               id:3,
               time:'09:55-10:10',
-              content:["Project concentration signing ceremony"],
+              content:["Projects signing ceremony"],
               gust:[]
             },
             {
               id:4,
               time:'10:10-10:25',
-              content:["Keynote Speech (I) Statues and Trends of Global Biotechnology Development"],
+              content:["Keynote Speech (I) Global Biotechnology Development Situation and Trend"],
               gust:[]
             },
             {
@@ -662,7 +674,7 @@ module.exports = {
             {
               id:6,
               time:'10:35-10:45',
-              content:["Keynote Speech (III)","The linkage opportunity between Shenzhen and Hong Kong under the establishment of the Guangdong-Hong Kong-Macau Greater Bay Area"],
+              content:["Keynote Speech (III)","Topic Discussion (I) How does innovation drive the development of Guangdong-Hong Kong-Macao Biomedicine Industry Innovation Cooperative Zone？"],
               gust:[]
             },
             {
@@ -680,19 +692,19 @@ module.exports = {
             {
               id:9,
               time:'12:35-14:30',
-              content:["Lunch & Free Discussion"],
+              content:["Lunch & Free Talk"],
               gust:[]
             },
             {
               id:10,
               time:'14:30-16:00',
-              content:["Keynote Discussion (II)"," Globalization of Chinese Biotech Companies","Guangdong-Hong Kong-Macao Greater Bay Area and Innovation-driven Achievement Transformation"],
+              content:["Topic Discussion (II)"," Globalization of Chinese Biotech Companies","Guangdong-Hong Kong-Macao Greater Bay Area and Innovation-driven Achievement Transformation"],
               gust:[]
             },
             {
               id:11,
               time:'16:00-17:30',
-              content:["Keynote Discussion (III)","Science innovation and medical advancement: new IT drives biotech industry to move forward"],
+              content:["Topic Discussion (III)","Science innovation and medical advancement: new IT drives biotech industry to move forward"],
               gust:[]
             }
           ]
@@ -708,7 +720,7 @@ module.exports = {
             },
             {
               time:"14:10-14:40",
-              dev:["Speech by government officials"]
+              dev:["Speech by Government Officials"]
             },
             {
               time:"14:40-14:55",
@@ -763,11 +775,11 @@ module.exports = {
         {
           id:2,
           name:"Sub-forum 2",
-          title:["Theme：Maternal & Infant Health Forum","Field：medical imaging, IVD, and health management","Organized by：Bioching Capital","Attendees：200"],
+          title:["Theme：Maternal & Infant Health Forum","Field：Medical Imaging, IVD, and Health Management","Organized by：Bioching Capital","Attendees：200"],
           main:[
             {
               time:"13:30-13:40",
-              dev:["Welcome speech"]
+              dev:["Welcome Speech"]
             },
             {
               time:"13:40-14:10",

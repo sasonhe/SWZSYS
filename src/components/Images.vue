@@ -10,11 +10,14 @@
       </li>
     </ul>
     <van-image-preview
-        v-model="show"
-        :images="arr"
-        :startPosition="startPosition"
-      >
-      </van-image-preview>
+      v-model="show"
+      :images="arr"
+      :startPosition="startPosition"
+    >
+    </van-image-preview>
+    <div class="coleFiexd" v-show="show" @click="closeShow()">
+      <van-icon class="closeBtn" name="close" />
+    </div>
   </div>
 </template>
 
@@ -32,6 +35,9 @@ export default {
     this.forData()
   },
   methods:{
+    closeShow(){
+      this.show = false;
+    },
     clickView(id){
       this.index = id;
       this.startPosition = id-1;
@@ -74,8 +80,27 @@ export default {
   }
 }
 </script>
-
 <style scoped>
+.coleFiexd{
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(19, 44, 100, 0.5);
+  position: fixed;
+  bottom: .6rem;
+  z-index: 9999;
+  left: 50%;
+  margin-left: -0.4rem;
+  cursor: pointer;
+}
+.closeBtn{
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
 .map-page{
   width: 750px;
   background: #044fa0;
@@ -94,7 +119,7 @@ export default {
 
 }
 .listImg{
-
+  cursor: pointer;
 }
 .van-nav-bar{
   background: #332C2B;
