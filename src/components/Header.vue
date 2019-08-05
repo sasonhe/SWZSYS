@@ -82,7 +82,6 @@ export default {
   created() {
     window.onscroll = ()=> {
       var opacity = window.pageYOffset / 400;
-
       this.style = {background: `rgba(44,91,136,${opacity})`}
     }
     let isWhat = this.IsPC();
@@ -91,7 +90,6 @@ export default {
     } else {
       this.showHeader = false;
     }
-
   },
   mounted() {
     let id = this.$route.query.id;

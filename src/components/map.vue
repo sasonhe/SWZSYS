@@ -59,12 +59,15 @@
       },
       methods:{
         showWind(){
-          // this.show = !this.show
           this.show = false;
           this.$nextTick(() => {
             this.show = true;
           });
-        }
+        },
+
       },
+      computed:{
+
+      }
     };
 </script>
