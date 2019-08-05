@@ -234,21 +234,21 @@ module.exports = {
       "active": false,
       "name": "曹二宝",
       "title": "中央人民政府驻香港特别行政区联络办公室研究部长、国务院参事室特约研究员",
-      "desc": ""
+      "desc": "<p>曹二宝同志是港澳问题研究领域的资深专家。自1986年常驻香港至今，参与香港回归历史进程和回归后“一国两制”实践，熟悉中央对港方针政策和香港政商学界等情况及相关人士。常为中央及内地涉港部门、访港团组、中资企业、爱国团体等授课，授命在香港公开演讲、发表文章、与反对派会谈等，反响较大，影响积极。</p>"
     },
     {
       "id": 27,
       "active": false,
       "name": "卫炳江",
       "title": "香港理工大学副校长",
-      "desc": "<p>Ir Professor Ping-kong Alexander Wai ( Fellow of IEEE, Fellow of Optical Society of America, Fellow of the Hong Kong Academy of Engineering Science) is Vice President (Research Development) of The Hong Kong Polytechnic University (PolyU). Professor Wai has been selected for the 'National Science and Technology Programmes Expert Database' since February 2012. Professor Wai has over 160 refereed international journal publications. He has participated in the organisation of many international conferences in photonics and optical communications such as the Conference of Laser and Electro-Optics and the Optical Fiber Communication Conference. Professor Wai is currently an Associate Editor of IEEE Journal of Lightwave Technology.</p><p>研究方向：Nonlinear Optics, Fiber Lasers, Fiber Optic Communications, and Network Theory</p>"
+      "desc": "<p>卫炳江教授、工程师是香港理工大学副校长（负责研发），同时也是美国电气和电子工程师协会（IEEE）院士、美国光学学会院士、香港工程科学院院士。2012年2月，卫教授入选《国家科技计划专家库》。卫教授于国际学术期刊发表的论文超过160篇，并协助筹办了多个光电子和光通讯的国际研讨会，例如镭射和电光学研讨会、光纤通讯研讨会。卫教授现任IEEE Journal of Lightwave Technology（美国电气和电子工程师协会的光波技术杂志）的副编辑。</p><p>研究方向：非线性光学，光纤激光器，光纤通讯，网络理论。</p>"
     },
     {
       "id": 9,
       "active": false,
       "name": "Jean-Pierre Cazenave（吉恩·皮埃尔·卡泽纳夫）",
       "title": "法国医学科学院院士、法国斯特拉斯堡大学教授、著名血液病学专家",
-      "desc": ""
+      "desc": "<p></p>"
     }
   ],
   historyA:[
