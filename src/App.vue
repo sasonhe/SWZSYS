@@ -1,5 +1,6 @@
 <template>
-  <div id="app" :style="isEnStyle">
+  <div id="app" :style="isEnStyle" :class="bgClass">
+    <input type="hidden" name="" :value="$t('map.text')">
     <router-view></router-view>
   </div>
 </template>
@@ -12,8 +13,8 @@ export default {
   data(){
     return {
       isEn:window.localStorage.getItem('language')=='en'?true:false,
-      descText:this.$t('footer.time'),
-      bigTitles:this.$t('bigTitle')
+      descText:this.$t('wx.time'),
+      bigTitles:this.$t('wx.title')
     }
   },
   created(){
@@ -21,16 +22,16 @@ export default {
     this.getWx();
   },
   updated(){
-    this.descText = this.$t('footer.time')
-    this.bigTitles = this.$t('bigTitle')
+    this.descText = this.$t('wx.time')
+    this.bigTitles = this.$t('wx.title')
+    this.wxShare();
   },
   methods:{
     getWx(){
       const url = debug ? '/register/ajaxData.html' : 'http://saas.dataexpo.com.cn/demo/register/ajaxData.html';
       this.$http.get(url,{
         params:{
-          // url:location.href.split('#')[0]
-          url:'http://saas.dataexpo.com.cn/SWZSYS/'
+          url:location.href.split('#')[0]
         }
       }).then((res) => {
         var getMsg = res.data;
@@ -49,47 +50,71 @@ export default {
       }).catch((err)=>{
 
       })
+    },
+    IsPC() {
+      var userAgentInfo = navigator.userAgent;
+      var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone","iPad", "iPod"];
+      var flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+          if (userAgentInfo.indexOf(Agents[v]) > 0) {
+              flag = false;
+              break;
+          }
+      }
+      return flag;
+    },
+    wxShare(){
+      let _this = this
+      let date = new Date();
+      wx.ready(function() {
+        //分享给朋友
+        wx.updateAppMessageShareData({
+          title: _this.bigTitles,
+          desc: _this.descText,
+          link: 'http://saas.dataexpo.com.cn/SWZSYS/',
+          imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg?v="+date,
+          success: function () {
+            // alert('分享成功')
+          }
+        })
+        // 朋友圈
+        wx.updateTimelineShareData({
+          title: _this.bigTitles,
+          desc: _this.descText,
+          link: 'http://saas.dataexpo.com.cn/SWZSYS/',
+          imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg?v="+date,
+          success: function () {
+            // 设置成功
+          }
+        })
+
+      });
+      wx.error(function(res){
+        console.log(JSON.stringify(res))
+      });
     }
   },
   computed:{
     isEnStyle(){
       return this.isEn ? "font-family: 'Times'":""
+    },
+    bgClass () {
+      let isWhat = this.IsPC()
+      return isWhat ? "pcBg" : "mBg"
     }
   },
   mounted(){
-    let _this = this
-    wx.ready(function() {
-      //分享给朋友
-      wx.updateAppMessageShareData({
-        title: _this.bigTitles,
-        desc: _this.descText,
-        link: 'http://saas.dataexpo.com.cn/SWZSYS/#/',
-        imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg",
-        success: function () {
-          // alert('分享成功')
-        }
-      })
-      // 朋友圈
-      wx.updateTimelineShareData({
-        title: _this.bigTitles,
-        desc: _this.descText,
-        link: 'http://saas.dataexpo.com.cn/SWZSYS/#/',
-        imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg",
-        success: function () {
-          // 设置成功
-        }
-      })
-
-    });
-    wx.error(function(res){
-      // alert(JSON.stringify(res))
-    });
+    this.wxShare();
   }
 
 }
 </script>
 
 <style>
+html,body{
+  height: 100%;
+  background: #044fa0;
+}
 .nameMap{
   min-width: 5.6rem;
   font-size: .36rem;
@@ -98,8 +123,11 @@ export default {
 .nameMap .el-vue-amap-container{
   min-height:600px;
 }
-body{
+.mBg{
   background: #0154a4;
+}
+.pcBg{
+  background: #044fa0;
 }
 .container{
   max-width: 1140px;

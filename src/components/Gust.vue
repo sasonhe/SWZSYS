@@ -1,10 +1,10 @@
 <template>
   <div class="organiza container" >
     <van-divider :style="{ borderColor: '#fff'}" class="bTitle bt">{{this.$t('gustTitle')}}</van-divider>
-    <div class="guList" v-for="(item,index) in selectJson" :key="index">
+    <div class="guList" v-for="(item,index) in jsonData" :key="index">
       <div class="guwrap">
         <van-row type="flex"  style="margin-bottom:.4rem;">
-          <van-col :span="span" v-for="(items,i) in item.main" :key="items.id">
+          <van-col :span="span" v-for="(items,i) in item" :key="items.id">
             <div class="item" @click="toggleText(items,items.id,item.index)" :class="{ active: items.active }">
               <div class="top" >
                 <van-image width="100%" :src="'./static/images/'+items.id+'.jpg'"/>
@@ -17,7 +17,7 @@
             </div>
           </van-col>
         </van-row>
-        <div class="text-content" v-for="(items,i) in item.main" :key="items.id" v-show="items.active">
+        <div class="text-content" v-for="(items,i) in item" :key="items.id" v-show="items.active">
           <h3 class="c-title">{{items.name}}</h3>
           <p class="c-mtitle">{{items.title}}</p>
           <div class="t-m" v-html="items.desc"></div>
@@ -36,31 +36,20 @@
         span:8,
         textShow:false,
         isChoose:'',
-        // json:require('../../static/gust-A.json'),
         json:[],
         jsonPC:[],
-        // jsonPC:require('../../static/gust-B.json'),
         selectJson:[],
-        text:{}
+        text:{},
+        jsonData:this.$t('gustData')
       }
     },
     created() {
-      this.getDataType()
+    this.jsonData = this.gustDt;
     },
     methods: {
-      getDataType(){
-        let isWhat = this.IsPC()
-        if(isWhat){//PC 5条一行
-          this.selectJson = this.gustB
-          // this.span = 4
-        }else{//Moblie 3条一行
-          this.selectJson = this.gustA
-          // this.span = 8
-        }
-      },
       toggleText(item,id,index){
-        this.selectJson.map((arr) => {
-          arr.main.filter((items) => {
+        this.jsonData.map((arr) => {
+          arr.filter((items) => {
             if (items.id === id) {
               items.active = !item.active;
               // this.text = items
@@ -69,7 +58,6 @@
             }
           })
         })
-
       },
       // 判断PC
       IsPC() {
@@ -87,14 +75,26 @@
 
     },
     updated(){
-      this.getDataType()
+      this.jsonData = this.gustDt
     },
     computed:{
-      gustA(){
-        return this.$t('gustA')
-      },
-      gustB(){
-        return this.$t('gustB')
+      gustDt(){
+        var result = [];
+        var num = null;
+        let isWhat = this.IsPC();
+        if(isWhat){//PC 5条一行
+          num = 6
+          this.span = 4
+          // this.span =8
+        }else{//Moblie 3条一行
+          num = 3
+          this.span = 8
+        }
+        let main = this.$t('gustData');
+        for(var i=0;i<main.length;i+=num){
+            result.push(main.slice(i,i+num));
+        }
+        return result
       }
     }
   }

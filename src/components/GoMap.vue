@@ -1,7 +1,7 @@
 <template>
   <div :class="classObj">
     <div class="top">
-      <van-image width="100%" :src="topLogo" v-lazy="topLogo"/>
+      <van-image width="100%" :src="topImg" v-lazy="topImg"/>
     </div>
     <div class="center">
       <!-- <div class="title">参会指引</div> -->
@@ -54,7 +54,6 @@
           </div>
         </van-col>
       </van-row>
-<!-- href="https://v.youku.com/v_show/id_XNDI3MjM1NDI4MA==.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900" -->
       <van-row>
         <van-col span="12">
           <a href="https://v.youku.com/v_show/id_XNDI3MjM1NDI4MA==.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900">
@@ -74,7 +73,7 @@
         </van-col>
       </van-row>
     </div>
-    <div class="bottm">
+    <div class="bottm" v-if="!this.IsPC()">
       <van-image width="100%" :src="btmLogo" v-lazy="btmLogo"/>
     </div>
     <van-image-preview
@@ -93,7 +92,8 @@
         topLogo: require('@/assets/go/1.jpg'),
         btmLogo: require('@/assets/go/2.jpg'),
         minLogo: require('@/assets/logo/minLogo.png'),
-        view:[require('@/assets/images/eat.jpg')]
+        view:[require('@/assets/images/eat.jpg')],
+        pcLogo:require('@/assets/logo/pLogo.jpg'),
       }
     },
     created() {
@@ -160,6 +160,10 @@
       classObj () {
         let isWhat = this.IsPC()
         return isWhat ? "map-page" : "isMobile"
+      },
+      topImg(){
+        let isWhat = this.IsPC()
+        return isWhat ? this.pcLogo : this.topLogo
       }
     }
   }

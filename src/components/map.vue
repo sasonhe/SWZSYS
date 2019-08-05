@@ -1,5 +1,6 @@
 <template>
     <div class="container amap-page-container">
+      <input type="hidden" name="" :value="$t('map.text')">
       <el-amap
         vid="amapDemo"
         :center="center"
@@ -29,6 +30,8 @@
     module.exports = {
       data() {
         return {
+          text:'坪山区瑞景路36号格兰云天国际酒店',
+          clicks:'点击详情',
           zoom: 16,
           center: [114.370669, 22.690532],
           markers: {
@@ -37,7 +40,7 @@
             visible: true,
             events: {
               close() {
-                console.log(0);
+
               },
               click: () => {
                 // self.show = !self.show
@@ -48,8 +51,11 @@
           show: true
         };
       },
-      mounted() {
+      beforeCreate(){
         self = this;
+      },
+      mounted() {
+
       },
       methods:{
         showWind(){
@@ -59,6 +65,6 @@
             this.show = true;
           });
         }
-      }
+      },
     };
 </script>

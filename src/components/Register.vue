@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <van-divider :style="{ borderColor: '#fff'}" class="bTitle">报名参会</van-divider>
+  <van-divider :style="{ borderColor: '#fff'}" class="bTitle">{{$t('register.title')}}</van-divider>
   <div @click="clickRegister()" v-show="pcShow">
     <van-image width="100%" :src="regs" />
   </div>
