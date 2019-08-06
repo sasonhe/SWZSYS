@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Register from '@/components/to-register-page';
-import Home from '@/components/Home';
+// import Home from '@/components/Home';
 import GoMap from '@/components/GoMap';
 import Hotel from '@/components/Hotel';
 import Traffic from '@/components/Traffic';
@@ -14,42 +13,37 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
-    },
-    {
-      path: '/Register',
-      name: 'Register',
-      component: Register
+      component: () => import("@/components/Home")
     },
     {
       path: '/GoMap',
       name: 'GoMap',
-      component: GoMap
+      component: () => import("@/components/GoMap")
     },
     {
       path: '/Hotel',
       name: 'Hotel',
-      component: Hotel
+      component: () => import("@/components/Hotel")
     },
     {
       path: '/Traffic',
       name: 'Traffic',
-      component: Traffic
+      component: () => import("@/components/Traffic")
     },
     {
       path: '/Images',
       name: 'Images',
-      component: Images
+      component: () => import("@/components/Images")
     },
     {
       path: '/MyPosit',
       name: 'MyPosit',
-      component: MyPosit
+      component: () => import("@/components/MyPosit")
     },
     {
       path: '/Video',
       name: 'Video',
-      component: Video
+      component: () => import("@/components/Video")
     }
   ]
 })

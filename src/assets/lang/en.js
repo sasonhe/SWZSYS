@@ -606,8 +606,8 @@ module.exports = {
   summiTbtitle:'Summit Agenda',
   summit:{
     mtitle:{
-      mtitle1:"11th",
-      mtitle2:"12th"
+      mtitle1:"11th September",
+      mtitle2:"12th September"
     },
     dataA:{
       title:'Guangdong-Hong Kong-Macao Greater Bay Area International Biomedical Industry Private Session',

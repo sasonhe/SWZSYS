@@ -40,7 +40,6 @@
         <van-icon class="topSize" name="upgrade" />
       </div>
     </transition>
-    <router-view></router-view>
   </div>
 </template>
 
@@ -113,6 +112,20 @@ export default {
       //   let isWhat = this.IsPC()
       //   return isWhat ? this.pbg : this.mbg
       // }
+    },
+    beforeRouteEnter(to, from, next) {
+      next(vm => {
+      let id = to.query.id;
+      if(id == ''){
+        vm.$router.replace({
+            path: from.path,
+            query: {
+              uid: Date.now()
+            }
+         })
+      }
+
+      })
     }
 }
 </script>
