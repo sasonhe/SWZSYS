@@ -804,7 +804,7 @@ module.exports = {
             },
             {
               time:"16:15-17:15",
-              dev:["Roadshows","Celula China"]
+              dev:["Roadshows","Celula China","Dartmon Biotechnology Co., Ltd.","INLEMS Group Inc.","Enduoke Medical","Karchun Corporation","Chenna Biology","Shenzhen Youxi Medical Technology"]
             },
             {
               time:"17:15-17:35",
