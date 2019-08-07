@@ -820,7 +820,7 @@ module.exports = {
         {
           id:1,
           name:"Sub-forum 3",
-          title:["Theme：“Biomedicine/Medical”Device Project Roadshows","Field：Smart healthcare, precision healthcare, and biopharmaceutical","Organized by：Touwho.com, E99 Alliance","Attendees：100"],
+          title:["Theme：“Biomedicine、Medical”Device Project Roadshows","Field：Smart healthcare, precision healthcare, and biopharmaceutical","Organized by：Touwho.com, E99 Alliance","Attendees：100"],
           main:[
             {
               time:"14:00-14:10",
