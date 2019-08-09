@@ -249,7 +249,14 @@ module.exports = {
       "name": "Jean-Pierre Cazenave",
       "title": "Honorary Professor of Hematology and Transfusion at the University of Strasbourg",
       "desc": "<p>Honorary Professor of Hematology and Transfusion at the University of Strasbourg, Jean-Pierre Cazenave is also president of the Strasbourg medical research association ARMESA, president of the strategic committee of Health & Biotech France, and permanent member of the French National Academy of Medicine. From 1987 to 2013, he held the position of director at the Blood Transfusion Center EFS-Alsace in Strasbourg. Former president (1992-1995) and vice-president (2002-2010) of the Société Française de Transfusion Sanguine, he is currently member of several international medical societies and author of 620 scientific publications.</p>"
-    }
+    },
+    {
+      "id": 51,
+      "active": false,
+      "name": "Nicholas La Thangue",
+      "title": "Nicholas La Thangue, Faculty of Cancer Biology of University of Oxford, Fellow of the Royal Society of Edinburgh, Member of the European Molecular Biology Organization, Fellow of the Academy of Medical Sciences, Fellow of the European Academy of Cancer Sciences",
+      "desc": "<p>Nicholas La Thangue MA BSc PhD FRSE FMedSci  is  Professor of Cancer Biology at the University of Oxford, and was previously Cathcart Professor of Biochemistry at the University of Glasgow, and before that a scientist at the UK Medical Research Council.  He studied for his Ph.D. at University College London and carried out post-doctoral work at Imperial College London.  He is a Fellow of the Royal Society of Edinburgh, a Member of the European Molecular Biology Organisation (EMBO), a Fellow of the Academy of Medical Sciences, a Fellow of the European Academy of Caner Sciences, a Fellow of the Lister Institute and Professorial Fellow at Linacre College Oxford.  </p><p>He has authored over 200 publications and is an inventor on an extensive number of patents.  His academic research is focussed on the molecular mechanisms that give rise to the abnormal proliferation of tumour cells, and translating novel mechanistic insights into new therapeutic opportunities.  He has over 30 years of experience in biotechnology and healthcare sectors. He founded Prolifix in 1995, a successful spin-out from the UK Medical Research Council, focussed on cancer drug discovery and was CSO until its merger with the Scandinavian oncology company TopoTarget. He acted as Chief Business Development Officer in TopoTarget, and was responsible for completing a number of significant deals with both large and mid-size companies, and floating the Company on the Scandinavian Stock Exchange.  He is Founding Director of Celleron Therapeutics and Oxford Cancer Biomarkers, companies focussed on personalised cancer medicines.  He has consulted extensively in the biotechnology and pharmaceutical sector and is an advisor to numerous companies.</p>"
+    },
   ],
   historyA:[
     {
