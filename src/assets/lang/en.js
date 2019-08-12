@@ -225,37 +225,58 @@ module.exports = {
     {
       "id": 52,
       "active": false,
-      "name": "Jinghua Cao",
-      "title": "The Deputy Director of the Bureau of International Cooperation, Chinese Academy of Science",
+      "name": "Cao Jinghua",
+      "title": "Co-head of the Preparatory Group of the Innovation Institute of Hong Kong, Chinese Academy of Sciences, and Executive Director of the Secretariat of Alliance of International Science Organizations in the Belt and Road Region",
       "desc": ""
     },
     {
       "id": 53,
       "active": false,
-      "name": "陈飞",
-      "title": "礼来亚洲基金合伙人",
-      "desc": "<p>陈飞博士于2009年加入礼来亚洲风险基金，担任投资经理并常驻中国上海。现任礼来亚洲投资总监。此前他工作于中国领先的新型投资银行—贝祥投资集团，并在健康医疗团队从事财务顾问的工作。任职期间他成功的完成了数起医药企业的私募融资和并购交易。他曾实习于Monitor咨询公司和美国生命科学基金Vivo Ventures，因而积累了一定的商业和投资经验。</p><p>陈飞博士拥有复旦大学医学和分子遗传学博士学位及复旦大学生物学学士学位。他目前担任礼来亚洲基金的投资组合公司博瑞生物(BrightGene Biomedical)的董事会观察员。</p><p>关注行业：医疗设备及用品、医疗提供商及服务、生物技术。</p>"
+      "name": "Chen Fei",
+      "title": "Partner with Lilly Asia Ventures",
+      "desc": "<p>Dr. Chen Fei joined Lilly Asia Ventures (LAV) in 2009 as an investment manager resident in Shanghai, China. Today, he serves as the investment director of LAV. Prior to joining LAV, he worked at The Balloch Group, a leading boutique investment banking firm in China, where he provided financial advisory services in the healthcare team. During his tenure, he successfully completed several private placement and M&A transactions for pharmaceutical enterprises. He once worked at Monitor Group, and VIVO Ventures, a healthcare investment firm of USA, where he got some experience in business and investment.</p><p>Dr. Chen Fei holds a Ph.D. in medical & molecular genetics and a bachelor’s degree in biology from Fudan University. Now, he also holds the post of board observer at BrightGene Biomedical, a portfolio company of LAV.</p><p>Sectors: medical devices and supplies, healthcare providers and medical services, and biotechnologies.</p>"
     },
     {
       "id": 54,
       "active": false,
-      "name": "程增江",
-      "title": "同写意论坛发起人",
-      "desc": "<p>同写意论坛发起人，科贝源生物医药科技有限公司董事长，同写意新药英才俱乐部”秘书长。2004年10月，程增江“对如何成为一名优秀药品研发人才的思考”的发言引起共鸣，在北京一间咖啡厅同写意论坛成立，初衷是“汇集一线一流，讲求真知灼见”，为药物研发技术人员创办一个开放式的学习型组织。十年历程，30多期论坛活动，从同写研发技术之意，同写技术管理意，同写技术人生之意直到2014年10月，同写意成立十周年——寻找中国新药之魂。程增江说，我在一线做了十多年的仿制药研发，会有自己的体会和思考。我一直认为仿制药还是我们国家医疗保障的根基。仿制药虽然文号很多，但由于历史的原因，2007年前批的仿制药质量不高，或者说很多品种与原研品存在很大的质量差距，这就是为什么国家要开展仿制药一致性评价，遗憾的是这件事进展缓慢。这几年仿制药申报迅猛，这本来是件好事，但审批跟不上导致高质量的仿制药不能进入市场。仿制药开发塞车又引发政策鼓励企业做新药，三类化学“新药”首先成为“申报的独木桥” ，直接导致去年以来的“疯狂”申报，一类新药也出现了每年一百多个受理号的申报且持续增长。虽然这体现了“创新的力量”，但技术与资金实力的不足让很多创新不能最终成药或者成了药，也不是被国际认可的真正意义上的创新药。同写意论坛最近几年的活动都是关注创新药，但是扎扎实实做好仿制药是我一直实践与思考的话题，做好仿制药真的是任重道远。</p>"
+      "name": "Cheng Zengjiang",
+      "title": "Founder of Tongxieyi Forum",
+      "desc": "<p>Mr. Cheng Zengjiang is the founder of Tongxieyi Forum, chairman of PharmaSea, and secretary-general of Tongxieyi New Drug Elite Club. In October 2004, Cheng Zengjiang’s speech on “how to become an excellent pharmaceutical R&D talent” resonated, and inspired the founding of Tongxieyi Forum, an open learning organization for pharmaceutical R&D talents at a coffee shop in Beijing, with the intention of “Gathering the first-class in the front line to discuss and quest for knowledge and insight”. Till October 2014, its 10th anniversary themed with “Seek the inventor of China’s new drugs”, the Forum had witnessed more than 30 activities on R&D, technical management, and technical careers. “Since I have been doing research and development on generic drugs for more than 10 years, I have my own experience and thinking,” Cheng Zengjiang once said. “I always believe generic drugs are essential for the security of China’s healthcare industry. Though there are many approved generic drugs in China, the quality of most generic drugs approved before 2007 is poor, that is, there is a great quality difference between these generic drugs and the original products. Now, therefore, China is implementing consistency evaluation for generic drugs. Unfortunately, the progress is slow. In recent years, applications for generic drugs have surged. It may be a good thing, but some quality generic drugs cannot enter the market due to sluggish evaluation and approval. Impeded development of generic drugs triggered the development of new policy encouraging firms to develop new drugs: there first emerged “a narrower path for application” of Class 3 chemicals, of which the applications number have skyrocketed since last year; for Class 1 new drugs, there are more than 100 applications in a year, with a steady growth. Although it reflects the ‘power of innovation’, the lack of technology and fund will result in failure for many innovative compounds to become approved drugs or become truly internationally recognized innovative medicines, even if approved finally. Most activities of Tongxieyi Forum in recent years focused on innovative drugs, but to do a solid job in developing and making generic drugs is also a major task, which I have always been thinking and practicing.”</p>"
     },
     {
       "id": 55,
       "active": false,
-      "name": "胡宏章",
-      "title": "大湾区共同家园投资有限公司总裁",
-      "desc": "<p>胡博士现任中国建设银行全资投行——建银国际总裁、建银国际财富管理（天津）有限公司董事长、建银国际医疗保健投资管理有限公司总经理与乾信文化投资管理有限公司总经理；任中国创投专业委员会联席会长、中国高等院校香港校友会联合会金融协会副主席、香港中资证券业协会副主席、中国证券法学研究会常务理事、香港证券及期货事务上诉审裁处委员、中央财经大学金融发展研究院客座教授、南开大学金融发展研究院客座教授等。</p>"
+      "name": "Hu Zhanghong",
+      "title": "President of Greater Bay Area Homeland Investments Limited",
+      "desc": "<p>Dr. Hu is the President of CCB International, a wholly-owned investment bank of China Construction Bank, Chairman of CCB International Wealth Management (Tianjin) Limited., General Manager of CCB International Healthcare Investment Management Co., Ltd., and Qianxin Culture Investment Management Limited. He also holds the posts of co-chairman of the China Venture Capital Association, vice-chairman of Chinese Financial Association of Hong Kong, vice-chairman of the Chinese Securities Association of Hong Kong, executive director of the China Institute of Securities Law, member of the Securities and Futures Appeals Tribunal of Hong Kong, visiting professor of the Institute of Financial Development, the Central University of Finance and Economics, and visiting professor of the Institute of Financial Development, Nankai University.</p>"
     },
     {
       "id": 56,
       "active": false,
-      "name": "朱迅",
-      "title": "同写意新药英才俱乐部理事长、国家新药审评委员会专家、理事长",
-      "desc": "<p>同写意新药英才俱乐部理事长，国家新药审评委员会专家、理事长，著名免疫学家，国家新药咨询委员，国家自然科学基金专家组成员，吉林大学教授，博士生导师。曾任白求恩医科大学副校长，长春市政府副秘书长，国泰国际医药公司常务副总经理等。现任新天域资本特聘医药专家，国泰国际医药有限公司非执行董事等。自主创业建立长春医药生物技术中心和长春博迅医药生物技术公司，并任董事长;获得英国上市公司国泰国际控股800万美圆的创业资金支持，创建了长春博泰，任CEO。主管长春国家生物医药产业基地的规划及建设工作，2005年长春成为首批国家生物医药产业基地。主持国泰国际医药投资天津隆佰、朗生医药控股、西安皓天生物、湖南千山药机、浙江司太力制药等。朗生医药控股已在香港主板上市，湖南千山药机已在国内创业板上市，浙江司太力制药近期将启动中小板上市。参加国内多家医药产业园区及医药企业的战略咨询，技术及项目论证等数十次，曾担任多家医药公司的顾问。多次参加国务院研究发展中心、国家发改委、国家食品药品监督管理局、科技部等组织的咨询及论证会；应邀在国际及全国性会议或论坛上做大会报告或主题演讲(讲座)60余次；并多次组织或主持了全国性及区域性的“生物技术”研讨会或专题报告会。引荐、协助了20余名留学生回国创业或加盟国内制药公司，其中多家企业已经成为各自领域的行业龙头。调查了数百家医药及医药相关的公司，遍及全国20多个省份及北美湾区、大费城地区及大波士顿地区等；评价医药及生物技术公司及项目近千项。</p>"
+      "name": "Zhu Xun",
+      "title": "Chairman of Tongxieyi New Drug Elite Club, and Expert and Chairman of National Committee for New Drug Evaluation",
+      "desc": "<p>Dr. Zhu Xun is the chairman of Tongxieyi New Drug Elite Club, and an expert and the chairman of National Committee for New Drug Evaluation. He is a famous immunologist, and holds the posts of member of National Advisory Committee on New Drugs, member of expert group of National Natural Science Foundation of China, and professor and doctoral supervisor of Jilin University. He once served as vice-president of Norman Bethune Medical University, deputy secretary-general of Changchun Municipal Government, and executive deputy general manager of Cathay International Pharmaceutical Limited. Currently, he is a special medical expert of New Horizon Capital and a non-executive director of Cathay International Pharmaceutical Limited. He started his own business by setting up Changchun Medical Biotechnology Center and Changchun Bioxun Biotech Co., Ltd., where he served as the chairman of the board. With the support of USD 8 million from Cathay International Holdings Ltd., a British listed company, he founded Changchun Botai Medicine and Biological Technology Company Limited. and served as CEO. He was in charge of the planning and construction of Changchun’s bio-pharmaceutical industry base, which was listed among the first batch of national ones in 2005. He has directed the investment of Cathay International Pharmaceutical Limited in Tianjin Longbai, LANSEN Group Co., Ltd., Xi’an HaoTian Bio-engineering Technology Co., Ltd, Hunan CHINASUN Pharmaceutical Machinery CO., Ltd., and Zhejiang Starry Pharmaceutical Co., Ltd. LANSEN Group Co., Ltd. has been listed on Hong Kong’s main board, Hunan CHINASUN Pharmaceutical Machinery CO., Ltd. on ChiNext market, and Zhejiang Starry Pharmaceutical Co., Ltd. will soon start its IPO on the SME Board. He has participated in dozens of strategic consultation and technical and project evaluations of domestic pharmaceutical industrial parks and pharmaceutical enterprises, and has served as consultant for many pharmaceutical companies. He also has attended many consultation and demonstration meetings organized by the Research and Development Center of the State Council, the National Development and Reform Commission, the State Food and Drug Administration and the Ministry of Science and Technology. Moreover, he has given more than 60 reports or keynote speeches (lectures) at international and national conferences or forums and has organized or presided over many national and regional “biotechnology” seminars or special workshops. Dr. Zhu Xun also has introduced and helped more than 20 Chinese students who once studied overseas to join domestic pharmaceutical companies or to start businesses in China by themselves. Many of these businesses have become industry leaders in their respective fields. He has studied hundreds of pharmaceutical and pharmaceutical-related companies across more than 20 provinces in China, as well as the Bay Area in US, Greater Philadelphia and Greater Boston, and evaluated nearly 1,000 pharmaceutical and biotechnology companies and projects.</p>"
+    },
+    {
+      "id": 57,
+      "active": false,
+      "name": "侯金林",
+      "title": "中华医学会感染病分会副主任委员和广东省感染病学会主任委员",
+      "desc": "<p>中华医学会感染病分会副主任委员和广东省感染病学会主任委员，并获珠江特聘教授等荣誉，以及受聘中华传染病杂志、Hepatology(肝病杂志)中文版副主编。</p><p>带领科室获得国家杰出青年基金、国家十一五重点传染病专项、国家自然科学基金重点项目、国家973子课题项目等重量级项目5项，其它省部级以上项目8项，涉及经费达近5000多万元。近五年在学科发表国内外论文40余篇包括Hepatology、Science等。获得广东省一等奖2项、中华医学科技奖二等奖1项。积极开展国际国内交流，与英国牛津大学、上海人类基因组中心、第二军医大学免疫所等合作攻关，为新发传染病的基础研究作出重要贡献。与英国医学研究会（MRC）所属牛津大学合作研究SARS取得重要进展，受到MRC和学校领导的关注。</p>"
+    },
+    {
+      "id": 58,
+      "active": false,
+      "name": "杨大俊",
+      "title": "亚盛医药董事长兼CEO",
+      "desc": "<p>国家特聘专家，肿瘤遗传学博士。兼任中山大学肿瘤防治中心教授及博导、中国药科大学产业教授、中国药促会研发专委会副主任委员等职。</p><p>于2010年共同创办亚盛医药，在细胞凋亡及自噬双通道调节新靶点领域内取得重大突破，多项原创小分子抗肿瘤药物进入到中国、美国及澳大利亚的I-II期临床开发阶段。 杨大俊博士有二十余年癌症新药研发与转化经验，创业前先后担职美国乔治城大学和密西根大学肿瘤学副教授，累计获得美国NIH、癌症基金会、NCI RAID等专项研究经费近1000万美元。自2003年共同创办美国亚生起，曾先后组建四个新药研发公司，并曾任晨兴创投集团生物技术及医药董事总经理。先后发表学术论文及摘要100多篇，有20多件国内外发明专利。</p>"
+    },
+    {
+      "id": 59,
+      "active": false,
+      "name": "李元念",
+      "title": "江苏豪森药业集团有限公司临床研发副总裁",
+      "desc": "<p>目前在江苏豪森药业集团有限公司担任临床研发副总裁，在进入豪森之前，曾任武田制药上海发展中心的副总裁兼发展部主管。李博士毕业于悉尼大学，获药物化学硕士学位和临床药理的博士学士。</p>"
     }
   ],
   historyA:[
