@@ -40,7 +40,7 @@
             visible: true,
             events: {
               close() {
-
+                console.log(0);
               },
               click: () => {
                 // self.show = !self.show
@@ -52,10 +52,10 @@
         };
       },
       beforeCreate(){
-        self = this;
+        // self = this;
       },
       mounted() {
-
+        self = this;
       },
       methods:{
         showWind(){
@@ -63,10 +63,7 @@
           this.$nextTick(() => {
             this.show = true;
           });
-        },
-
-      },
-      computed:{
+        }
 
       }
     };

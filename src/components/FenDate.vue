@@ -116,7 +116,8 @@ export default {
   display: flex;
 }
 .flex-left{
-  flex: 0 0 2.8rem;
+  /* flex: 0 0 2.8rem; */
+  margin-right: .2rem;
 }
 .flex-right{
   flex: 1;

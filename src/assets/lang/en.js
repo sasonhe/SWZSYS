@@ -110,13 +110,6 @@ module.exports = {
       "title": "Memberof National Academy of Engineering",
       "desc": "<p>Dr. Sun Yongkui was born in 1962. He graduated from Xiamen University in 1977 with a bachelor’s degree in electrochemistry. In 1982, under the guidance of Dr. Tian Zhaowu, he joined Graduate School of Xiamen University. In 1983, he went to study at California Institute of Technology and then graduated with a Ph. D. degree. He received the Institute of Chemical Engineers' AstraZeneca Award for Excellence in Green Chemistry and Engineering in 2005, USEPA’s Presidential Green Chemistry Challenge Award in 2005 and 2006, and Thomas AlvaEdison Patent Award in 2009 (New jersey R&DCouncil).In 2006, Dr. Sun received the Presidential Fellows Award in Merck Research Laboratories in recognition of his scientific contributions and leadership.</p><p>Dr. Sun was once the Council President of Xiamen University American Alumni Association. He is currently a board member of Xiamen University American Alumni Association. On February 8, 2016, he was elected as the Member of National Academy of Engineering.</p>"
     },
-    // {
-    //   "id": 4,
-    //   "active": false,
-    //   "name": "Shi Yigong",
-    //   "title": "Academician of Chinese Academy of Sciences, member of USA National Academy of Sciences, and president of Westlake University",
-    //   "desc": "<p>Graduated from Tsinghua University as bachelor in 1989 and obtained Ph.D from the Johns Hopkins University in 1995. Dr. Shi is a structural biologist, professor of Tsinghua University, academician of Chinese Academy of Sciences, fellow of European Molecular Biology Organization, foreign associate of National Academy of Sciences, and academician of American Academy of Arts and Sciences. In 2017, he was awarded with the Life Science Award in the 2nd Future Science Prize. He was once a vice president of Tsinghua University.</p><p>Vice Chairman of the 9th National Committee of China Association for Science and Technology; president of Westlake University</p><p>In December 2018, Dr. Shi was elected into the list of “40 Returnees of China’s 40 Years of Reform and Opening-up”.</p><p>Research Field: His major research involves two fields, apoptosis and membrane proteins. He has made profound contribution to the control mechanism of Smad-mediated regulation of TGF pathway as well as the structural biology of PP2A.</p>"
-    // },
     {
       "id": 28,
       "active": false,
@@ -131,20 +124,6 @@ module.exports = {
       "title": "Academician of Chinese Academy of Sciences, and Chancellor of Peking University Shenzhen Graduate School.",
       "desc": "<p>Dr. Zhan Qimin is a professor and doctoral supervisor. He was selected to be an academician of Chinese Academy of Engineering in 2011. Currently, he is taking the position of standing member of Peking University Party Committee, vice president of Peking University, president of Peking University Health Science Center, and chancellor of Peking University Shenzhen Graduate School.</p><p>Academic Posts：Chairman of Chinese Society of Microcirculation, vice chairman of China Anti-Cancer Association, and chairman of Overseas Doctor Branch of Western Returned Scholars Association. He once worked as the head of biology & medicine expert team and biopharmaceutical team in National High-Tech R&D Program (863 Program), the head of biomedicine expert team of National Major Project for New Drug Development, director of Scientific Technology Project Committee of National Health Commission of P.R.C, the head of National Biopharmceutical Technology Strategy Planning Expert Team, and the head of National Health Security Technology Expert Team.</p><p>Research Fields:For long time，he has been committed to research in molecular oncology and translational oncology, and discovered some systematic function and mechanism of key proteins at cell cycle checkpoints. He has also illuminated the role of multiple key cell cycle regulatory proteins in cell carcinogenesis and tumor diagnosis and individualized treatment.</p>"
     },
-    // {
-    //   "id": 6,
-    //   "active": false,
-    //   "name": "LO Yuk Ming",
-    //   "title": "Professor LO Yuk Ming, Dennis , Vice President of Faculty of Medicine, The Chinese University of Hong Kong; foreign associate of National Academy of Sciences (USA)",
-    //   "desc": "<p>Professor Lo is a clinical expert in molecular biology, foreign associate of National Academy of Sciences (USA), fellow of The World Academy of Sciences, and follow of The Hong Kong Academy of Sciences. Now he is Associate Dean of Faculty of Medicine and Chairman of Department of Chemical Pathology, The Chinese University of Hong Kong, Director of Li Ka Shing Institute of Health Sciences, Professor of Chemical Pathology and the Li Ka Shing Professor of Medicine of The Chinese University of Hong Kong.<p><p>Professor Lo has spent years in researching DNA and RNA in human blood plasma, and in 1997 he found fetal DNA in maternal plasma , and later he developed an approach to accurately analyze and measure fetal DNA in maternal plasma . He is honored as the founder of noninvasive prenatal DNA testing.</p>"
-    // },
-    // {
-    //   "id": 7,
-    //   "active": false,
-    //   "name": "Xu Yangsheng",
-    //   "title": "Prof. Xu Yangsheng, Academician of the Chinese Academy of Engineering, and President of the Chinese University of Hong Kong, Shenzhen",
-    //   "desc": "<p>Professor Xu Yangsheng is an expert on space robots and intelligent control. He is an academician of the Chinese Academy of Engineering, one of the first members of the Chinese Association for Artificial Intelligence, and chair professor of Automation and Computer-aided Engineering at the Chinese University of Hong Kong.</p><p>Since 2011, he has served as vice-president of the Chinese University of Hong Kong and is vice-president of Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences. He is the president of the Chinese University of Hong Kong, Shenzhen.</p><p>In February 2019, he was appointed honorary president and director of the academic committee of the Satellite Industry Technology Research Institute, University of Electronic Science and Technology of China.</p><p>Research Fields: Professor Xu’s research includes robotics and intelligent systems and artificial intelligence. He has made important contributions to the design, control and dynamics research of space robots and the development of gravity-free ground test facilities. He is committed to promoting the development of China’s space intelligent control technology, and has proposed and participated in the development of space intelligent systems. Meanwhile, he has conducted in-depth research and systematic development in the control of dynamic stability systems, automatic modeling of human control strategies, wearable intelligent man-machine interfaces, and hybrid electric vehicles.</p>"
-    // },
     {
       "id": 8,
       "active": false,
@@ -194,20 +173,6 @@ module.exports = {
       "title": "Chairman of YuanMing Capital",
       "desc": "<p>Founding Partner of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the founding partner of YuanMing Capital and chairman of the Mevion Medical Systems IncCo., Ltd. As the founder and the chairman of Yabuli China Entrepreneurs Forum and China-US Business Leaders Roundtable Conference, Tian is the core organizer of various high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China economics.</p>"
     },
-    // {
-    //   "id": 18,
-    //   "active": false,
-    //   "name": "Nisa Leung",
-    //   "title": "Managing Partner of Qiming Venture Partners",
-    //   "desc": "<p>Nisa earned her MBA from Stanford Graduate School of Business and a BS from Cornell University. She currently sits on the board of Gan & Lee Pharmaceutical, Zai Laboratories, Novast Laboratories (China) Ltd., Nurotron Biotechnology, Kunming Jiahe Science & Technology Co., Ltd., and OriGene Technologies. She also serves on the Board of Trustees of HKUST Business School, and that of the Hotchkiss School.</p><p>Nisa Leung is a managing partner of Qiming Venture Partners, leading its health care investments. Qiming Venture Partners is a leading investment firm in China which currently manages five US dollar funds and three RMB funds, with US$2.5 billion assets under management and investment in over 160 companies.</p>"
-    // },
-    // {
-    //   "id": 19,
-    //   "active": false,
-    //   "name": "Liu Liang",
-    //   "title": "President of Macau University of Science and Technology",
-    //   "desc": "<p>Liu Liang is the president of Macao University of Science and Technology, director of the State Key Laboratory of Quality Research in Chinese Medicine, consultant of WHO’s Traditional Medicine Team, convener of the ISO/TC249/WG on Standardization of Traditional Chinese Medicine, and expert for project review specially invited by the National Natural Science Foundation.</p><p> Versed in Chinse and western medical science, Professor Liu is a well-known expert in the fields of anti-inflammatory and immune pharmacology of Chinese medicine, research and development of new drugs of Chinese medicine, rheumatism and arthritis research. He has published more than 300 papers in academic journals and conferences at home and abroad, including Nature. He also serves as editor of various English academic journals, including Journal of Chinese Evidence-based Medicine, Journal of Chinese Medicine, Chinese J of Immunology, and Journal of Materia Medica. In May 2017, he won a national innovation pioneer prize. </p>"
-    // },
     {
       "id": 20,
       "active": false,
@@ -892,6 +857,76 @@ module.exports = {
               time:"17:00-17:10",
               dev:["Comments to the Roadshow Projects","Guests to be invited","Co-founder of Lucky Source Funds、Partner of Lime Capital、Business Partner of Rongyu Capital、Co-founder of Breakthrough Capital、Investment Director of Cash Capital、Investment Director of Sangel Capital、General Manager of Efung Capital、Investment Director of ASB Ventures"]
             }
+          ]
+        },
+        {
+          id:1,
+          name:"分会场 ( 四 )",
+          title:["主题：2019海峡两岸暨港澳精准医疗协同创新论坛","承办单位：深圳产学研合作促进会、海峡两岸暨港澳协同创新联盟","规模：约200人"],
+          main:[
+            {
+              time:"14:00-14:15",
+              dev:["主办方致欢迎辞"]
+            },
+            {
+              time:"14:15-15:15",
+              dev:["主题分享","精准医疗重点科技与项目","高  福 中国科学院院士，中科院微生物研究所所长","黄长江 烟台迈百瑞国际生物医药有限公司高级副总裁，美国加州大学洛杉矶分校医学院分子医学博士后","刘朝煜 深圳因合生物科技有限公司CEO"]
+            },
+            {
+              time:"15:15-15:25",
+              dev:["茶歇"]
+            },
+            {
+              time:"15:25-16:25",
+              dev:["主题分享","精准医疗政策与机制","李钟熙 台湾工业技术研究院前院长、台湾生物产业发展协会理事长","管  轶 香港大学国家新发传染性疾病重点实验室主任","严景华 中国科学院微生物研究所教授"]
+            },
+            {
+              time:"16:05-16:55",
+              dev:["圆桌论坛","主持人：李钟熙","王干芝  阿里巴巴之父，汇泽亚洲投资创始合伙人","黄长江  烟台迈百瑞国际生物医药有限公司高级副总裁、美国加州大学洛杉矶分校医学院分子医学博士后","刘朝煜  深圳因合生物科技有限公司CEO","管  轶  香港大学国家新发传染性疾病重点实验室主任","严景华  中国科学院微生物研究所教授"]
+            },
+            {
+              time:"16:55-17:15",
+              dev:["合影、自由交流、项目对接"]
+            }
+          ]
+        },
+        {
+          id:1,
+          name:"分会场 ( 五 )",
+          title:["主题：同写意论坛第98期活动","承办单位：同写意新药英才俱乐部、广东省生物医药创新技术协会","规模：约300人"],
+          main:[
+            {
+              time:"主题一",
+              dev:["创新思想","生物医药技术创新下的中国药企的转型升级","抗肿瘤药物的研发方向","药品审评审批改革"]
+            },
+            {
+              time:"主题二",
+              dev:["CEO论生物医药研发创新","从仿制药到创新药的转型","如何避免创新药“扎堆”"]
+            },
+            {
+              time:"主题三",
+              dev:["生物技术药物研发创新","抗体药物发展新趋势","发展抗体药物、细胞基因药物的机会与风险"]
+            },
+            {
+              time:"主题四",
+              dev:["化学新药研发创新","化学小分子药的选题立项","同企业的研发模式探讨","化学原料药的生产"]
+            },
+            {
+              time:"主题五",
+              dev:["创新药物制剂","高端仿制药的开发与企业转型升级","改良创新的机会","仿制药一致性评价的技术攻关"]
+            },
+            {
+              time:"主题六",
+              dev:["首席科学家谈传统药企的转型升级","做仿制还是创新药","如何进行产异化研发","创新的技术路径"]
+            },
+            {
+              time:"主题七",
+              dev:["CRO与临床研究","临床研发的新趋势","企业与CRO如何协力开展临床试验"]
+            },
+            {
+              time:"主题八",
+              dev:["创新投资","投资人眼中的好企业","投资新方向"]
+            },
           ]
         }
       ]

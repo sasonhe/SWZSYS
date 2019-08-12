@@ -53,9 +53,9 @@ import FenDate from '@/components/FenDate';
 import Media from '@/components/Media';
 import Register from '@/components/Register';
 import Footer from '@/components/Footer';
-import Maps from '@/components/map';
 import historyTabs from '@/components/historyTabs';
 import Go from '@/components/Go';
+import Maps from '@/components/map';
 let timer = null;
 export default {
   name: 'App',
@@ -65,7 +65,7 @@ export default {
     }
   },
   components: {
-    Heard,TopImg,Jshao,Organiza,Gust,FenDate,Media,Register,Footer,historyTabs,Maps,Go
+    Heard,TopImg,Jshao,Organiza,Gust,FenDate,Media,Register,Footer,historyTabs,Go,Maps
   },
   mounted: function () {
     window.addEventListener('scroll', this.handleScroll, true);  // 监听（绑定）滚轮滚动事件
