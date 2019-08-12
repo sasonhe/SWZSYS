@@ -257,6 +257,41 @@ module.exports = {
       "title": "Nicholas La Thangue, Faculty of Cancer Biology of University of Oxford, Fellow of the Royal Society of Edinburgh, Member of the European Molecular Biology Organization, Fellow of the Academy of Medical Sciences, Fellow of the European Academy of Cancer Sciences",
       "desc": "<p>Nicholas La Thangue MA BSc PhD FRSE FMedSci  is  Professor of Cancer Biology at the University of Oxford, and was previously Cathcart Professor of Biochemistry at the University of Glasgow, and before that a scientist at the UK Medical Research Council.  He studied for his Ph.D. at University College London and carried out post-doctoral work at Imperial College London.  He is a Fellow of the Royal Society of Edinburgh, a Member of the European Molecular Biology Organisation (EMBO), a Fellow of the Academy of Medical Sciences, a Fellow of the European Academy of Caner Sciences, a Fellow of the Lister Institute and Professorial Fellow at Linacre College Oxford.  </p><p>He has authored over 200 publications and is an inventor on an extensive number of patents.  His academic research is focussed on the molecular mechanisms that give rise to the abnormal proliferation of tumour cells, and translating novel mechanistic insights into new therapeutic opportunities.  He has over 30 years of experience in biotechnology and healthcare sectors. He founded Prolifix in 1995, a successful spin-out from the UK Medical Research Council, focussed on cancer drug discovery and was CSO until its merger with the Scandinavian oncology company TopoTarget. He acted as Chief Business Development Officer in TopoTarget, and was responsible for completing a number of significant deals with both large and mid-size companies, and floating the Company on the Scandinavian Stock Exchange.  He is Founding Director of Celleron Therapeutics and Oxford Cancer Biomarkers, companies focussed on personalised cancer medicines.  He has consulted extensively in the biotechnology and pharmaceutical sector and is an advisor to numerous companies.</p>"
     },
+    {
+      "id": 52,
+      "active": false,
+      "name": "Jinghua Cao",
+      "title": "The Deputy Director of the Bureau of International Cooperation, Chinese Academy of Science",
+      "desc": ""
+    },
+    {
+      "id": 53,
+      "active": false,
+      "name": "陈飞",
+      "title": "礼来亚洲基金合伙人",
+      "desc": "<p>陈飞博士于2009年加入礼来亚洲风险基金，担任投资经理并常驻中国上海。现任礼来亚洲投资总监。此前他工作于中国领先的新型投资银行—贝祥投资集团，并在健康医疗团队从事财务顾问的工作。任职期间他成功的完成了数起医药企业的私募融资和并购交易。他曾实习于Monitor咨询公司和美国生命科学基金Vivo Ventures，因而积累了一定的商业和投资经验。</p><p>陈飞博士拥有复旦大学医学和分子遗传学博士学位及复旦大学生物学学士学位。他目前担任礼来亚洲基金的投资组合公司博瑞生物(BrightGene Biomedical)的董事会观察员。</p><p>关注行业：医疗设备及用品、医疗提供商及服务、生物技术。</p>"
+    },
+    {
+      "id": 54,
+      "active": false,
+      "name": "程增江",
+      "title": "同写意论坛发起人",
+      "desc": "<p>同写意论坛发起人，科贝源生物医药科技有限公司董事长，同写意新药英才俱乐部”秘书长。2004年10月，程增江“对如何成为一名优秀药品研发人才的思考”的发言引起共鸣，在北京一间咖啡厅同写意论坛成立，初衷是“汇集一线一流，讲求真知灼见”，为药物研发技术人员创办一个开放式的学习型组织。十年历程，30多期论坛活动，从同写研发技术之意，同写技术管理意，同写技术人生之意直到2014年10月，同写意成立十周年——寻找中国新药之魂。程增江说，我在一线做了十多年的仿制药研发，会有自己的体会和思考。我一直认为仿制药还是我们国家医疗保障的根基。仿制药虽然文号很多，但由于历史的原因，2007年前批的仿制药质量不高，或者说很多品种与原研品存在很大的质量差距，这就是为什么国家要开展仿制药一致性评价，遗憾的是这件事进展缓慢。这几年仿制药申报迅猛，这本来是件好事，但审批跟不上导致高质量的仿制药不能进入市场。仿制药开发塞车又引发政策鼓励企业做新药，三类化学“新药”首先成为“申报的独木桥” ，直接导致去年以来的“疯狂”申报，一类新药也出现了每年一百多个受理号的申报且持续增长。虽然这体现了“创新的力量”，但技术与资金实力的不足让很多创新不能最终成药或者成了药，也不是被国际认可的真正意义上的创新药。同写意论坛最近几年的活动都是关注创新药，但是扎扎实实做好仿制药是我一直实践与思考的话题，做好仿制药真的是任重道远。</p>"
+    },
+    {
+      "id": 55,
+      "active": false,
+      "name": "胡宏章",
+      "title": "大湾区共同家园投资有限公司总裁",
+      "desc": "<p>胡博士现任中国建设银行全资投行——建银国际总裁、建银国际财富管理（天津）有限公司董事长、建银国际医疗保健投资管理有限公司总经理与乾信文化投资管理有限公司总经理；任中国创投专业委员会联席会长、中国高等院校香港校友会联合会金融协会副主席、香港中资证券业协会副主席、中国证券法学研究会常务理事、香港证券及期货事务上诉审裁处委员、中央财经大学金融发展研究院客座教授、南开大学金融发展研究院客座教授等。</p>"
+    },
+    {
+      "id": 56,
+      "active": false,
+      "name": "朱迅",
+      "title": "同写意新药英才俱乐部理事长、国家新药审评委员会专家、理事长",
+      "desc": "<p>同写意新药英才俱乐部理事长，国家新药审评委员会专家、理事长，著名免疫学家，国家新药咨询委员，国家自然科学基金专家组成员，吉林大学教授，博士生导师。曾任白求恩医科大学副校长，长春市政府副秘书长，国泰国际医药公司常务副总经理等。现任新天域资本特聘医药专家，国泰国际医药有限公司非执行董事等。自主创业建立长春医药生物技术中心和长春博迅医药生物技术公司，并任董事长;获得英国上市公司国泰国际控股800万美圆的创业资金支持，创建了长春博泰，任CEO。主管长春国家生物医药产业基地的规划及建设工作，2005年长春成为首批国家生物医药产业基地。主持国泰国际医药投资天津隆佰、朗生医药控股、西安皓天生物、湖南千山药机、浙江司太力制药等。朗生医药控股已在香港主板上市，湖南千山药机已在国内创业板上市，浙江司太力制药近期将启动中小板上市。参加国内多家医药产业园区及医药企业的战略咨询，技术及项目论证等数十次，曾担任多家医药公司的顾问。多次参加国务院研究发展中心、国家发改委、国家食品药品监督管理局、科技部等组织的咨询及论证会；应邀在国际及全国性会议或论坛上做大会报告或主题演讲(讲座)60余次；并多次组织或主持了全国性及区域性的“生物技术”研讨会或专题报告会。引荐、协助了20余名留学生回国创业或加盟国内制药公司，其中多家企业已经成为各自领域的行业龙头。调查了数百家医药及医药相关的公司，遍及全国20多个省份及北美湾区、大费城地区及大波士顿地区等；评价医药及生物技术公司及项目近千项。</p>"
+    }
   ],
   historyA:[
     {
