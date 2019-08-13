@@ -277,6 +277,13 @@ module.exports = {
       "name": "李元念",
       "title": "江苏豪森药业集团有限公司临床研发副总裁",
       "desc": "<p>目前在江苏豪森药业集团有限公司担任临床研发副总裁，在进入豪森之前，曾任武田制药上海发展中心的副总裁兼发展部主管。李博士毕业于悉尼大学，获药物化学硕士学位和临床药理的博士学士。</p>"
+    },
+    {
+      "id": 60,
+      "active": false,
+      "name": "Steve Vermant",
+      "title": "Steve Vermant, Managing Director of Life Science, Merck",
+      "desc": "<p>Over 20 years in Life Science and Specialty Chemicals with global experiences and a positive and diversity-oriented leadership approach, Steve is a highly accomplished and creative business leader.</p><p>Proficient in strategy design and implementation.</p><p>Strong business acumen and a beneficial balance between Sales & Marketing expertise and technical knowledge. </p><p>Experienced Business General Manager including Profit & Loss responsibility and Strategic Planning.</p><p>proficient Managing Director, displaying board level acumen and strong governance principles, with an ability to manage effectively across all business functions.</p>"
     }
   ],
   historyA:[
