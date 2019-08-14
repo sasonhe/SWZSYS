@@ -889,71 +889,71 @@ module.exports = {
         },
         {
           id:1,
-          name:"分会场 ( 四 )",
-          title:["主题：2019海峡两岸暨港澳精准医疗协同创新论坛","承办单位：深圳产学研合作促进会、海峡两岸暨港澳协同创新联盟","规模：约200人"],
+          name:"Sub-forum 4",
+          title:["Theme：The 2019 Cross-straits Corporate Creative Forum on Precision Medicine","Organized by：Shenzhen Industry-University-Research Institute Collaboration Association,Cross Straits, Hong Kong and Macao Collaborative Innovation Alliance","Participants：About 200"],
           main:[
             {
               time:"14:00-14:15",
-              dev:["主办方致欢迎辞"]
+              dev:["Welcome speech"]
             },
             {
               time:"14:15-15:15",
-              dev:["主题分享","精准医疗重点科技与项目","高  福 中国科学院院士，中科院微生物研究所所长","黄长江 烟台迈百瑞国际生物医药有限公司高级副总裁，美国加州大学洛杉矶分校医学院分子医学博士后","刘朝煜 深圳因合生物科技有限公司CEO"]
+              dev:["Keynote speech","Key Technologies and Projects of Precision Medicine","Gao Fu, member of Chinese Academy of Sciences, director of the Institute of Microbiology, Chinese Academy of Sciences","Huang Changjiang, senior vice president of MabPlex International Ltd, postdoctor in Molecular Medicine at David Geffen School of Medicine, University of California, Los Angeles","Liu Zhaoyu, CEO of Shenzhen Vienomics Biotechnology Co., Ltd"]
             },
             {
               time:"15:15-15:25",
-              dev:["茶歇"]
+              dev:["Tea break"]
             },
             {
               time:"15:25-16:25",
-              dev:["主题分享","精准医疗政策与机制","李钟熙 台湾工业技术研究院前院长、台湾生物产业发展协会理事长","管  轶 香港大学国家新发传染性疾病重点实验室主任","严景华 中国科学院微生物研究所教授"]
+              dev:["Keynote speech","Policies and Mechanism of Precision Medicine","Li Zhongxi, former president of Taiwan Industrial Technology Research Institute, chairman of Taiwan Bio Industry Organization","Guan Yi, director of State Key Laboratory of Emerging Infectious Diseases at the University of Hong Kong","Yan Jinghua, professor of the Institute of Microbiology, Chinese Academy of Sciences"]
             },
             {
               time:"16:05-16:55",
-              dev:["圆桌论坛","主持人：李钟熙","王干芝  阿里巴巴之父，汇泽亚洲投资创始合伙人","黄长江  烟台迈百瑞国际生物医药有限公司高级副总裁、美国加州大学洛杉矶分校医学院分子医学博士后","刘朝煜  深圳因合生物科技有限公司CEO","管  轶  香港大学国家新发传染性疾病重点实验室主任","严景华  中国科学院微生物研究所教授"]
+              dev:["Roundtable forum","Host: Li Zhongxi","Simon Wong, father of Alibaba, founding partner of Whiz Partners Asia","Huang Changjiang, senior vice president of MabPlex International Ltd, postdoctor in Molecular Medicine at David Geffen School of Medicine, University of California, Los Angeles","Liu Zhaoyu, CEO of Shenzhen Vienomics Biotechnology Co., Ltd","Guan Yi, director of State Key Laboratory of Emerging Infectious Diseases at the University of Hong Kong","Yan Jinghua, professor of the Institute of Microbiology, Chinese Academy of Sciences"]
             },
             {
               time:"16:55-17:15",
-              dev:["合影、自由交流、项目对接"]
+              dev:["Group photo-taking, free exchange and project match-making"]
             }
           ]
         },
         {
           id:1,
-          name:"分会场 ( 五 )",
-          title:["主题：同写意论坛第98期活动","承办单位：同写意新药英才俱乐部、广东省生物医药创新技术协会","规模：约300人"],
+          name:"Sub-forum 5",
+          title:["Theme：The Event of Tongxieyi Forum（98th Phase）","Organized by：Tongxieyi New Medicine Talent Club and Guangdong Bio-pharmaceutical Innovation Technology Association","Participants：About 300"],
           main:[
             {
-              time:"主题一",
-              dev:["创新思想","生物医药技术创新下的中国药企的转型升级","抗肿瘤药物的研发方向","药品审评审批改革"]
+              time:"Theme I",
+              dev:["Innovation ideas","Transformation and upgrading of Chinese pharmaceutical enterprises in the context of bio-medicine technological innovation ","R&D directions of anti-cancer drugs ","Reform in the assessment and approval of drugs"]
             },
             {
-              time:"主题二",
-              dev:["CEO论生物医药研发创新","从仿制药到创新药的转型","如何避免创新药“扎堆”"]
+              time:"Theme II",
+              dev:["sharing of CEOs on bio-medicine R&D and innovation","Transformation from generic drugs to innovative drugs","How to avoid the creation of similar innovative drugs?"]
             },
             {
-              time:"主题三",
-              dev:["生物技术药物研发创新","抗体药物发展新趋势","发展抗体药物、细胞基因药物的机会与风险"]
+              time:"Theme III",
+              dev:["R&D and innovation in the bio-medicine","New development trend of antibody drugs ","Opportunity and risk in the development of antibody drugs and cytogene drugs"]
             },
             {
-              time:"主题四",
-              dev:["化学新药研发创新","化学小分子药的选题立项","同企业的研发模式探讨","化学原料药的生产"]
+              time:"Theme IV",
+              dev:["R&D and innovation of new chemical medicine","Selection of topics and establishment of projects for chemical small molecule drugs","Discussions on the R&D models of various enterprises","Manufacturing of chemical active pharmaceutical ingredients"]
             },
             {
-              time:"主题五",
-              dev:["创新药物制剂","高端仿制药的开发与企业转型升级","改良创新的机会","仿制药一致性评价的技术攻关"]
+              time:"Theme V",
+              dev:["Innovative pharmaceutical preparation","Development of high-end generic medicine and transformation and upgrading of enterprises","Opportunity for improvement and innovation ","Technological breakthrough in the consistency evaluation of generic drugs"]
             },
             {
-              time:"主题六",
-              dev:["首席科学家谈传统药企的转型升级","做仿制还是创新药","如何进行产异化研发","创新的技术路径"]
+              time:"Theme VI",
+              dev:["Chief scientists’ comments on the transformation and upgrading of traditional pharmaceutical enterprises","Generic or innovative drugs?","How to conduct differentiated R&D? ","Technological path for innovation"]
             },
             {
-              time:"主题七",
-              dev:["CRO与临床研究","临床研发的新趋势","企业与CRO如何协力开展临床试验"]
+              time:"Theme VII",
+              dev:["CRO and clinical research","New trend of clinical research and development","How do an enterprise and its CRO cooperate in clinical tests?"]
             },
             {
-              time:"主题八",
-              dev:["创新投资","投资人眼中的好企业","投资新方向"]
+              time:"Theme VIII",
+              dev:["innovative investment","A good enterprise in the eyes of investors ","New investment direction"]
             },
           ]
         }
