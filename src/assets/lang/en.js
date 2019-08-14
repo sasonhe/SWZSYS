@@ -920,41 +920,67 @@ module.exports = {
         },
         {
           id:1,
-          name:"Sub-forum 5",
-          title:["Theme：The Event of Tongxieyi Forum（98th Phase）","Organized by：Tongxieyi New Medicine Talent Club and Guangdong Bio-pharmaceutical Innovation Technology Association","Participants：About 300"],
+          name:"分会场 ( 五 )",
+          title:["主题：粤港澳大湾区创新药研发的机遇","承办单位：广东省生物医药创新技术协会、同写意新药英才俱乐部","规模：约100人"],
           main:[
             {
-              time:"Theme I",
-              dev:["Innovation ideas","Transformation and upgrading of Chinese pharmaceutical enterprises in the context of bio-medicine technological innovation ","R&D directions of anti-cancer drugs ","Reform in the assessment and approval of drugs"]
+              time:"10:50-11:20",
+              dev:["粤港澳大湾区生物医药机遇和挑战","朱少璇，广东省生物医药创新技术协会执行会长"]
             },
             {
-              time:"Theme II",
-              dev:["sharing of CEOs on bio-medicine R&D and innovation","Transformation from generic drugs to innovative drugs","How to avoid the creation of similar innovative drugs?"]
+              time:"11:20-11:45",
+              dev:["创新药物中美双报以及恒诺康的实践","张健存，广州市恒诺康医药科技有限公司董事长，国家级专家"]
             },
             {
-              time:"Theme III",
-              dev:["R&D and innovation in the bio-medicine","New development trend of antibody drugs ","Opportunity and risk in the development of antibody drugs and cytogene drugs"]
+              time:"11:45-12:10",
+              dev:["国内外创新药研发趋势及创新研发过程中的思考","陈小新，广东众生药业股份有限公司研发中心副总经理、广东众生睿创生物科技有限公司副总裁"]
             },
             {
-              time:"Theme IV",
-              dev:["R&D and innovation of new chemical medicine","Selection of topics and establishment of projects for chemical small molecule drugs","Discussions on the R&D models of various enterprises","Manufacturing of chemical active pharmaceutical ingredients"]
+              time:"12:10-13:30",
+              dev:["茶歇"]
             },
             {
-              time:"Theme V",
-              dev:["Innovative pharmaceutical preparation","Development of high-end generic medicine and transformation and upgrading of enterprises","Opportunity for improvement and innovation ","Technological breakthrough in the consistency evaluation of generic drugs"]
+              time:"13:30-13:55",
+              dev:["生物医药创新发展新趋势","陈新滋 中国科学院院士，香港科学院创院院士，前香港浸会大学校长，首任中山大学药学院院长"]
             },
             {
-              time:"Theme VI",
-              dev:["Chief scientists’ comments on the transformation and upgrading of traditional pharmaceutical enterprises","Generic or innovative drugs?","How to conduct differentiated R&D? ","Technological path for innovation"]
+              time:"13:55-14:20",
+              dev:["小分子新药API研发与产业化关键技术","叶伟平 莱佛士制药有限公司总经理"]
             },
             {
-              time:"Theme VII",
-              dev:["CRO and clinical research","New trend of clinical research and development","How do an enterprise and its CRO cooperate in clinical tests?"]
+              time:"14:20-14:45",
+              dev:["脂肪肝新药研发现状和策略","王健华，广州博济医药生物有限公司 副总经理兼首席运营官"]
             },
             {
-              time:"Theme VIII",
-              dev:["innovative investment","A good enterprise in the eyes of investors ","New investment direction"]
+              time:"14:45-15:10",
+              dev:["眼前的苟且与诗和远方 ---写意仿制药的立项","程增江，同写意新药英才俱乐部 秘书长"]
             },
+            {
+              time:"15:10-15:50",
+              dev:["4+7后的药企研发创新与选题立项","主持：程增江，同写意新药英才俱乐部 秘书长"]
+            }
+          ]
+        },
+        {
+          id:1,
+          name:"分会场 ( 六 )",
+          title:["主题：泰格医药和观合医药路演","承办单位：泰格医药和观合医药",""],
+          main:[
+            {
+              time:"14:00-17:00",
+              dev:["尚未满足的肝脏疾病治疗需求 张岚","肝脏疾病进展转归及治疗靶点概述","侯金林 教授、主任医师、博士生导师，亚太肝病学会主席，中国南方医院肝病中心主任","抗病毒治疗的新靶点和新希望","杨大俊 医学博士","NASH治疗 - 对现状和未来趋势的评价","李元念  博士","肝病新药早期研发经验分享","胡裴 教授，北京协和医院","肝癌早筛的新方向","焦宇辰 博士，中国医学科学院肿瘤医院肿瘤研究所"]
+            }
+          ]
+        },
+        {
+          id:1,
+          name:"分会场 ( 七 )",
+          title:["主题：香港药创会论坛","承办单位：香港生物医药创新协会",""],
+          main:[
+            {
+              time:"议程待定",
+              dev:[]
+            }
           ]
         }
       ]
