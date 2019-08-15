@@ -260,23 +260,23 @@ module.exports = {
     {
       "id": 57,
       "active": false,
-      "name": "侯金林",
-      "title": "中华医学会感染病分会副主任委员和广东省感染病学会主任委员",
-      "desc": "<p>中华医学会感染病分会副主任委员和广东省感染病学会主任委员，并获珠江特聘教授等荣誉，以及受聘中华传染病杂志、Hepatology(肝病杂志)中文版副主编。</p><p>带领科室获得国家杰出青年基金、国家十一五重点传染病专项、国家自然科学基金重点项目、国家973子课题项目等重量级项目5项，其它省部级以上项目8项，涉及经费达近5000多万元。近五年在学科发表国内外论文40余篇包括Hepatology、Science等。获得广东省一等奖2项、中华医学科技奖二等奖1项。积极开展国际国内交流，与英国牛津大学、上海人类基因组中心、第二军医大学免疫所等合作攻关，为新发传染病的基础研究作出重要贡献。与英国医学研究会（MRC）所属牛津大学合作研究SARS取得重要进展，受到MRC和学校领导的关注。</p>"
+      "name": "Hou Jinlin",
+      "title": "Vice-chairman of Chinese Society of Infectious Diseases of Chinese Medical Association, and chairman of the Infectious Diseases Society of Guangdong Medical Association",
+      "desc": "<p>As the vice-chairman of Chinese Society of Infectious Diseases of Chinese Medical Association, and chairman of the Infectious Diseases Society of Guangdong Medical Association, Hou Jinlin has been granted such honors as the Pearl River Distinguished Professor, and is hired as Associate Editor of the Chinese Journal of Infectious Diseases and Hepatology (a liver disease magazine, Chinese version).</p><p>He has led his department to win five major funds and projects, including the National Science Fund for Distinguished Young Scholars, the National 11th Five-year Key Infectious Diseases Special Project, Key project of the National Natural Science Foundation of China, and Sub-topic Project of the National 973 Program, as well as eight provincial or ministerial projects or those of a higher level, which are granted a total funds of over 50 million yuan. Over the past five years, he has released more than 40 papers at home and abroad, including those on such journals as Hepatology and Science. He has also won two first prizes in Guangdong Province, and one second prize of the China Medical Science and Technology Award.</p><p>He has positively participated in the international and domestic academic exchanges, and cooperated with the University of Oxford, the Shanghai Human Genome Project, the Second Military Medical University in making breakthroughs and has made important contribution to the fundamental research on emerging infectious diseases. He has made major advances in the research on SARS by teaming up with the University of Oxford which is administered by Medical Research Council（MRC）, thus  drawing attention from MRC and school leaders.</p>"
     },
     {
       "id": 58,
       "active": false,
-      "name": "杨大俊",
-      "title": "亚盛医药董事长兼CEO",
-      "desc": "<p>国家特聘专家，肿瘤遗传学博士。兼任中山大学肿瘤防治中心教授及博导、中国药科大学产业教授、中国药促会研发专委会副主任委员等职。</p><p>于2010年共同创办亚盛医药，在细胞凋亡及自噬双通道调节新靶点领域内取得重大突破，多项原创小分子抗肿瘤药物进入到中国、美国及澳大利亚的I-II期临床开发阶段。 杨大俊博士有二十余年癌症新药研发与转化经验，创业前先后担职美国乔治城大学和密西根大学肿瘤学副教授，累计获得美国NIH、癌症基金会、NCI RAID等专项研究经费近1000万美元。自2003年共同创办美国亚生起，曾先后组建四个新药研发公司，并曾任晨兴创投集团生物技术及医药董事总经理。先后发表学术论文及摘要100多篇，有20多件国内外发明专利。</p>"
+      "name": "Yang Dajun",
+      "title": "President & CEO of Ascentage Pharma",
+      "desc": "<p>Yang Dajun is the State Specially Recruited Expert, and doctor of cancer genetics. He also serves as professor and doctorate tutor of the Sun Yat-sen University Cancer Center, industrial professor with China Medicine University and vice-chairman of the Research and Development Professional Committee of the China Pharmaceutical Innovation and Research Development Association.</p><p>He founded Ascentage Pharma in 2010, and has made significant breakthroughs in the fields of apoptosis and autophagy binary channels regulation new target spots. Some of his independently-developed small-molecule anti-tumor drugs have entered the Phase I-II clinical development stage in China, America and Australia. Dr. Yang Dajun has more than 20 years’ experience in the research & development and conversion of new anticancer drugs. Prior to the his entrepreneurship, he had successively served as associate oncology professor at the Georgetown University and the University of Michigan, and won an accumulated amount of funds of nearly 10 million dollars for special projects R&D from NIH, Cancer Fund, NCI and RAID, among others. He joined in the founding of Ascenta Therapeuticals in 2003, formed four research and development companies for new drugs successively, and took up the position of managing director of the biotechnology and pharmaceutical arm in Morningside Venture Capital. He has released more than 100 academic articles and abstracts, and got over 20 invention patents at home and abroad. </p>"
     },
     {
       "id": 59,
       "active": false,
-      "name": "李元念",
-      "title": "江苏豪森药业集团有限公司临床研发副总裁",
-      "desc": "<p>目前在江苏豪森药业集团有限公司担任临床研发副总裁，在进入豪森之前，曾任武田制药上海发展中心的副总裁兼发展部主管。李博士毕业于悉尼大学，获药物化学硕士学位和临床药理的博士学士。</p>"
+      "name": "Li Yuannian",
+      "title": "Vice president of clinical R&D of HANSOH Pharma",
+      "desc": "<p>Currently, he serves as vice president of clinical R&D of Jiangsu HANSOH Pharma Group Co., Ltd. Before joining the group, he served as vice president of Takeda Shanghai Development Center and the head of the Development Department. Dr.Li graduated from the University of Sidney and has got the master degree of medicinal chemistry and the doctorate degree of clinical pharmacology.</p>"
     },
     {
       "id": 60,
@@ -863,27 +863,19 @@ module.exports = {
             },
             {
               time:"14:10-14:30",
-              dev:["Theme","China’s biopharmaceutical industry"," and the technological innovation in the world","Mr. Liu Mulong, President of Sangel CapitalMr. Zhu Jingqiao, Founder of Efung Capital Mr. Zhang Haoteng, Business Partner of Rongyu Capital"]
+              dev:["Keynote","China’s Biomedical Industry Under Global Technical Innovation","Guestd","Yuan Quanhong, co-founder partner and CEO of Shanghai Jianxin Equity Investment Management Co., Ltd."]
             },
             {
-              time:"14:30-15:30",
-              dev:["Roadshows","Biopharmaceutical & smart healthcare roadshows"," Guests to be invited:","Tianchen Medical、Enduoke Medical、Shenzhen Beimei Pharmaceutics、Bluesky Bio"]
+              time:"14:30-15:45",
+              dev:["Demo","Biopharmaceutical and Smart Healthcare (5 projects, 12-min demo + 3-min FAQ)","Projects","Link Health, Shenzhen TargetRx, LANSEN Group, TT Medical, Taiwan innovative drugs"]
             },
             {
-              time:"15:30-15:40",
-              dev:["Comments to the Roadshow Projects"]
+              time:"15:45-16:05",
+              dev:["Keynote","Precision Medicine and Biotechnology Innovation","Guest","Wang Mingjun, executive director of Shenzhen Innovation Immunotechnology Co., Ltd."]
             },
             {
-              time:"15:40-16:00",
-              dev:["Theme"," Precision healthcare and biological innovation","Guests to be invited:","Mr. Xiao Weimin、Co-founder of Lucky Source Funds"]
-            },
-            {
-              time:"16:00-17:00",
-              dev:["Roadshow Projects:","Precision healthcare","Guests to be invited","LTK Rehab，RHB-Tech，Shenlun Bio， Geneo Medicine"]
-            },
-            {
-              time:"17:00-17:10",
-              dev:["Comments to the Roadshow Projects","Guests to be invited","Co-founder of Lucky Source Funds、Partner of Lime Capital、Business Partner of Rongyu Capital、Co-founder of Breakthrough Capital、Investment Director of Cash Capital、Investment Director of Sangel Capital、General Manager of Efung Capital、Investment Director of ASB Ventures"]
+              time:"16:05-17:20",
+              dev:["Demo","Precision Medicine (5 projects, 12-min demo + 3-min FAQ)","Projects","Haplox, USK Bio, Pandao Bio, SeekIn, Prepharm Biomedical Tech","Judges","Sun Liqing: partner of Lime Capital","Zhang Haoteng: partner of Rongyu Capital","Fu Hu: investment director of Lucky Source Funds","Li Jin: partner of ASB Ventures","Xi Zhiguo: investment director of New Value Capital","Zhao Hui: investment director of Efung Capital","Ji Changtao: investment director of Huada Gongying Funds"]
             }
           ]
         },
@@ -920,65 +912,65 @@ module.exports = {
         },
         {
           id:1,
-          name:"分会场 ( 五 )",
-          title:["主题：粤港澳大湾区创新药研发的机遇","承办单位：广东省生物医药创新技术协会、同写意新药英才俱乐部","规模：约100人"],
+          name:"Sub-forum 5",
+          title:["Theme：Opportunities for Innovative Drug R&D in GBA","Organized by：Guangdong Bio-pharmaceutical Innovat Technology Association, Xieyi Club","Participants：About 100"],
           main:[
             {
               time:"10:50-11:20",
-              dev:["粤港澳大湾区生物医药机遇和挑战","朱少璇，广东省生物医药创新技术协会执行会长"]
+              dev:["Opportunities and Challenges for Biomedicine in GBA","Zhu Shaoxuan: CEO of Guangdong Bio-pharmaceutical Innovat Technology Association"]
             },
             {
               time:"11:20-11:45",
-              dev:["创新药物中美双报以及恒诺康的实践","张健存，广州市恒诺康医药科技有限公司董事长，国家级专家"]
+              dev:["Both GMP and cGMP for Innovative Drugs and Hengnuokang’s Practice","Zhang Jiancun: president of Guangzhou Hengnuokang Pharmaceutical Technology Co., Ltd, national expert"]
             },
             {
               time:"11:45-12:10",
-              dev:["国内外创新药研发趋势及创新研发过程中的思考","陈小新，广东众生药业股份有限公司研发中心副总经理、广东众生睿创生物科技有限公司副总裁"]
+              dev:["Innovative Drug R&D Trend in and Outside China and Our Reflections","Chen Xiaoxin: R&D deputy general manager of Guangdong Zhongsheng Pharmaceutical Co., Ltd, vice president of Guangdong Zhongsheng Ruichuang Biological Technology Co., Ltd"]
             },
             {
               time:"12:10-13:30",
-              dev:["茶歇"]
+              dev:["Tea break"]
             },
             {
               time:"13:30-13:55",
-              dev:["生物医药创新发展新趋势","陈新滋 中国科学院院士，香港科学院创院院士，前香港浸会大学校长，首任中山大学药学院院长"]
+              dev:["New Trend Of Biomedicine Innovation and Development","Chen Xinzi: academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy Of Sciences, former president of Hong Kong Baptist University, and the first dean of School of Pharmaceutical Sciences, Sun Yat-Sen University"]
             },
             {
               time:"13:55-14:20",
-              dev:["小分子新药API研发与产业化关键技术","叶伟平 莱佛士制药有限公司总经理"]
+              dev:["Key Technologies of Small-Molecule New Drug API R&D and Industrialization","Ye Weiping: president of Raffles Pharmaceutical Technology Co., Ltd"]
             },
             {
               time:"14:20-14:45",
-              dev:["脂肪肝新药研发现状和策略","王健华，广州博济医药生物有限公司 副总经理兼首席运营官"]
+              dev:["Current R&D Situation and Policy of New Fatty Liver Drugs","Wang Jianhua, vice president and COO of Guangzhou Boji Medical Biotechnological Co., Ltd"]
             },
             {
               time:"14:45-15:10",
-              dev:["眼前的苟且与诗和远方 ---写意仿制药的立项","程增江，同写意新药英才俱乐部 秘书长"]
+              dev:["Temporary Struggling and Bright Dreams – Xieyi Generic Drug Proposal","Cheng Zengjiang: secretary of Xieyi Club"]
             },
             {
               time:"15:10-15:50",
-              dev:["4+7后的药企研发创新与选题立项","主持：程增江，同写意新药英才俱乐部 秘书长"]
+              dev:["4+R&D Innovation and Project Selection for Pharmaceutical Enterprises After the “4+7” Proposal","Host: Cheng Zengjiang, secretary of Xieyi Club"]
             }
           ]
         },
         {
           id:1,
-          name:"分会场 ( 六 )",
-          title:["主题：泰格医药和观合医药路演","承办单位：泰格医药和观合医药",""],
+          name:"Sub-forum 6",
+          title:["Theme：Demo of Tigermed Consulting Co., Ltd, Teddy Clinical Research Laboratory","Organized by：Tigermed Consulting Co., Ltd, Teddy Clinical Research Laboratory",""],
           main:[
             {
               time:"14:00-17:00",
-              dev:["尚未满足的肝脏疾病治疗需求 张岚","肝脏疾病进展转归及治疗靶点概述","侯金林 教授、主任医师、博士生导师，亚太肝病学会主席，中国南方医院肝病中心主任","抗病毒治疗的新靶点和新希望","杨大俊 医学博士","NASH治疗 - 对现状和未来趋势的评价","李元念  博士","肝病新药早期研发经验分享","胡裴 教授，北京协和医院","肝癌早筛的新方向","焦宇辰 博士，中国医学科学院肿瘤医院肿瘤研究所"]
+              dev:["Treatment Gap of Liver Diseases Zhang Lan","Overview of Liver Disease Progression and Therapeutic Targets","Hou Jinlin: professor, chief physician, PhD tutor, president of Asia Pacific Association for the Study of the Liver, head of Liver Disease Center of Nanfang Hospital","New Targets and Hope for Antiviral Therapy","Yang Dajun, Doctor of Medicine","Current Situation and Trend of NASH Therapy","Li Yuannian PhD","Early R&D Experience of New Drugs for Liver Diseases","Hu Pei, professor, Peking Union Medical College Hospital Early Detection of Liver Cancer","Jiao Yuchen, PhD, Cancer Hospital Chinese Academy of Medical Sciences"]
             }
           ]
         },
         {
           id:1,
-          name:"分会场 ( 七 )",
-          title:["主题：香港药创会论坛","承办单位：香港生物医药创新协会",""],
+          name:"Sub-forum 7",
+          title:["Theme：Forum of HK Bio-Med Innotech Association","Organized by：HK Bio-Med Innotech Association",""],
           main:[
             {
-              time:"议程待定",
+              time:"Agenda: to be determined",
               dev:[]
             }
           ]
