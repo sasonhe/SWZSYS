@@ -64,13 +64,14 @@
 </template>
 
 <script>
-
+import {getCookie,setCookie} from '@/cookie'
 export default {
   data() {
     return {
       style: {},
       opacity: 0,
-      isEn:window.localStorage.getItem('language')=='en'?true:false,
+      // isEn:window.localStorage.getItem('language')=='en'?true:false,
+      isEn:getCookie('language')=='en'?true:false,
       pcMore: false,
       show: false,
       showHeader: true,
@@ -102,7 +103,8 @@ export default {
       if (num === 0) {//ZH
         this.isEn = false;
         this.$i18n.locale = 'zh'
-        window.localStorage.setItem('language','zh')
+        // window.localStorage.setItem('language','zh')
+        setCookie('language','zh',60)
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = ""
         this.$router.push({
@@ -111,7 +113,9 @@ export default {
       }else if(num === 1){//EN
         this.isEn = true;
         this.$i18n.locale = 'en'
-        window.localStorage.setItem('language','en')
+        // window.localStorage.setItem('language','en')
+        setCookie('language','en',60)
+        // setCookie(cname,cvalue,exdays)
         document.title= this.$t('bigTitle')
         document.body.style.fontFamily = "Times"
         this.$router.push({
