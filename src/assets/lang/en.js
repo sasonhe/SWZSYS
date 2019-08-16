@@ -227,7 +227,7 @@ module.exports = {
       "active": false,
       "name": "Cao Jinghua",
       "title": "Co-head of the Preparatory Group of the Innovation Institute of Hong Kong, Chinese Academy of Sciences, and Executive Director of the Secretariat of Alliance of International Science Organizations in the Belt and Road Region",
-      "desc": ""
+      "desc": "<p>International Specialist, Executive Director of Secretariat of the Alliance of International Science Organizations (ANSO). Prior to this position, he was the Director General of the Bureau of International Cooperation (BIC), Chinese Academy of Sciences (CAS). An English major graduated from the Beijing Foreign Languages Institute in 1982 and master in business management and international policy from the City College of New York (CCNY), US in 1987, Prof. Cao has worked in different posts in international relations at CAS for 37 years, such as the Deputy Director of the Office of External Financing of CAS; Deputy Director and Director of the Office of American and Oceanian Affairs of BIC, CAS; Assistant Director, Deputy Director General and Director General of BIC, CAS. He also worked as a Second and First Secretary in the S&T Section of the Chinese Embassy in Washington D.C. US from 1995 to 1997. His research interests are science policy and international cooperation in science and engineering. His also has publications include articles in international SCI journals.</p>"
     },
     {
       "id": 53,
