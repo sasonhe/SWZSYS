@@ -110,13 +110,13 @@ module.exports = {
       "title": "Memberof National Academy of Engineering",
       "desc": "<p>Dr. Sun Yongkui was born in 1962. He graduated from Xiamen University in 1977 with a bachelor’s degree in electrochemistry. In 1982, under the guidance of Dr. Tian Zhaowu, he joined Graduate School of Xiamen University. In 1983, he went to study at California Institute of Technology and then graduated with a Ph. D. degree. He received the Institute of Chemical Engineers' AstraZeneca Award for Excellence in Green Chemistry and Engineering in 2005, USEPA’s Presidential Green Chemistry Challenge Award in 2005 and 2006, and Thomas AlvaEdison Patent Award in 2009 (New jersey R&DCouncil).In 2006, Dr. Sun received the Presidential Fellows Award in Merck Research Laboratories in recognition of his scientific contributions and leadership.</p><p>Dr. Sun was once the Council President of Xiamen University American Alumni Association. He is currently a board member of Xiamen University American Alumni Association. On February 8, 2016, he was elected as the Member of National Academy of Engineering.</p>"
     },
-    {
-      "id": 28,
-      "active": false,
-      "name": "Rao Yi",
-      "title": "Dr. Rao Yi, current president of Capital Medical University; senior researcher & deputy academic director of National Institute of Biological Sciences, Beijing; member of Future Forum Consultation Committee; chief editor of  Intellectual Magazine.",
-      "desc": "<p>Research Fields: laboratory research in molecular signals of higher animal development, the molecular mechanism of cell migration and its application in tumor metastasis control.</p><p>Lectured Courses</p><p>Concepts and Ideas in Biology, Course master</p><p>Molecular and Cellular Neurobiology, Course master </p>"
-    },
+    // {
+    //   "id": 28,
+    //   "active": false,
+    //   "name": "Rao Yi",
+    //   "title": "Dr. Rao Yi, current president of Capital Medical University; senior researcher & deputy academic director of National Institute of Biological Sciences, Beijing; member of Future Forum Consultation Committee; chief editor of  Intellectual Magazine.",
+    //   "desc": "<p>Research Fields: laboratory research in molecular signals of higher animal development, the molecular mechanism of cell migration and its application in tumor metastasis control.</p><p>Lectured Courses</p><p>Concepts and Ideas in Biology, Course master</p><p>Molecular and Cellular Neurobiology, Course master </p>"
+    // },
     {
       "id": 5,
       "active": false,
