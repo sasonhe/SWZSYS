@@ -110,13 +110,6 @@ module.exports = {
       "title": "Memberof National Academy of Engineering",
       "desc": "<p>Dr. Sun Yongkui was born in 1962. He graduated from Xiamen University in 1977 with a bachelor’s degree in electrochemistry. In 1982, under the guidance of Dr. Tian Zhaowu, he joined Graduate School of Xiamen University. In 1983, he went to study at California Institute of Technology and then graduated with a Ph. D. degree. He received the Institute of Chemical Engineers' AstraZeneca Award for Excellence in Green Chemistry and Engineering in 2005, USEPA’s Presidential Green Chemistry Challenge Award in 2005 and 2006, and Thomas AlvaEdison Patent Award in 2009 (New jersey R&DCouncil).In 2006, Dr. Sun received the Presidential Fellows Award in Merck Research Laboratories in recognition of his scientific contributions and leadership.</p><p>Dr. Sun was once the Council President of Xiamen University American Alumni Association. He is currently a board member of Xiamen University American Alumni Association. On February 8, 2016, he was elected as the Member of National Academy of Engineering.</p>"
     },
-    // {
-    //   "id": 28,
-    //   "active": false,
-    //   "name": "Rao Yi",
-    //   "title": "Dr. Rao Yi, current president of Capital Medical University; senior researcher & deputy academic director of National Institute of Biological Sciences, Beijing; member of Future Forum Consultation Committee; chief editor of  Intellectual Magazine.",
-    //   "desc": "<p>Research Fields: laboratory research in molecular signals of higher animal development, the molecular mechanism of cell migration and its application in tumor metastasis control.</p><p>Lectured Courses</p><p>Concepts and Ideas in Biology, Course master</p><p>Molecular and Cellular Neurobiology, Course master </p>"
-    // },
     {
       "id": 5,
       "active": false,
@@ -284,6 +277,13 @@ module.exports = {
       "name": "Steve Vermant",
       "title": "Steve Vermant, Managing Director of Life Science, Merck",
       "desc": "<p>Over 20 years in Life Science and Specialty Chemicals with global experiences and a positive and diversity-oriented leadership approach, Steve is a highly accomplished and creative business leader.</p><p>Proficient in strategy design and implementation.</p><p>Strong business acumen and a beneficial balance between Sales & Marketing expertise and technical knowledge. </p><p>Experienced Business General Manager including Profit & Loss responsibility and Strategic Planning.</p><p>proficient Managing Director, displaying board level acumen and strong governance principles, with an ability to manage effectively across all business functions.</p>"
+    },
+    {
+      "id": 61,
+      "active": false,
+      "name": "Christina Bao",
+      "title": "Managing Director，Deputy Head of Market Development and Head of Global Issuer Services, HKEX",
+      "desc": "<p>Ms. Christina Bao is currently the Deputy Head of Market Development Division and Head of Global Issuer Services at HKEX. Ms. Bao joined HKEX in 2016 as the Chief of Staff to help the CE of HKEX to oversee overall management, strategic projects and business analysis.</p><p>Prior to joining HKEX, Christina worked with Ping An Bank (previously at Shenzhen Development Bank, which merged with Ping An Bank in 2010) since 2001. During that time, she has held multiple roles including serving as Chief of Staff to the Chairman and CEO from 2005 until 2010. More recently, she has headed Retail e-Banking, Service & Marketing, and the Retail E-Finance SBU. During 1999-2000, Christina participated in an international program sponsored by the British Council, and worked at Bank of Scotland in the U.K. in corporate banking and syndicated loans.</p><p>Ms. Bao received her Master of Business Administration (Finance, General) from Peking University.</p>"
     }
   ],
   historyA:[
