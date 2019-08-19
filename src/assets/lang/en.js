@@ -82,13 +82,13 @@ module.exports = {
   },
   gustTitle:"Honored Guests（subject to change）",
   gustData:[
-    {
-      "id": 1,
-      "active": false,
-      "name": "Aaron Ciechanover",
-      "title": "Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen",
-      "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Kong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen</p>"
-    },
+    // {
+    //   "id": 1,
+    //   "active": false,
+    //   "name": "Aaron Ciechanover",
+    //   "title": "Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen",
+    //   "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Kong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen</p>"
+    // },
     {
       "id": 2,
       "active": false,
@@ -109,6 +109,13 @@ module.exports = {
       "name": "Sun Yongkui",
       "title": "Memberof National Academy of Engineering",
       "desc": "<p>Dr. Sun Yongkui was born in 1962. He graduated from Xiamen University in 1977 with a bachelor’s degree in electrochemistry. In 1982, under the guidance of Dr. Tian Zhaowu, he joined Graduate School of Xiamen University. In 1983, he went to study at California Institute of Technology and then graduated with a Ph. D. degree. He received the Institute of Chemical Engineers' AstraZeneca Award for Excellence in Green Chemistry and Engineering in 2005, USEPA’s Presidential Green Chemistry Challenge Award in 2005 and 2006, and Thomas AlvaEdison Patent Award in 2009 (New jersey R&DCouncil).In 2006, Dr. Sun received the Presidential Fellows Award in Merck Research Laboratories in recognition of his scientific contributions and leadership.</p><p>Dr. Sun was once the Council President of Xiamen University American Alumni Association. He is currently a board member of Xiamen University American Alumni Association. On February 8, 2016, he was elected as the Member of National Academy of Engineering.</p>"
+    },
+    {
+      "id": 62,
+      "active": false,
+      "name": "Chen Xinzi",
+      "title": "Academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy of Sciences, former president of Hong Kong Baptist University, and the first dean of School of Pharmaceutical Sciences, Sun Yat-Sen University",
+      "desc": "<p>Chen Xinzi, organic chemist, academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy of Sciences, the fourth president of Hong Kong Baptist University, professor and Academy Commission Director of Sun Yat-Sen University, honorary director of School of Pharmaceutical Sciences, Sun Yat-Sen University, president of Huashang College Guangdong University Of Finance & Economics.</p><p>Chen Xinzi’s research areas include chiral catalysts, asymmetric synthesis, research and development of new drugs and novel pharmaceutical technologies.</p><p>He found new mechanisms in homogeneous hydrogenation asymmetric synthesis research, which are widely used in international research and development, achieving asymmetric synthesis of Naproxen, which is critical for chemistry in 1991. He discovered high-performance ligands and catalysts such as spiro bisphosphinite ligand, aminophosphine ligand, and polypyridine ligand, which won multiple patents in China and the United States. He also devoted to the research and development of new drugs and novel pharmaceutical technologies.</p>"
     },
     {
       "id": 5,
@@ -156,7 +163,7 @@ module.exports = {
       "id": 16,
       "active": false,
       "name": "Lu Xianping",
-      "title": "Director, President and Chief Scientific Officer of CHIPSCREEN BIOSCIENCES",
+      "title": "Director, President and Chief Scientific Officer of Shenzhen Chipscreen Biosciences Co., Ltd.",
       "desc": "<p>One of main initiators and founders of CHIPSCREEN BIOSCIENCES. “A fighter of new drug research and development” called by insiders.</p><p>Currently, he is a member of Guangdong Provincial Expert Committee of Science and Technology, member of Shenzhen Municipal Expert Committee of Science and Technology, the head of the Biology, Medicine, Medical Devices and Environmental Protection Group, and an expert for the “863” program sponsored by the Ministry of Science and Technology.</p><p>Having considerable expertise in molecular medicine, oncology, neuroendocrinology, immunology, metabolism and skin diseases, Dr. Lu has made many important contributions in the research of nuclear hormone receptors, especially in the chemical structure design, biological and pharmaceutical activities and innovative drug development with respect to nuclear hormone receptors and ligands.</p>"
     },
     {
@@ -285,13 +292,7 @@ module.exports = {
       "title": "Managing Director，Deputy Head of Market Development and Head of Global Issuer Services, HKEX",
       "desc": "<p>Ms. Christina Bao is currently the Deputy Head of Market Development Division and Head of Global Issuer Services at HKEX. Ms. Bao joined HKEX in 2016 as the Chief of Staff to help the CE of HKEX to oversee overall management, strategic projects and business analysis.</p><p>Prior to joining HKEX, Christina worked with Ping An Bank (previously at Shenzhen Development Bank, which merged with Ping An Bank in 2010) since 2001. During that time, she has held multiple roles including serving as Chief of Staff to the Chairman and CEO from 2005 until 2010. More recently, she has headed Retail e-Banking, Service & Marketing, and the Retail E-Finance SBU. During 1999-2000, Christina participated in an international program sponsored by the British Council, and worked at Bank of Scotland in the U.K. in corporate banking and syndicated loans.</p><p>Ms. Bao received her Master of Business Administration (Finance, General) from Peking University.</p>"
     },
-    {
-      "id": 62,
-      "active": false,
-      "name": "Chen Xinzi",
-      "title": "Academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy of Sciences, former president of Hong Kong Baptist University, and the first dean of School of Pharmaceutical Sciences, Sun Yat-Sen University",
-      "desc": "<p>Chen Xinzi, organic chemist, academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy of Sciences, the fourth president of Hong Kong Baptist University, professor and Academy Commission Director of Sun Yat-Sen University, honorary director of School of Pharmaceutical Sciences, Sun Yat-Sen University, president of Huashang College Guangdong University Of Finance & Economics.</p><p>Chen Xinzi’s research areas include chiral catalysts, asymmetric synthesis, research and development of new drugs and novel pharmaceutical technologies.</p><p>He found new mechanisms in homogeneous hydrogenation asymmetric synthesis research, which are widely used in international research and development, achieving asymmetric synthesis of Naproxen, which is critical for chemistry in 1991. He discovered high-performance ligands and catalysts such as spiro bisphosphinite ligand, aminophosphine ligand, and polypyridine ligand, which won multiple patents in China and the United States. He also devoted to the research and development of new drugs and novel pharmaceutical technologies.</p>"
-    }
+
   ],
   historyA:[
     {
