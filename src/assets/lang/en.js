@@ -284,6 +284,13 @@ module.exports = {
       "name": "Christina Bao",
       "title": "Managing Director，Deputy Head of Market Development and Head of Global Issuer Services, HKEX",
       "desc": "<p>Ms. Christina Bao is currently the Deputy Head of Market Development Division and Head of Global Issuer Services at HKEX. Ms. Bao joined HKEX in 2016 as the Chief of Staff to help the CE of HKEX to oversee overall management, strategic projects and business analysis.</p><p>Prior to joining HKEX, Christina worked with Ping An Bank (previously at Shenzhen Development Bank, which merged with Ping An Bank in 2010) since 2001. During that time, she has held multiple roles including serving as Chief of Staff to the Chairman and CEO from 2005 until 2010. More recently, she has headed Retail e-Banking, Service & Marketing, and the Retail E-Finance SBU. During 1999-2000, Christina participated in an international program sponsored by the British Council, and worked at Bank of Scotland in the U.K. in corporate banking and syndicated loans.</p><p>Ms. Bao received her Master of Business Administration (Finance, General) from Peking University.</p>"
+    },
+    {
+      "id": 62,
+      "active": false,
+      "name": "Chen Xinzi",
+      "title": "Academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy of Sciences, former president of Hong Kong Baptist University, and the first dean of School of Pharmaceutical Sciences, Sun Yat-Sen University",
+      "desc": "<p>Chen Xinzi, organic chemist, academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy of Sciences, the fourth president of Hong Kong Baptist University, professor and Academy Commission Director of Sun Yat-Sen University, honorary director of School of Pharmaceutical Sciences, Sun Yat-Sen University, president of Huashang College Guangdong University Of Finance & Economics.</p><p>Chen Xinzi’s research areas include chiral catalysts, asymmetric synthesis, research and development of new drugs and novel pharmaceutical technologies.</p><p>He found new mechanisms in homogeneous hydrogenation asymmetric synthesis research, which are widely used in international research and development, achieving asymmetric synthesis of Naproxen, which is critical for chemistry in 1991. He discovered high-performance ligands and catalysts such as spiro bisphosphinite ligand, aminophosphine ligand, and polypyridine ligand, which won multiple patents in China and the United States. He also devoted to the research and development of new drugs and novel pharmaceutical technologies.</p>"
     }
   ],
   historyA:[

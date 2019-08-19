@@ -73,7 +73,7 @@ export default {
           title: _this.bigTitles,
           desc: _this.descText,
           link: 'http://saas.dataexpo.com.cn/SWZSYS/',
-          imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg?v="+date,
+          imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg?v=",
           success: function () {
             // alert('分享成功')
           }
@@ -83,7 +83,7 @@ export default {
           title: _this.bigTitles,
           desc: _this.descText,
           link: 'http://saas.dataexpo.com.cn/SWZSYS/',
-          imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg?v="+date,
+          imgUrl:"http://saas.dataexpo.com.cn/SWZSYS/static/wx/wxLogo.jpg?v=",
           success: function () {
             // 设置成功
           }
