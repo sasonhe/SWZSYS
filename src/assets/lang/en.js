@@ -82,13 +82,6 @@ module.exports = {
   },
   gustTitle:"Honored Guests（subject to change）",
   gustData:[
-    // {
-    //   "id": 1,
-    //   "active": false,
-    //   "name": "Aaron Ciechanover",
-    //   "title": "Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen",
-    //   "desc": "<p>Dr. Aaron Ciechanover, an Israel biologist and chemist, is the first Israeli who won the Nobel prize for Science. He is also a member of Israel Academy of Sciences and Humanities, foreign associate of USA National Academy of Sciences, foreign academician of Chinese Academy of Sciences, outstanding professor of Chinese University of Hong Kong, Shenzhen, honorary professor of Nanjing University, and the director of Institute of Chemistry and BioMedical Sciences of Nanjing University</p><p>In 2004, he, together with Avram Hershko, another Israeli scientist, and Irwin Rose, an American scientist, won the Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation.</p><p>Dr. Aaron Ciechanover is now the dean of Ciechanover Institute of Precision and Regenerative Medicine, the Chinese University of Hong Kong, Shenzhen</p>"
-    // },
     {
       "id": 2,
       "active": false,
@@ -292,7 +285,13 @@ module.exports = {
       "title": "Managing Director，Deputy Head of Market Development and Head of Global Issuer Services, HKEX",
       "desc": "<p>Ms. Christina Bao is currently the Deputy Head of Market Development Division and Head of Global Issuer Services at HKEX. Ms. Bao joined HKEX in 2016 as the Chief of Staff to help the CE of HKEX to oversee overall management, strategic projects and business analysis.</p><p>Prior to joining HKEX, Christina worked with Ping An Bank (previously at Shenzhen Development Bank, which merged with Ping An Bank in 2010) since 2001. During that time, she has held multiple roles including serving as Chief of Staff to the Chairman and CEO from 2005 until 2010. More recently, she has headed Retail e-Banking, Service & Marketing, and the Retail E-Finance SBU. During 1999-2000, Christina participated in an international program sponsored by the British Council, and worked at Bank of Scotland in the U.K. in corporate banking and syndicated loans.</p><p>Ms. Bao received her Master of Business Administration (Finance, General) from Peking University.</p>"
     },
-
+    {
+      "id": 63,
+      "active": false,
+      "name": "Yinxiang Wang",
+      "title": "The national “Recruitment Program of Global Experts (1000-experts plan)；.the Chairman, New Drug R&D Committee of China Pharmaceutical Innovation and Research Development Association (PHIRDA); Associate Chairman, Oncology Drug Clinical Research Committee of Chinese Pharmaceutical Association；the Chairman & CEO of Jacobio Pharmaceuticals in Beijing.",
+      "desc": "<p>Dr. Yinxiang Wang was graduated from the University of Arkansas for Medical Sciences in 1999, and served as a postdoctoral research fellow at the Department of Molecular Biophysics and Biochemistry of Yale University from 1999 to 2003. The national “Recruitment Program of Global Experts (1000-experts plan).</p><p>He returned to China in 2003 and founded Betta Pharmaceuticals，and served as the President and CSO of Betta Pharmaceutiacals; Betta formed JV with Amgen (Amgen-Betta Pharmaceuticals) in 2013 and Dr. Wang served as GM.</p><p>In 2015, he founded Jacobio Pharmaceuticals in Beijing and serving as the Chairman & CEO.</p><p>Dr. Wang is the Chairman, New Drug R&D Committee of China Pharmaceutical Innovation and Research Development Association (PHIRDA); Associate Chairman, Oncology Drug Clinical Research Committee of Chinese Pharmaceutical Association.</p>"
+    }
   ],
   historyA:[
     {
