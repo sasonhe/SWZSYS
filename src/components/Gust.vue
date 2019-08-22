@@ -116,8 +116,9 @@
   position: relative;
   vertical-align: top;
   background: #fff;
-  /* box-shadow: 0px 8px 15px #5699c6; */
+  top: 0;
   background: #ffffff;
+  transition: all .3s;
   /* background: linear-gradient(33deg, #b8ccee, #ffffff); */
   /* background: linear-gradient(33deg, #428CA5, #2F4D8A); */
 }

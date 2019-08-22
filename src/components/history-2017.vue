@@ -127,6 +127,8 @@
   position: relative;
   vertical-align: top;
   background: #fff;
+  top: 0;
+  transition: all .3s;
   /* box-shadow: 0px 8px 15px #5699c6; */
   /* box-shadow: 0px 8px 15px #bfd1e6; */
   /* background: #edf2ff; */
