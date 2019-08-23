@@ -298,6 +298,13 @@ module.exports = {
       "name": "Yinxiang Wang",
       "title": "The national “Recruitment Program of Global Experts (1000-experts plan)；.the Chairman, New Drug R&D Committee of China Pharmaceutical Innovation and Research Development Association (PHIRDA); Associate Chairman, Oncology Drug Clinical Research Committee of Chinese Pharmaceutical Association；the Chairman & CEO of Jacobio Pharmaceuticals in Beijing.",
       "desc": "<p>Dr. Yinxiang Wang was graduated from the University of Arkansas for Medical Sciences in 1999, and served as a postdoctoral research fellow at the Department of Molecular Biophysics and Biochemistry of Yale University from 1999 to 2003. The national “Recruitment Program of Global Experts (1000-experts plan).</p><p>He returned to China in 2003 and founded Betta Pharmaceuticals，and served as the President and CSO of Betta Pharmaceutiacals; Betta formed JV with Amgen (Amgen-Betta Pharmaceuticals) in 2013 and Dr. Wang served as GM.</p><p>In 2015, he founded Jacobio Pharmaceuticals in Beijing and serving as the Chairman & CEO.</p><p>Dr. Wang is the Chairman, New Drug R&D Committee of China Pharmaceutical Innovation and Research Development Association (PHIRDA); Associate Chairman, Oncology Drug Clinical Research Committee of Chinese Pharmaceutical Association.</p>"
+    },
+    {
+      "id": 65,
+      "active": false,
+      "name": "Ren Haiping",
+      "title": "Dean of Optical-Electro-Mechanical Medical Instrument Inspection Laboratory, National Institutes for Food and Drug Control, chairman of AI Medical Instrument Work Group, IEEE",
+      "desc": "<p>Ren Haiping, PhD, dean of Optical-Electro-Mechanical Medical Instrument Inspection Laboratory, National Institutes for Food and Drug Control, has been engaged in registration testing and state supervision sampling work for more than 10 years. Her researches include active medical instruments, medical software testing and quality control. She has been leading and participating in multiple researches of National Science and Technology Support Program, National Natural Science Foundation of China, National Key R&D Program of China. She has published over 100 essays in periodicals in China and other countries. She works as the chairman of AI Medical Instrument Work Group, IEEE, member of the Electrical Equipment In Medical Practice, member of National Institute of Medical Metrology, China, and deputy head of the national AI medial instrument standards.</p>"
     }
   ],
   historyA:[
