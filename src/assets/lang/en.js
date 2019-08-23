@@ -305,6 +305,13 @@ module.exports = {
       "name": "Ren Haiping",
       "title": "Dean of Optical-Electro-Mechanical Medical Instrument Inspection Laboratory, National Institutes for Food and Drug Control, chairman of AI Medical Instrument Work Group, IEEE",
       "desc": "<p>Ren Haiping, PhD, dean of Optical-Electro-Mechanical Medical Instrument Inspection Laboratory, National Institutes for Food and Drug Control, has been engaged in registration testing and state supervision sampling work for more than 10 years. Her researches include active medical instruments, medical software testing and quality control. She has been leading and participating in multiple researches of National Science and Technology Support Program, National Natural Science Foundation of China, National Key R&D Program of China. She has published over 100 essays in periodicals in China and other countries. She works as the chairman of AI Medical Instrument Work Group, IEEE, member of the Electrical Equipment In Medical Practice, member of National Institute of Medical Metrology, China, and deputy head of the national AI medial instrument standards.</p>"
+    },
+    {
+      "id": 66,
+      "active": false,
+      "name": "Cai Zhiming",
+      "title": "Vice president of Guangdong Medical Association, president of Shenzhen Medical Association, executive vice president of BGI, president of BGI Healthcare",
+      "desc": "<p>Cai Zhiming, doctor of medicine, doctor of management, surgeon professor, chief physician, PhD tutor. He is the executive vice president of BGI, president of BGI Healthcare, vice president of Guangdong Medical Association, president of Shenzhen Medical Association, expert awarded with special government allowances of the State Council, leader of state urology (state key discipline), director of national tumor engineer laboratory, deputy director of the national urinary tumor center, chief scientist of state 973 program, national leading talent, and outstanding talent in Shenzhen.</p><p>Cai Zhiming has worked in Shenzhen for 35 years, among which 21 years in Shenzhen Luohu People’s Hospital, Peking University Shenzhen Hospital, and the Second People’s Hospital of Shenzhen. He has made great contributions to hospital management and urology disease researches. He has been entitled to National Advanced Worker, National May Day Labor Medal, national excellent hospital director, and Shenzhen Scientific Mayor Award.</p>"
     }
   ],
   historyA:[
