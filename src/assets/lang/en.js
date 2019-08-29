@@ -83,6 +83,13 @@ module.exports = {
   gustTitle:"Honored Guests（subject to change）",
   gustData:[
     {
+      "id": 67,
+      "active": false,
+      "name": "王锐",
+      "title": "中国工程院院士、全国政协常委，兰州大学副校长、医学院院长、基础医学院院长、甘肃省新药临床前研究重点实验室主任",
+      "desc": "<p>王锐，中国工程院院士，全国政协常委，兰州大学教授，教育部“长江学者”特聘教授，国家杰出青年科学基金获得者，中组部国家“万人计划”领军人才。现任兰州大学副校长、医学院院长、基础医学院院长、甘肃省新药临床前研究重点实验室主任。</p><p>研究方向：多肽生物化学与药物化学，神经肽及多肽相关重大疾病的分子基础研究，多肽药物与手性药物的研发及产业化关键技术。</p><p>主要贡献：率领团队围绕制约多肽新药创制的关键科学和技术问题，进行了系统的创新性研究，取得了突出成绩，通过从新合成方法到新制备技术的连续创新努力，推动了我国多肽新药创制及产业化的发展。作为第一完成人荣获国家自然科学奖二等奖、国家技术发明奖二等奖、省部级一等奖4项、国际学术奖励3项、何梁何利科学与技术创新奖。以通讯作者发表一区论文120篇，论文被引用1万余次，H指数（H-index）为58，连续四年入选Elsevier“中国高被引学者”, 成果被Nature引用并亮点报道。获国家发明专利授权40件，申请国际专利PCT 4件，多项技术用于多肽新药研发与生产，获中国专利奖。在教书育人和人才培养方面做出了重要贡献，为我国培养了一批德才兼备的多肽科学与产业领域的优秀人才。在学科建设中发挥了重要作用，在兰州大学药学与毒理学、生物学与生物化学、化学三个学科分别进入美国ESI前1%或前1‰中做出了突出贡献。</p>"
+    },
+    {
       "id": 2,
       "active": false,
       "name": "Li Qing",
@@ -228,6 +235,13 @@ module.exports = {
       "name": "Cao Jinghua",
       "title": "Co-head of the Preparatory Group of the Innovation Institute of Hong Kong, Chinese Academy of Sciences, and Executive Director of the Secretariat of Alliance of International Science Organizations in the Belt and Road Region",
       "desc": "<p>International Specialist, Executive Director of Secretariat of the Alliance of International Science Organizations (ANSO). Prior to this position, he was the Director General of the Bureau of International Cooperation (BIC), Chinese Academy of Sciences (CAS). An English major graduated from the Beijing Foreign Languages Institute in 1982 and master in business management and international policy from the City College of New York (CCNY), US in 1987, Prof. Cao has worked in different posts in international relations at CAS for 37 years, such as the Deputy Director of the Office of External Financing of CAS; Deputy Director and Director of the Office of American and Oceanian Affairs of BIC, CAS; Assistant Director, Deputy Director General and Director General of BIC, CAS. He also worked as a Second and First Secretary in the S&T Section of the Chinese Embassy in Washington D.C. US from 1995 to 1997. His research interests are science policy and international cooperation in science and engineering. His also has publications include articles in international SCI journals.</p>"
+    },
+    {
+      "id": 68,
+      "active": false,
+      "name": "芮国忠",
+      "title": "中国医药科技成果转化中心主任、《中国医药技术经济与管理》杂志执行总编、中国医药技术转移与产业化联盟执行理事长兼秘书长，中国生物医药发展促进会常务副秘书长",
+      "desc": "<p>芮国忠博士在生物医药创新、技术转让、商业化和工业化领域拥有26年的丰富经验。他曾参与并协助过许多制药公司、研究机构和投资商成功地完成临床研究、药物注册、技术评估和转让，以及数百项融资和项目并购。他为十余个生物医药技术工业园区制订了广受好评的开发规划。芮博士受科技部邀请为其火炬计划和中小企业技术基金的评审专家，曾在中国的多所大学和研究机构任客座教授，也是几家制药企业的技术管理顾问或独立董事。他是中国制药技术、经济及管理方面的资深专家，并经常获得科技部和北京市政府的表彰。芮博士拥有北京大学医学部的公共卫生学学士学位、医院管理和健康经济学硕士学位和技术经济学与管理学博士学位。</p>"
     },
     {
       "id": 53,
