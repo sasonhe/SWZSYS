@@ -1020,15 +1020,15 @@ module.exports = {
           main:[
             {
               time:"14:00-14:20",
-              dev:["领导致辞"]
+              dev:["Speech"]
             },
             {
               time:"14:20-16:10",
-              dev:["香港生物医药创新协会顾问团路演"]
+              dev:["Roadshow of HK Bio-Med Innotech Association Consultant Team"]
             },
             {
               time:"14:20-14:40",
-              dev:["如何整合国内外专业顾问团队，以最具成本效益的方式协助生物医药企业提高在香港上市及进入中国市场的成功率"]
+              dev:["How to Integrate Consultants in China and Abroad to Improve the Success Rate of Listing Biopharmaceutical Enterprises in Hong Kong and Bringing Them to China"]
             },
             {
               time:"14:40-15:00",
@@ -1036,23 +1036,23 @@ module.exports = {
             },
             {
               time:"15:00-15:20",
-              dev:["良好的监管策略如何带来具有成本效益的临床实验开发"]
+              dev:["How Will Good Regulatory Strategies Lead to Cost-Effective Clinical Trial Development"]
             },
             {
               time:"15:20-15:40",
-              dev:["生物医药企业资本市场规划和主要财务问题"]
+              dev:["Capital Market Planning and Major Financial Issues for Biopharmaceutical Enterprises"]
             },
             {
               time:"15:40-16:00",
-              dev:["专利保护如何影响企业融资和上市"]
+              dev:["How Will Patent Protection Affect Enterprise Financing and Listing"]
             },
             {
               time:"16:00-16:10",
-              dev:["提问环节"]
+              dev:["FAQs"]
             },
             {
               time:"16:10-17:00",
-              dev:["茶歇、自由交流、项目对接、合影"]
+              dev:["Coffee Break, Free Talk, Project Matching, Photograph"]
             }
           ]
         }
