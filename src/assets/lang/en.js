@@ -96,13 +96,13 @@ module.exports = {
       "title": "Mr. Li Qing, Director of Development Center for Medical Science & Technology, National Health Commission of the People’s Republic of China",
       "desc": "<p>He is currently in charge of the preparation of the 12th Five-Year Plan for Medical Technology Development, and assists the organization and implementation work of two state key technological projects “Key New Medicine Development” and “Research in Major Infectious Diseases”. He launched public health industry scientific research projects in 2010 and 2011, and organized the promotion work for public health technologies. He is also in charge of the management and coordination of continuous tele-education in the healthcare industry andrelevant workin Office for Healthcare Teaching Material Management, as well as providing intermediary service for the medical industry.</p>"
     },
-    {
-      "id": 3,
-      "active": false,
-      "name": "Tan Tieniu",
-      "title": "Dr. Tan Tieniu, Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering.",
-      "desc": "<p>PhD. of Image Processing, Electricity and Electronic Engineering, Imperial College London, Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering, Fellow of the World Academy of Sciences and Brazilian Academy of Sciences.</p><p>Currently takes the position as Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Researcher and Doctoral Supervisor of Institute of Automation of Chinese Academy of Sciences, Director of the Center for Research on Intelligent Perception and Computing.</p><p>Research Fields: His main researches are image processing, computer vision, pattern recognition and other related fields. His current researches involve biometrics, image & video understanding and information safety. His research fields are computer visual monitoring on dynamic scenario, people recognition and authentication based on human behavior and biometric, watermarking of digital multimedia data, etc.</p>"
-    },
+    // {
+    //   "id": 3,
+    //   "active": false,
+    //   "name": "Tan Tieniu",
+    //   "title": "Dr. Tan Tieniu, Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering.",
+    //   "desc": "<p>PhD. of Image Processing, Electricity and Electronic Engineering, Imperial College London, Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering, Fellow of the World Academy of Sciences and Brazilian Academy of Sciences.</p><p>Currently takes the position as Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Researcher and Doctoral Supervisor of Institute of Automation of Chinese Academy of Sciences, Director of the Center for Research on Intelligent Perception and Computing.</p><p>Research Fields: His main researches are image processing, computer vision, pattern recognition and other related fields. His current researches involve biometrics, image & video understanding and information safety. His research fields are computer visual monitoring on dynamic scenario, people recognition and authentication based on human behavior and biometric, watermarking of digital multimedia data, etc.</p>"
+    // },
     {
       "id": 50,
       "active": false,
