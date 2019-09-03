@@ -1032,7 +1032,7 @@ module.exports = {
             },
             {
               time:"14:40-15:00",
-              dev:["茶歇"]
+              dev:["Coffee Break"]
             },
             {
               time:"15:00-15:20",
