@@ -7,12 +7,13 @@
 
 <script>
 import wx from 'weixin-js-sdk'
+import {getCookie} from '@/cookie'
 const debug = process.env.NODE_ENV !== 'production';
 export default {
   name: 'App',
   data(){
     return {
-      isEn:window.localStorage.getItem('language')=='en'?true:false,
+      isEn:getCookie('language')=='en'?true:false,
       descText:this.$t('wx.time'),
       bigTitles:this.$t('wx.title')
     }
