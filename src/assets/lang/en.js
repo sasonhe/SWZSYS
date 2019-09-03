@@ -96,13 +96,6 @@ module.exports = {
       "title": "Mr. Li Qing, Director of Development Center for Medical Science & Technology, National Health Commission of the People’s Republic of China",
       "desc": "<p>He is currently in charge of the preparation of the 12th Five-Year Plan for Medical Technology Development, and assists the organization and implementation work of two state key technological projects “Key New Medicine Development” and “Research in Major Infectious Diseases”. He launched public health industry scientific research projects in 2010 and 2011, and organized the promotion work for public health technologies. He is also in charge of the management and coordination of continuous tele-education in the healthcare industry andrelevant workin Office for Healthcare Teaching Material Management, as well as providing intermediary service for the medical industry.</p>"
     },
-    // {
-    //   "id": 3,
-    //   "active": false,
-    //   "name": "Tan Tieniu",
-    //   "title": "Dr. Tan Tieniu, Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering.",
-    //   "desc": "<p>PhD. of Image Processing, Electricity and Electronic Engineering, Imperial College London, Academician of Chinese Academy of Science, Fellow of Royal Academy of Engineering, Fellow of the World Academy of Sciences and Brazilian Academy of Sciences.</p><p>Currently takes the position as Deputy Director of Liaison Office of the Central People’s Government in the Hong Kong S.A.R., Researcher and Doctoral Supervisor of Institute of Automation of Chinese Academy of Sciences, Director of the Center for Research on Intelligent Perception and Computing.</p><p>Research Fields: His main researches are image processing, computer vision, pattern recognition and other related fields. His current researches involve biometrics, image & video understanding and information safety. His research fields are computer visual monitoring on dynamic scenario, people recognition and authentication based on human behavior and biometric, watermarking of digital multimedia data, etc.</p>"
-    // },
     {
       "id": 50,
       "active": false,
@@ -333,6 +326,13 @@ module.exports = {
       "name": "Cai Zhiming",
       "title": "Vice president of Guangdong Medical Association, president of Shenzhen Medical Association, executive vice president of BGI, president of BGI Healthcare",
       "desc": "<p>Cai Zhiming, doctor of medicine, doctor of management, surgeon professor, chief physician, PhD tutor. He is the executive vice president of BGI, president of BGI Healthcare, vice president of Guangdong Medical Association, president of Shenzhen Medical Association, expert awarded with special government allowances of the State Council, leader of state urology (state key discipline), director of national tumor engineer laboratory, deputy director of the national urinary tumor center, chief scientist of state 973 program, national leading talent, and outstanding talent in Shenzhen.</p><p>Cai Zhiming has worked in Shenzhen for 35 years, among which 21 years in Shenzhen Luohu People’s Hospital, Peking University Shenzhen Hospital, and the Second People’s Hospital of Shenzhen. He has made great contributions to hospital management and urology disease researches. He has been entitled to National Advanced Worker, National May Day Labor Medal, national excellent hospital director, and Shenzhen Scientific Mayor Award.</p>"
+    },
+    {
+      "id": 70,
+      "active": false,
+      "name": "Li Yuezhong",
+      "title": "Mr. Li Yuezhong is the Managing Director of the Greater Bay Area Development Fund Management Limited",
+      "desc": "<p>Mr. Li Yuezhong is the Managing Director of the Greater Bay Area Development Fund Management Limited, he serves as the Responsible Officer for its 1, 4, 9 licensed activities. Mr. Li has had over 20 years of experience in asset management working for prestigious international financial institutions. He brings deep understanding of market, legal conventions as well as expertise across multiple industries and the entire investment cycle. Prior to his current role, he achieved robust investment returns leading a team as an associate managing director at CCB International. He has also worked for a large financial conglomerate and a corporate asset management firm. Mr. Li holds a master’s degree from the University of Hong Kong.</p>"
     }
   ],
   historyA:[
