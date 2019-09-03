@@ -168,8 +168,7 @@
   border: 1px solid #ddd;
   background: #fff;
   text-align: left;
-
-
+  margin-bottom: 15px;
 }
 .text-content.hiClass{
   opacity: 1;
