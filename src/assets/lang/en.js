@@ -83,6 +83,13 @@ module.exports = {
   gustTitle:"Honored Guests（subject to change）",
   gustData:[
     {
+      "id": 71,
+      "active": false,
+      "name": "George Fitzgerald Smoot",
+      "title": "George Fitzgerald Smoot, Professor of the University of California, Berkeley, Winner of The Nobel Prize in Physics 2006",
+      "desc": "<p>American astrophysicist and cosmologist. Currently Smoot is a professor of physics at the University of California, Berkeley, senior scientist at the Lawrence Berkeley National Laboratory,  since 2010, a professor of physics at the Paris Diderot University, France and since 2016 the Helmut and Anna Pao Sohmen Professor at Large at the IAS Hong Kong University of Science and Technology.</p><p>Winner of the 2006 Nobel Prize in Physics, Einstein Prize Winner, Father of Cosmic Embryology. Won the 2006 Nobel Prize in Physics for discovering the black form of cosmic microwave background radiation and the anisotropy of the universe to prove the Big Bang.</p>"
+    },
+    {
       "id": 67,
       "active": false,
       "name": "Rui Wang",
@@ -330,10 +337,38 @@ module.exports = {
     {
       "id": 70,
       "active": false,
-      "name": "Li Yuezhong",
-      "title": "Mr. Li Yuezhong is the Managing Director of the Greater Bay Area Development Fund Management Limited",
+      "name": "Yuezhong Li",
+      "title": "Managing Director of the Greater Bay Area Development Fund Management Limited",
       "desc": "<p>Mr. Li Yuezhong is the Managing Director of the Greater Bay Area Development Fund Management Limited, he serves as the Responsible Officer for its 1, 4, 9 licensed activities. Mr. Li has had over 20 years of experience in asset management working for prestigious international financial institutions. He brings deep understanding of market, legal conventions as well as expertise across multiple industries and the entire investment cycle. Prior to his current role, he achieved robust investment returns leading a team as an associate managing director at CCB International. He has also worked for a large financial conglomerate and a corporate asset management firm. Mr. Li holds a master’s degree from the University of Hong Kong.</p>"
-    }
+    },
+    {
+      "id": 72,
+      "active": false,
+      "name": "Jianning Lin",
+      "title": "Director of NMPA Southern Medicine Economic Research Institute",
+      "desc": "<p>Jianning Lin ，director of NMPA Southern Medicine Economic Research Institute and Medical Economics. NMPA Southern Medicine Economic Research Institute is a public institution directly under China Food and Drug Administration. He did researches on pharmaceutical industry policies, regulations, and markets, as well as researches and evaluation on tasks assigned by China Food and Drug Administration.</p>"
+    },
+    {
+      "id": 73,
+      "active": false,
+      "name": "Jia Li",
+      "title": "Director of Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+      "desc": "<p>Li Jia, pharmacology doctor, researcher, deputy director, research leader of Shanghai Institute of Materia Medica, Chinese Academy of Sciences, PhD tutor, owner of Model Building Dept I of The National Center for Drug Screening, part-time professor of East China Normal University and Tongji University</p><p>Researches: Discovery, mechanism and evaluation of candidate innovative drugs for metabolic diseases; discovery and research of candidate innovative drugs based on enzyme families; cell identification and cell fate regulation with small molecular probes</p><p>Achievements:Building a multi-target integrated, multi-function screening and multi-level efficacy evaluation system and carrying out discovery, mechanism, and preclinical pharmacodynamics research on innovative drug candidates for metabolic diseases and key tumor molecules.Lead compound discovery and preclinical drug evaluation based on the drug screening system integrated by key targets of enzyme families such as kinase, phosphatase, and transferase.Cell identification and cell fate regulation with small molecular probes.</p>"
+    },
+    {
+      "id": 74,
+      "active": false,
+      "name": "Xumu Zhang",
+      "title": "Professor and Dean of the Chemistry School, Southern University of Science and Technology, Executive Director of Shenzhen Grubbs Institute",
+      "desc": "<p>Zhang Xumu, professor and dean of the Chemistry School, Southern University of Science and Technology, executive director of Shenzhen Grubbs Institute.</p><p>Zhang Xumu, dean of the Chemistry School, Southern University of Science and Technology; professor of Wuhan University Changjiang Scholars Program; director of Green Catalysis Institute in College of Chemistry and Molecular Sciences, Wuhan University; professor of The Pennsylvania State University; lifetime professor of Rutgers, The State University of New Jersey; PhD tutor.Professor Zhang did high-efficiency and high-selectivity catalysis researches. He has published over 270 papers and 50 patents in Science, J. Am. Chem. Soc., Angew. Chem. His papers have been cited for more than 15,000 times. In 2002, he won the Arthur c. Cope Scholar award of the American Chemical Society, the first Chinese mainland scientist who won this award.Zhang enyne cycloisomerization, discovered by professor Zhang, is one of the reactions named after Chinese people (less than 5). Due to his contributions to Shenzhen Grubbs Institute, the first research institute in mainland China named after a Nobel laureate, professor Zhang was awarded Shenzhen Globalization Gentlemen in 2016.</p><p>Researches: organic chemistry, metal organic chemistry, biological inorganic chemistry</p>"
+    },
+    {
+      "id": 75,
+      "active": false,
+      "name": "Xin Yi",
+      "title": "Chairman of Geneplus-Beijing Institute, Doctor of Genetics in Genomics, Chinese Academy of Sciences",
+      "desc": "<p>Yi Xin, Genomics and Genetics PhD of Chinese Academy of Sciences. He has been engaged in researches of genomics and translational medicine for more than 10 years. He devoted himself to application of high-throughput sequencing technologies in precision cancer treatment. He used to be COO of BGI Medical, deputy director of BGI Genomics. He finished six research projects, received the titles of national talent and leading talent in science and technology for many times, and applied for 19 patents. He has published 53 papers in Science, Nature, NG, IJC, and AJCP, with a total impact factors of 360 scores.</p>"
+    },
   ],
   historyA:[
     {
