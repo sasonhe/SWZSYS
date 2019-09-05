@@ -448,7 +448,7 @@ module.exports = {
           "id": 17,
           "active": false,
           "name": "Huang Xianda",
-          "title": "Department of Biological Science and Technology,Distinguished Professor / Vice Dean,Chief Scientist, Specialist in Bioinformatics and Precision Medicine",
+          "title": "Hsien-Da Huang, Professor of Life and Health Science School",
           "desc": "<p>Distinguished Professor and Associate Dean Huang Xianda succeeds in combining Dry lab. with Wet lab. in Life Science Research, and transforms the scientific research results for the benefit of the people. He has developed many useful and important biological databases and biological analyzing tools, which are available to both domestic and international life science and medical researchers.</p><p>Professor Huang also actively integrates biotechnology research, precision medicine, R & D of innovative detection reagent and public health genetics detection into biopharmaceutical industry. His research interests include computational biology, high-throughput sequencing, microRNA analysis and databases, and biological database systems. he is also the co-founder of several companies, including Taiwan Health GeneTech, Taiwan/Guangzhou Kang Mei Biomedical Technology, and Taiwan Changqing Biomedical Technology.</p><p>Over the past ten years, Professor Huang's research team has published more than 100 papers, including 40 articles that received SCI Impact Factor of more than 10.0.                                                                   The average citations per paper are up to 38.83 times with the best 10 papers cited on average 150.4 times. H-index is 35, and the total number of citations is 4,621 times. </p>"
         },
         {
