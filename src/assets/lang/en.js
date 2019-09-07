@@ -1051,7 +1051,7 @@ module.exports = {
         {
           id:1,
           name:"Sub-forum 7",
-          title:["Theme：Forum of HK Bio-Med Innotech Association","Organized by：HK Bio-Med Innotech Association",""],
+          title:["Theme：Shenzhen-Hong Kong Biomedical Development Seminar","Organized by：HK Bio-Med Innotech Association",""],
           main:[
             {
               time:"14:00-14:20",
