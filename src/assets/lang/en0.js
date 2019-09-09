@@ -229,13 +229,13 @@ module.exports = {
       "title": "Honorary Professor of Hematology and Transfusion at the University of Strasbourg",
       "desc": "<p>Honorary Professor of Hematology and Transfusion at the University of Strasbourg, Jean-Pierre Cazenave is also president of the Strasbourg medical research association ARMESA, president of the strategic committee of Health & Biotech France, and permanent member of the French National Academy of Medicine. From 1987 to 2013, he held the position of director at the Blood Transfusion Center EFS-Alsace in Strasbourg. Former president (1992-1995) and vice-president (2002-2010) of the Société Française de Transfusion Sanguine, he is currently member of several international medical societies and author of 620 scientific publications.</p>"
     },
-    // {
-    //   "id": 51,
-    //   "active": false,
-    //   "name": "Nicholas La Thangue",
-    //   "title": "Nicholas La Thangue, Faculty of Cancer Biology of University of Oxford, Fellow of the Royal Society of Edinburgh, Member of the European Molecular Biology Organization, Fellow of the Academy of Medical Sciences, Fellow of the European Academy of Cancer Sciences",
-    //   "desc": "<p>Nicholas La Thangue MA BSc PhD FRSE FMedSci  is  Professor of Cancer Biology at the University of Oxford, and was previously Cathcart Professor of Biochemistry at the University of Glasgow, and before that a scientist at the UK Medical Research Council.  He studied for his Ph.D. at University College London and carried out post-doctoral work at Imperial College London.  He is a Fellow of the Royal Society of Edinburgh, a Member of the European Molecular Biology Organisation (EMBO), a Fellow of the Academy of Medical Sciences, a Fellow of the European Academy of Caner Sciences, a Fellow of the Lister Institute and Professorial Fellow at Linacre College Oxford.  </p><p>He has authored over 200 publications and is an inventor on an extensive number of patents.  His academic research is focussed on the molecular mechanisms that give rise to the abnormal proliferation of tumour cells, and translating novel mechanistic insights into new therapeutic opportunities.  He has over 30 years of experience in biotechnology and healthcare sectors. He founded Prolifix in 1995, a successful spin-out from the UK Medical Research Council, focussed on cancer drug discovery and was CSO until its merger with the Scandinavian oncology company TopoTarget. He acted as Chief Business Development Officer in TopoTarget, and was responsible for completing a number of significant deals with both large and mid-size companies, and floating the Company on the Scandinavian Stock Exchange.  He is Founding Director of Celleron Therapeutics and Oxford Cancer Biomarkers, companies focussed on personalised cancer medicines.  He has consulted extensively in the biotechnology and pharmaceutical sector and is an advisor to numerous companies.</p>"
-    // },
+    {
+      "id": 51,
+      "active": false,
+      "name": "Nicholas La Thangue",
+      "title": "Nicholas La Thangue, Faculty of Cancer Biology of University of Oxford, Fellow of the Royal Society of Edinburgh, Member of the European Molecular Biology Organization, Fellow of the Academy of Medical Sciences, Fellow of the European Academy of Cancer Sciences",
+      "desc": "<p>Nicholas La Thangue MA BSc PhD FRSE FMedSci  is  Professor of Cancer Biology at the University of Oxford, and was previously Cathcart Professor of Biochemistry at the University of Glasgow, and before that a scientist at the UK Medical Research Council.  He studied for his Ph.D. at University College London and carried out post-doctoral work at Imperial College London.  He is a Fellow of the Royal Society of Edinburgh, a Member of the European Molecular Biology Organisation (EMBO), a Fellow of the Academy of Medical Sciences, a Fellow of the European Academy of Caner Sciences, a Fellow of the Lister Institute and Professorial Fellow at Linacre College Oxford.  </p><p>He has authored over 200 publications and is an inventor on an extensive number of patents.  His academic research is focussed on the molecular mechanisms that give rise to the abnormal proliferation of tumour cells, and translating novel mechanistic insights into new therapeutic opportunities.  He has over 30 years of experience in biotechnology and healthcare sectors. He founded Prolifix in 1995, a successful spin-out from the UK Medical Research Council, focussed on cancer drug discovery and was CSO until its merger with the Scandinavian oncology company TopoTarget. He acted as Chief Business Development Officer in TopoTarget, and was responsible for completing a number of significant deals with both large and mid-size companies, and floating the Company on the Scandinavian Stock Exchange.  He is Founding Director of Celleron Therapeutics and Oxford Cancer Biomarkers, companies focussed on personalised cancer medicines.  He has consulted extensively in the biotechnology and pharmaceutical sector and is an advisor to numerous companies.</p>"
+    },
     {
       "id": 52,
       "active": false,
@@ -756,73 +756,67 @@ module.exports = {
             {
               id:1,
               time:'09:00-09:30',
-              content:["Check-in"],
+              content:["Guest Check In"],
               gust:[]
             },
             {
               id:2,
               time:'09:30-09:55',
-              content:['Speech by Government Officials'],
+              content:['Speech by Government Official'],
               gust:[]
             },
             {
               id:3,
               time:'09:55-10:10',
-              content:["Awarding & Signing & Publishing"],
+              content:["Projects signing ceremony"],
               gust:[]
             },
             {
               id:4,
               time:'10:10-10:25',
-              content:["Keynote Speech（I）","A Possible Future Of Health Care"],
+              content:["Keynote Speech (I) Global Biotechnology Development Situation and Trend"],
               gust:[]
             },
             {
               id:5,
               time:'10:25-10:35',
-              content:["Keynote Speech (II)","Medical Science and Technology Innovation System Construction"],
+              content:["Keynote Speech (II)"],
               gust:[]
             },
             {
               id:6,
-              time:'10:35-11:35',
-              content:["University President (Academician) Forum:","China’s Life Science and Innovative Technology Development"],
+              time:'10:35-10:45',
+              content:["Keynote Speech (III)","Topic Discussion (I) How does innovation drive the development of Guangdong-Hong Kong-Macao Biomedicine Industry Innovation Cooperative Zone？"],
+              gust:[]
+            },
+            {
+              id:7,
+              time:'10:45-11:35',
+              content:["University President Forum:","China’s Life Science and Innovative Technology Development"],
               gust:[]
             },
             {
               id:8,
               time:'11:35-12:35',
-              content:["Academician High-end Dialogue"],
+              content:["Keynote Discussion (I)","How does innovation drive the development of policy, talent, clinical and standard in Guangdong-Hong Kong-Macao Biomedicine Industry Park"],
               gust:[]
             },
             {
               id:9,
-              time:'12:35-14:00',
-              content:["Lunch, Free Discussion and Industry Park Visit"],
+              time:'12:35-14:30',
+              content:["Lunch & Free Talk"],
               gust:[]
             },
             {
               id:10,
-              time:'14:00-15:00',
-              content:["Keynote Discussion (I)","How does innovation drive the development of policy, talent, clinical and standard in Guangdong-Hong Kong-Macao Biomedicine Industry"],
+              time:'14:30-16:00',
+              content:["Topic Discussion (II)"," Globalization of Chinese Biotech Companies","Guangdong-Hong Kong-Macao Greater Bay Area and Innovation-driven Achievement Transformation"],
               gust:[]
             },
             {
               id:11,
-              time:'15:00-16:00',
-              content:["Keynote Discussion (II)","1. Globalization of Chinese Biotech Companies","2. Guangdong-Hong Kong-Macao Greater Bay Area and Innovation-driven Achievement Transformation"],
-              gust:[]
-            },
-            {
-              id:12,
-              time:'16:00-17:00',
-              content:["Keynote Discussion (III)","Science Innovation and Medical Advancement: New IT Drives Biotech Industry to Move Forward"],
-              gust:[]
-            },
-            {
-              id:13,
-              time:'17:00-18:00',
-              content:["Free Discussion"],
+              time:'16:00-17:30',
+              content:["Topic Discussion (III)","Science innovation and medical advancement: new IT drives biotech industry to move forward"],
               gust:[]
             }
           ]
@@ -830,7 +824,7 @@ module.exports = {
         {
           id:3,
           name:"Sub-forum 1",
-          title:["Theme：The GBA Biopharmaceutical Industry R&D and Transformation Seminar 2019","Organized by：Shenzhen Biological Medicine Promotion Association, Pingshan Biomedicine R&D and Transformation Center, Guangdong Medical Valley","Attendees：100"],
+          title:["Theme：Biopharmaceutical Industry R&D and Transformation Seminar 2019","Field：Biomedicine","Organized by：Shenzhen Biological Medicine Promotion Association、Guangdong Medical Valley、Pingshan Biomedicine R&D and Transformation  Center ","Attendees：100"],
           main:[
             {
               time:"14:00-14:10",
@@ -841,16 +835,44 @@ module.exports = {
               dev:["Speech by Government Officials"]
             },
             {
-              time:"14:40-15:40",
-              dev:["Keynote Speech"]
+              time:"14:40-14:55",
+              dev:["Keynote Speeches","Dr. Han Zhongchao, Foreign Member of the Académie Nationale de Médecine"]
+            },
+            {
+              time:"14:55-15:10",
+              dev:["Keynote Speeches","Dr. Li Zhicheng, Professor of Hong Kong Baptist University; Vice Dean of HKBU Institute for Research and Continuing Education"]
+            },
+            {
+              time:"15:10-15:25",
+              dev:["Keynote Speeches","Dr. Sun Fei, Professor of Hong Kong University of Science and Technology"]
+            },
+            {
+              time:"15:25-15:40",
+              dev:["Keynote Speeches","Dr. Li Xiaoyu, Professor of The University of Hong Kong"]
             },
             {
               time:"15:40-15:55",
               dev:["Tea Break"]
             },
             {
-              time:"15:55-17:25",
-              dev:["Keynote Speech"]
+              time:"15:55-16:10",
+              dev:["Keynote Speeches","Dr. Xia Jiang, Professor of the School of Life Sciences, The Chinese University of Hong Kong"]
+            },
+            {
+              time:"16:10-16:25",
+              dev:["Keynote Speeches","Dr. Zheng Ying, Professor of State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Science (ICMS), University of Macau"]
+            },
+            {
+              time:"16:25-16:40",
+              dev:["Keynote Speeches","Dr. Li Zigang, Research Group Head and Principle Investigator of the School of Chemical Biology and Biotechnology,Peking University Shenzhen Gradute School;"]
+            },
+            {
+              time:"16:40-16:55",
+              dev:["Keynote Speeches","Dr. Fan Jianbing, Special-appointed Expert of Thousand Talents Program; Founder and CEO of AnchorDx"]
+            },
+            {
+              time:"16:55-17:10",
+              dev:["Keynote Speeches","r. Wang Guoxin, Deputy Director of Plasma Nanotechnology Bio-Chip Center, Research Institute of Tsinghua University Inin Shenzhen; General Manager of WWHS Biotech, Inc."]
             },
             {
               time:"17:10-17:40",
@@ -858,58 +880,58 @@ module.exports = {
             },
             {
               time:"17:40-18:00",
-              dev:["Free Discussion and Project Matchmaking "]
+              dev:["Free talk & project matching"]
             }
           ]
         },
         {
           id:2,
           name:"Sub-forum 2",
-          title:["Theme：Maternal & Infant Health Forum","Organized by：BioChing Capital","Attendees：200"],
+          title:["Theme：Maternal & Infant Health Forum","Field：Medical Imaging, IVD, and Health Management","Organized by：Bioching Capital","Attendees：200"],
           main:[
             {
-              time:"13:00-13:30",
-              dev:["Check-in"]
+              time:"13:30-13:40",
+              dev:["Welcome Speech"]
             },
             {
-              time:"13:30-13:45",
-              dev:["Speech by government officials"]
+              time:"13:40-14:10",
+              dev:["Dr. Jiang Zhuangde, Academician of Chinese Academy of Engineering"]
             },
             {
-              time:"13:45-14:05",
-              dev:["Endless Consumer Upgrades ---Opportunities for the Maternal & Infant Health Industry"]
+              time:"14:10-14:15",
+              dev:["Ciming Group"]
             },
             {
-              time:"14:05-14:25",
-              dev:["Progress of Evaluation on AI Medical Instrument Quality"]
+              time:"14:15-14:35",
+              dev:["Director of National Institute for Food and Drug Control"]
             },
             {
-              time:"14:25-15:45",
-              dev:["Potentiality of Applying AI and Big Data in Maternal and Child Healthcare"]
+              time:"14:35-15:15",
+              dev:["maternity and reproduction experts"]
             },
             {
-              time:"14:45-15:05",
-              dev:["PCR and Its Application in Life and Health"]
+              time:"15:15-15:35",
+              dev:["Tianlong  technology"]
             },
             {
-              time:"15:05-15:25",
-              dev:["Pharmaceutical Demands for Reproduction Health from Clinic View"]
+              time:"15:35-15:55",
+              dev:["Edan Intelligence Healthcare Development Co., Ltd"]
             },
             {
-              time:"15:25-15:45",
-              dev:["Application of Artificial Intelligence in Ultrasound Prenatal Diagnosis"]
+              time:"15:55-16:15",
+              dev:["Tea Break & Free Talk"]
             },
             {
-              time:"15:45-16:00",
-              dev:["Tea Break / Free Discussion"]
+              time:"16:15-17:15",
+              dev:["Roadshows","Celula China","Dartmon Biotechnology Co., Ltd.","INLEMS Group Inc.","Enduoke Medical","Karchun Corporation","Chenna Biology","Shenzhen Youxi Medical Technology"]
             },
             {
-              time:"16:00-17:50",
-              dev:["Roadshow"]
+              time:"17:15-17:35",
+              dev:["Comments"]
             },
             {
-              time:"17:50-18:00",
-              dev:["Conclusion By the Moderator"]
+              time:"17:35-17:45",
+              dev:["Conclusion & End"]
             }
 
           ]
@@ -917,50 +939,7 @@ module.exports = {
         {
           id:1,
           name:"Sub-forum 3",
-          title:["Theme：Opportunities for Innovative Drug R&D in GBA","Organized by：Guangdong Bio-pharmaceutical Innovat Technology Association, Tongxieyi Club","Attendees：100"],
-          main:[
-            {
-              time:"10:50-11:15",
-              dev:["Opportunities and Challenges for Biomedicine in GBA"]
-            },
-            {
-              time:"11:15-11:40",
-              dev:["Innovative Drug R&D Challenges and Policies in the New Era"]
-            },
-            {
-              time:"11:40-12:15",
-              dev:["Major Concern on Current Situation and R&D on Innovative Drugs"]
-            },
-            {
-              time:"12:15-13:30",
-              dev:["Lunch & Free Discussion"]
-            },
-            {
-              time:"13:30-13:55",
-              dev:["Creating a Biomedical Innovation Highland, Seeking Common Development in Guangdong-Hong Kong-Macao the Greater Bay Area"]
-            },
-            {
-              time:"13:55-14:20",
-              dev:["Key Technologies of Small-Molecule New Drug API R&D and Industrialization"]
-            },
-            {
-              time:"14:20-14:45",
-              dev:["Current Status and Proposed Strategy on New Drug Discovery for Portal Hypertension"]
-            },
-            {
-              time:"14:45-15:10",
-              dev:["Temporary Struggling and Bright Dreams – Xieyi Generic Drug Proposal"]
-            },
-            {
-              time:"15:10-15:50",
-              dev:["4+4+R&D Innovation and Project Selection for Pharmaceutical Enterprises After the “4+7” Proposal"]
-            }
-          ]
-        },
-        {
-          id:1,
-          name:"Sub-forum 4",
-          title:["Theme：Biomedicine，Medical Device Project Roadshows","Organized by：Touwho.com, E99 Alliance","Attendees：100"],
+          title:["Theme：“Biomedicine、Medical”Device Project Roadshows","Field：Smart healthcare, precision healthcare, and biopharmaceutical","Organized by：Touwho.com, E99 Alliance","Attendees：100"],
           main:[
             {
               time:"14:00-14:10",
@@ -968,120 +947,122 @@ module.exports = {
             },
             {
               time:"14:10-14:30",
-              dev:["China’s Biomedical Industry Under Global Technical Innovation"]
+              dev:["Keynote","China’s Biomedical Industry Under Global Technical Innovation","Guestd","Yuan Quanhong, co-founder partner and CEO of Shanghai Jianxin Equity Investment Management Co., Ltd."]
             },
             {
               time:"14:30-15:45",
-              dev:["Biopharmaceutical and Smart Healthcare"]
+              dev:["Demo","Biopharmaceutical and Smart Healthcare (5 projects, 12-min demo + 3-min FAQ)","Projects","Link Health, Shenzhen TargetRx, LANSEN Group, TT Medical, Taiwan innovative drugs"]
             },
             {
               time:"15:45-16:05",
-              dev:["Precision Medicine and Biotechnology Innovation"]
+              dev:["Keynote","Precision Medicine and Biotechnology Innovation","Guest","Wang Mingjun, executive director of Shenzhen Innovation Immunotechnology Co., Ltd."]
             },
             {
               time:"16:05-17:20",
-              dev:["Precision Medicine Roadshow and Communication"]
+              dev:["Demo","Precision Medicine (5 projects, 12-min demo + 3-min FAQ)","Projects","Haplox, USK Bio, Pandao Bio, SeekIn, Prepharm Biomedical Tech","Judges","Sun Liqing: partner of Lime Capital","Zhang Haoteng: partner of Rongyu Capital","Fu Hu: investment director of Lucky Source Funds","Li Jin: partner of ASB Ventures","Xi Zhiguo: investment director of New Value Capital","Zhao Hui: investment director of Efung Capital","Ji Changtao: investment director of Huada Gongying Funds"]
+            }
+          ]
+        },
+        {
+          id:1,
+          name:"Sub-forum 4",
+          title:["Theme：The 2019 Cross-straits Corporate Creative Forum on Precision Medicine","Organized by：Shenzhen Industry-University-Research Institute Collaboration Association,Cross Straits, Hong Kong and Macao Collaborative Innovation Alliance","Participants：About 200"],
+          main:[
+            {
+              time:"14:00-14:15",
+              dev:["Welcome speech"]
             },
             {
-              time:"Judges",
-              dev:[""]
+              time:"14:15-15:15",
+              dev:["Keynote speech","Key Technologies and Projects of Precision Medicine","Gao Fu, member of Chinese Academy of Sciences, director of the Institute of Microbiology, Chinese Academy of Sciences","Huang Changjiang, senior vice president of MabPlex International Ltd, postdoctor in Molecular Medicine at David Geffen School of Medicine, University of California, Los Angeles","Liu Zhaoyu, CEO of Shenzhen Vienomics Biotechnology Co., Ltd"]
+            },
+            {
+              time:"15:15-15:25",
+              dev:["Tea break"]
+            },
+            {
+              time:"15:25-16:25",
+              dev:["Keynote speech","Policies and Mechanism of Precision Medicine","Li Zhongxi, former president of Taiwan Industrial Technology Research Institute, chairman of Taiwan Bio Industry Organization","Guan Yi, director of State Key Laboratory of Emerging Infectious Diseases at the University of Hong Kong","Yan Jinghua, professor of the Institute of Microbiology, Chinese Academy of Sciences"]
+            },
+            {
+              time:"16:05-16:55",
+              dev:["Roundtable forum","Host: Li Zhongxi","Simon Wong, father of Alibaba, founding partner of Whiz Partners Asia","Huang Changjiang, senior vice president of MabPlex International Ltd, postdoctor in Molecular Medicine at David Geffen School of Medicine, University of California, Los Angeles","Liu Zhaoyu, CEO of Shenzhen Vienomics Biotechnology Co., Ltd","Guan Yi, director of State Key Laboratory of Emerging Infectious Diseases at the University of Hong Kong","Yan Jinghua, professor of the Institute of Microbiology, Chinese Academy of Sciences"]
+            },
+            {
+              time:"16:55-17:15",
+              dev:["Group photo-taking, free exchange and project match-making"]
             }
           ]
         },
         {
           id:1,
           name:"Sub-forum 5",
-          title:["Theme： Clinical Researches on Innovative Drugs for Liver Diseases","Organized by：Tigermed Consulting Co., Ltd, Teddy Clinical Research Laboratory and Guangdong Institute of Hepatology","Attendees: 80"],
+          title:["Theme：Opportunities for Innovative Drug R&D in GBA","Organized by：Guangdong Bio-pharmaceutical Innovat Technology Association, Xieyi Club","Participants：About 100"],
           main:[
-
             {
-              time:"14:00-14:20",
-              dev:["Overview of Liver Disease Progression and Therapeutic Targets"]
+              time:"10:50-11:20",
+              dev:["Opportunities and Challenges for Biomedicine in GBA","Zhu Shaoxuan: CEO of Guangdong Bio-pharmaceutical Innovat Technology Association"]
             },
             {
-              time:"14:20-14:40",
-              dev:["New Targets and Hope for Antiviral Therapy"]
+              time:"11:20-11:45",
+              dev:["Both GMP and cGMP for Innovative Drugs and Hengnuokang’s Practice","Zhang Jiancun: president of Guangzhou Hengnuokang Pharmaceutical Technology Co., Ltd, national expert"]
             },
             {
-              time:"14:40-15:00",
-              dev:["Current Situation and Future Trend of NASH Treatment"]
+              time:"11:45-12:10",
+              dev:["Innovative Drug R&D Trend in and Outside China and Our Reflections","Chen Xiaoxin: R&D deputy general manager of Guangdong Zhongsheng Pharmaceutical Co., Ltd, vice president of Guangdong Zhongsheng Ruichuang Biological Technology Co., Ltd"]
             },
             {
-              time:"15:00-15:20",
-              dev:["Application of Liver Fibrosis Qualitative Analysis on Clinics and New Drug R&D"]
+              time:"12:10-13:30",
+              dev:["Tea break"]
             },
             {
-              time:"15:20-15:40",
-              dev:["Early Screening of Liver Cancer"]
+              time:"13:30-13:55",
+              dev:["New Trend Of Biomedicine Innovation and Development","Chen Xinzi: academician of the Chinese Academy of Sciences, founding member of the Hong Kong Academy Of Sciences, former president of Hong Kong Baptist University, and the first dean of School of Pharmaceutical Sciences, Sun Yat-Sen University"]
             },
             {
-              time:"15:40-16:00",
-              dev:["Breakthroughs in AI - Intelligent Clinical Research and Biomarker R&D"]
+              time:"13:55-14:20",
+              dev:["Key Technologies of Small-Molecule New Drug API R&D and Industrialization","Ye Weiping: president of Raffles Pharmaceutical Technology Co., Ltd"]
             },
             {
-              time:"16:00-16:10",
-              dev:["Shell Plus (App): Chronic Hepatitis B Management - Early Screening for Liver Cancer"]
+              time:"14:20-14:45",
+              dev:["Current R&D Situation and Policy of New Fatty Liver Drugs","Wang Jianhua, vice president and COO of Guangzhou Boji Medical Biotechnological Co., Ltd"]
             },
             {
-              time:"16:10-16:20",
-              dev:["Shell App - Prevention of Mother-to-Child Transmission of Hepatitis B"]
+              time:"14:45-15:10",
+              dev:["Temporary Struggling and Bright Dreams – Xieyi Generic Drug Proposal","Cheng Zengjiang: secretary of Xieyi Club"]
             },
             {
-              time:"16:20-16:30",
-              dev:["One-Stop Management for Mother-to-Child Transmission of Hepatitis B in Baoan District"]
-            },
-            {
-              time:"16:30-17:30",
-              dev:["Seminar"]
-            },
-            {
-              time:"17:30-18:00",
-              dev:["Free Discussion"]
+              time:"15:10-15:50",
+              dev:["4+R&D Innovation and Project Selection for Pharmaceutical Enterprises After the “4+7” Proposal","Host: Cheng Zengjiang, secretary of Xieyi Club"]
             }
           ]
         },
         {
           id:1,
           name:"Sub-forum 6",
-          title:["heme： Precision Medical Industry-University-Research Innovation Forum","Organized by：Shenzhen Industry-University-Research Institute Collaboration Association, Cross-Strait and Guangdong-Hong Kong-Macau Collaborative Innovation Alliance Mainland Workstation","Attendees：100"],
+          title:["Theme：Demo of Tigermed Consulting Co., Ltd, Teddy Clinical Research Laboratory","Organized by：Tigermed Consulting Co., Ltd, Teddy Clinical Research Laboratory",""],
           main:[
             {
-              time:"14:00-14:10",
-              dev:["Opening Remark"]
-            },
-            {
-              time:"14:10-15:55",
-              dev:["Keynote Speech "]
-            },
-            {
-              time:"15:55-16:05",
-              dev:["Tea Break"]
-            },
-            {
-              time:"16:35-16:55",
-              dev:["Roundtable Forum"]
-            },
-            {
-              time:"16:55-17:00",
-              dev:["Group Photo-taking, Free Discussion"]
+              time:"14:00-17:00",
+              dev:["Treatment Gap of Liver Diseases Zhang Lan","Overview of Liver Disease Progression and Therapeutic Targets","Hou Jinlin: professor, chief physician, PhD tutor, president of Asia Pacific Association for the Study of the Liver, head of Liver Disease Center of Nanfang Hospital","New Targets and Hope for Antiviral Therapy","Yang Dajun, Doctor of Medicine","Current Situation and Trend of NASH Therapy","Li Yuannian PhD","Early R&D Experience of New Drugs for Liver Diseases","Hu Pei, professor, Peking Union Medical College Hospital Early Detection of Liver Cancer","Jiao Yuchen, PhD, Cancer Hospital Chinese Academy of Medical Sciences"]
             }
           ]
         },
         {
           id:1,
           name:"Sub-forum 7",
-          title:["Theme：Shenzhen-Hong Kong Biomedical Development Seminar","Organized by：HK Bio-Med Innotech Association","Attendees：50"],
+          title:["Theme：Shenzhen-Hong Kong Biomedical Development Seminar","Organized by：HK Bio-Med Innotech Association",""],
           main:[
             {
               time:"14:00-14:20",
               dev:["Speech"]
             },
             {
-              time:"14:20-14:30",
+              time:"14:20-16:10",
               dev:["Roadshow of HK Bio-Med Innotech Association Consultant Team"]
             },
             {
-              time:"14:30-14:40",
+              time:"14:20-14:40",
               dev:["How to Integrate Consultants in China and Abroad to Improve the Success Rate of Listing Biopharmaceutical Enterprises in Hong Kong and Bringing Them to China"]
             },
             {
