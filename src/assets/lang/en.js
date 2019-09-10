@@ -131,13 +131,13 @@ module.exports = {
       "title": "Member of Chinese Academy of Engineering , President of Peking University Shenzhen Graduate School.",
       "desc": "<p>Dr. Zhan Qimin is a professor and doctoral supervisor. He was selected to be an academician of Chinese Academy of Engineering in 2011. Currently, he is taking the position of standing member of Peking University Party Committee, vice president of Peking University, president of Peking University Health Science Center, and chancellor of Peking University Shenzhen Graduate School.</p><p>Academic Posts：Chairman of Chinese Society of Microcirculation, vice chairman of China Anti-Cancer Association, and chairman of Overseas Doctor Branch of Western Returned Scholars Association. He once worked as the head of biology & medicine expert team and biopharmaceutical team in National High-Tech R&D Program (863 Program), the head of biomedicine expert team of National Major Project for New Drug Development, director of Scientific Technology Project Committee of National Health Commission of P.R.C, the head of National Biopharmceutical Technology Strategy Planning Expert Team, and the head of National Health Security Technology Expert Team.</p><p>Research Fields:For long time，he has been committed to research in molecular oncology and translational oncology, and discovered some systematic function and mechanism of key proteins at cell cycle checkpoints. He has also illuminated the role of multiple key cell cycle regulatory proteins in cell carcinogenesis and tumor diagnosis and individualized treatment.</p>"
     },
-    {
-      "id": 8,
-      "active": false,
-      "name": "Wang Xiaodong",
-      "title": "Fellow of National Academy of Sciences (NAS), and Director of National Institute of Biological Sciences, Beijing",
-      "desc": "<p>Dr. Wang Xiaodong is a biochemist, fellow of NAS, academician of CAS, director of National Institute of Biological Sciences, Beijing, and co-founder of BeiGene.</p><p>Dr. Wang’s research focuses on the biochemical pathway and process of apoptosis.</p>"
-    },
+    // {
+    //   "id": 8,
+    //   "active": false,
+    //   "name": "Wang Xiaodong",
+    //   "title": "Fellow of National Academy of Sciences (NAS), and Director of National Institute of Biological Sciences, Beijing",
+    //   "desc": "<p>Dr. Wang Xiaodong is a biochemist, fellow of NAS, academician of CAS, director of National Institute of Biological Sciences, Beijing, and co-founder of BeiGene.</p><p>Dr. Wang’s research focuses on the biochemical pathway and process of apoptosis.</p>"
+    // },
     {
       "id": 29,
       "active": false,
