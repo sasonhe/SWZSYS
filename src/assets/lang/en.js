@@ -176,9 +176,9 @@ module.exports = {
     {
       "id": 17,
       "active": false,
-      "name": "Tian Yuan",
-      "title": "Chairman of YuanMing Capital",
-      "desc": "<p>Founding Partner of YuanMing Capital, Chairman of Mevion Medical Systems Inc.Co., Ltd., Chairman of Yabuli China Entrepreneurs Forum, Head of Investment Committee of China Pharmaceutical Innovation and Research Development Association (PhIRDA)</p><p>Dr. Tian Yuan obtained a bachelor's degree, a master's degree and a doctorate in economics from Wuhan University respectively in 1978, 1981 and 1992. He is the founding partner of YuanMing Capital and chairman of the Mevion Medical Systems IncCo., Ltd. As the founder and the chairman of Yabuli China Entrepreneurs Forum and China-US Business Leaders Roundtable Conference, Tian is the core organizer of various high-end conferences of Chinese and American entrepreneurs, and has a very wide social influence in the business circles of China and the United States. He is also Head of Investment Committee of PhIRDA and member of the Biotechnology Advisory Panel of the Hong Kong Stock Exchange. In 2014, he founded YuanMing Capital and took the lead in investment projects including BeiGene, Ascentage Pharma, Mevion Medical, Pharmacodia, CF PharmTech, JW Therapeutics, Adlai Nortye and Digital China HealthShenzhou China Medical Equipment. He once founded China International Futures Co., Ltd. and co-founded Wu Mart and Yabuli Ski Resort. He also served as Chairman of China Chengtong Holdings Group. He has won the China Economic Theory Innovation Award, the highest prize in China economics.</p>"
+      "name": "Dong Sun",
+      "title": "Fellow of Canadian Academy of Engineering Chair Professor of Biomedical Engineering, City University of Hong Kong",
+      "desc": "<p>Dr. Dong Sun is a Chair Professor and head of the Department of Biomedical Engineering, Director of the Center for Robotics and Automation, City University of Hong Kong. Dr. Sun is among the leading contributors worldwide in pioneering work in robotic manipulation of biological cells, which has recently become an emerging area of robotics for biomedical applications and offered fundamental advances in precision medicine. His research has breakthrough in the use of combined robotics and various micro-engineering tools including optical tweezers, micro-needles and electromagnetic devices to achieve cell manipulation, diagnosis and micro-surgery at the single cell level. Dr. Sun organizes several international flagship conferences including the world largest intelligent robot conference IROS 2019 in Macau. He is a Fellow of Canadian Academy of Engineering, IEEE and HKIE. He also serves the Biomedical Division, Science and Technology Committee of Education Ministry of China.</p>"
     },
     {
       "id": 20,
@@ -194,20 +194,20 @@ module.exports = {
       "title": "H50 Rotating Chairman, and Chairman of Green Pine Capital Partners",
       "desc": "<p>Mr. Luo Fei is Founding Partner, Chairman and General Manager of Green Pine Capital Partners. He also holds the post of Managing Director of Shenzhen-Hong Kong Production and Research Investment Co., Ltd., and is a delegate at the fifth People’s Congress of Shenzhen.</p><p>In 2014, he was ranked 30th among the best venture investors in China.</p><p>Major projects: Youzu.com, BGI Dx, 7Road.com, Farad Electric, Beike Biology, Rainbow Fine Chemical, Comix Group, A8 Music, CATIC Wellness Group, and Shenzhen Temobi.</p>"
     },
-    {
-      "id": 22,
-      "active": false,
-      "name": "Li Jing",
-      "title": "Chairman of Pharmacodia Holding Ltd.Yaodu",
-      "desc": "<p>National Chair Professor of the “1000-Plan”, Li Jing is one of the most successful entrepreneurs who returned from studying overseas. From 2006 until now, he has participated in the establishment of the following companies: Shenogen Pharma Group, Beijing Orbiepharm Co., Ltd., Pharmacodia (Beijing) Co., Ltd., and 3E Bioventures; he has published more than 30 papers, and applied for more than 50 patents. Li has also participated in and taken charge of many national projects, such as the Major Scientific and Technological Special Project for Significant New Drugs Development during the “Eleventh Five-year Plan Period”, the National Key Technology R&D Program, and Scientific Special Project of Beijing (Haidian) Municipal Science and Technology Commission, Beijing.</p>"
-    },
-    {
-      "id": 25,
-      "active": false,
-      "name": "Cao Erbao",
-      "title": "Research Director of the Liaison Office of the Central People’s Government in the Hong Kong Special Administrative Region, and Special Researcher of the Counsellors’ Office of the State Council.",
-      "desc": "<p>Mr. Cao Erbao is a senior expert on the research of Hong Kong and Macao issues. Since his stay in Hong Kong in 1986, he has participated in the historical process of Hong Kong’s return and the practice of “One Country, Two Systems” after the return. He is familiar with the central government’s policies with respect to Hong Kong, Hong Kong’s political, business and academic circles, and other relevant people. He often gives lectures to the central and mainland departments in connection with Hong Kong, visiting delegations, Chinese enterprises, patriotic organizations, etc., and makes public speeches, publishes articles, and holds talks with the opposition in Hong Kong, all giving a great and positive impact.</p>"
-    },
+    // {
+    //   "id": 22,
+    //   "active": false,
+    //   "name": "Li Jing",
+    //   "title": "Chairman of Pharmacodia Holding Ltd.Yaodu",
+    //   "desc": "<p>National Chair Professor of the “1000-Plan”, Li Jing is one of the most successful entrepreneurs who returned from studying overseas. From 2006 until now, he has participated in the establishment of the following companies: Shenogen Pharma Group, Beijing Orbiepharm Co., Ltd., Pharmacodia (Beijing) Co., Ltd., and 3E Bioventures; he has published more than 30 papers, and applied for more than 50 patents. Li has also participated in and taken charge of many national projects, such as the Major Scientific and Technological Special Project for Significant New Drugs Development during the “Eleventh Five-year Plan Period”, the National Key Technology R&D Program, and Scientific Special Project of Beijing (Haidian) Municipal Science and Technology Commission, Beijing.</p>"
+    // },
+    // {
+    //   "id": 25,
+    //   "active": false,
+    //   "name": "Cao Erbao",
+    //   "title": "Research Director of the Liaison Office of the Central People’s Government in the Hong Kong Special Administrative Region, and Special Researcher of the Counsellors’ Office of the State Council.",
+    //   "desc": "<p>Mr. Cao Erbao is a senior expert on the research of Hong Kong and Macao issues. Since his stay in Hong Kong in 1986, he has participated in the historical process of Hong Kong’s return and the practice of “One Country, Two Systems” after the return. He is familiar with the central government’s policies with respect to Hong Kong, Hong Kong’s political, business and academic circles, and other relevant people. He often gives lectures to the central and mainland departments in connection with Hong Kong, visiting delegations, Chinese enterprises, patriotic organizations, etc., and makes public speeches, publishes articles, and holds talks with the opposition in Hong Kong, all giving a great and positive impact.</p>"
+    // },
     {
       "id": 27,
       "active": false,
@@ -362,13 +362,13 @@ module.exports = {
       "title": "Professor and Dean of the Chemistry School, Southern University of Science and Technology, Executive Director of Shenzhen Grubbs Institute",
       "desc": "<p>Zhang Xumu, professor and dean of the Chemistry School, Southern University of Science and Technology, executive director of Shenzhen Grubbs Institute.</p><p>Zhang Xumu, dean of the Chemistry School, Southern University of Science and Technology; professor of Wuhan University Changjiang Scholars Program; director of Green Catalysis Institute in College of Chemistry and Molecular Sciences, Wuhan University; professor of The Pennsylvania State University; lifetime professor of Rutgers, The State University of New Jersey; PhD tutor.Professor Zhang did high-efficiency and high-selectivity catalysis researches. He has published over 270 papers and 50 patents in Science, J. Am. Chem. Soc., Angew. Chem. His papers have been cited for more than 15,000 times. In 2002, he won the Arthur c. Cope Scholar award of the American Chemical Society, the first Chinese mainland scientist who won this award.Zhang enyne cycloisomerization, discovered by professor Zhang, is one of the reactions named after Chinese people (less than 5). Due to his contributions to Shenzhen Grubbs Institute, the first research institute in mainland China named after a Nobel laureate, professor Zhang was awarded Shenzhen Globalization Gentlemen in 2016.</p><p>Researches: organic chemistry, metal organic chemistry, biological inorganic chemistry</p>"
     },
-    {
-      "id": 75,
-      "active": false,
-      "name": "Xin Yi",
-      "title": "Chairman of Geneplus-Beijing Institute, Doctor of Genetics in Genomics, Chinese Academy of Sciences",
-      "desc": "<p>Yi Xin, Genomics and Genetics PhD of Chinese Academy of Sciences. He has been engaged in researches of genomics and translational medicine for more than 10 years. He devoted himself to application of high-throughput sequencing technologies in precision cancer treatment. He used to be COO of BGI Medical, deputy director of BGI Genomics. He finished six research projects, received the titles of national talent and leading talent in science and technology for many times, and applied for 19 patents. He has published 53 papers in Science, Nature, NG, IJC, and AJCP, with a total impact factors of 360 scores.</p>"
-    },
+    // {
+    //   "id": 75,
+    //   "active": false,
+    //   "name": "Xin Yi",
+    //   "title": "Chairman of Geneplus-Beijing Institute, Doctor of Genetics in Genomics, Chinese Academy of Sciences",
+    //   "desc": "<p>Yi Xin, Genomics and Genetics PhD of Chinese Academy of Sciences. He has been engaged in researches of genomics and translational medicine for more than 10 years. He devoted himself to application of high-throughput sequencing technologies in precision cancer treatment. He used to be COO of BGI Medical, deputy director of BGI Genomics. He finished six research projects, received the titles of national talent and leading talent in science and technology for many times, and applied for 19 patents. He has published 53 papers in Science, Nature, NG, IJC, and AJCP, with a total impact factors of 360 scores.</p>"
+    // },
   ],
   historyA:[
     {
